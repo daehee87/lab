@@ -1,0 +1,175 @@
+{% set title = 'Fuzzcoin | ' + project.name %}
+{% extends "layouts/dashboard.html" %}
+
+{% block content %}
+<style>
+.main {
+  width: 100%;
+  background: gray;
+  display: inline;
+}
+.main > textarea {
+  width: inherit;
+}
+#autoresizing {
+  display: block;
+  overflow: scroll;
+  resize: both;
+  white-space: nowrap;
+}
+</style>
+<script src="https://rawgit.com/jackmoore/autosize/master/dist/autosize.min.js"></script>
+
+<div class="uk-container uk-margin">
+    <ul class="uk-breadcrumb">
+        <li><a href="{{ url_for('dashboard.projects_list') }}">Projects</a></li>
+        <li><span>{{ project.name }}</span></li>
+    </ul>
+</div>
+<div class="uk-container uk-margin uk-width-1-2 uk-width-expand">
+
+  <div style="padding-bottom: 20px" class="uk-flex uk-flex-center">
+    <div class="uk-text-center">
+
+      <div class="uk-inline">
+          <h3 style="margin-top: 0">{{ project.name }}</h3>
+	  <img style="width:50%; height:50%" src="{{ url_for('static', filename = 'covers/' + project.name + '.png') }}" alt="{{project.name}}">
+      </div>
+
+      <div class="uk-margin">
+	<a class="uk-icon-button" href="{{project.link1}}" uk-icon="icon: home"></a>
+	<a class="uk-icon-button" href="{{project.link2}}" uk-icon="icon: github"></a>
+	<a class="uk-icon-button" href="https://fuzzcoin.kr/fuzzers/{{project.name}}" uk-icon="icon: download"></a>
+        {% if project.maintainer_id == current_user.id %}
+        <a href="{{ url_for('dashboard.manage_project', project_name=project.name) }}" 
+          class="uk-button uk-button-danger uk-icon-link" uk-icon="settings">
+          Manage
+        </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="uk-flex uk-flex-center">
+      <dl class="uk-description-list uk-description-list-divider">
+          <dt>Getting Started</dt>
+          <dd>
+	    Paste this in your command line to setup the fuzzer (Ubuntu 16.04/18.04 env is recommended).<br>
+            <p><code>{{ project.fuzzer.format(token=token) }}</code></p>
+	    This will <br>
+	    1. install docker/git <br>
+	    2. clone <b>fuzzcoin-worker</b> repo <br>
+	    3. configure your token <br>
+	    Afterward, you can cd into <b>fuzzcoin-worker</b> and execute <b>run.sh</b> <br>
+	    <br>
+	    The amount of fuzzcoin you get for submitting <span style="color:gold"><i>Proof-of-Fuzzing-Work (PoFW)</i></span> is fixed (could be zero).<br>
+	    However, the amount of fuzzcoin you get when you discover coverage/crash is <i>dynamic</i>.<br>
+	    Each time someone submits <i>PoFW</i>, the reward amount slowly increases.<br>
+	    Once someone reports, and server verifies its genuinity, the amount <u>resets to zero</u>.<br>
+          </dd>
+
+          <dt>Project Description</dt>
+          <dd><p>{{ project.description }}</p></dd>
+
+          <dt>Project Statistics</dt>
+          <dd>
+            <ul class="uk-list">
+              <li>
+                <div class="uk-child-width-expand@s" uk-grid>
+                  <div><span class="uk-label uk-text-capitalize">PoFW Reward (fixed)</span></div>
+		  <div><span class="uk-text-primary uk-text-large uk-text-bold">
+			{% if pofw_reward_unit != 0 %}
+			  {{ pofw_reward_unit }}
+			{% else %}
+			  None
+			{% endif %}
+			</span>
+                    <span class="uk-text-meta">(fuzzcoin)</span></div>
+                </div>
+              </li>
+
+              <li>
+                <div class="uk-child-width-expand@s" uk-grid>
+                  <div><span class="uk-label uk-text-capitalize">Coverage Reward (dynamic)</span></div>
+		  <div><span class="uk-text-primary uk-text-large uk-text-bold">{{ cov_reward_unit }}</span>
+                    <span class="uk-text-meta">(fuzzcoin)</span></div>
+                </div>
+              </li>
+
+              <li>
+                <div class="uk-child-width-expand@s" uk-grid>
+                  <div><span class="uk-label uk-text-capitalize">Crash Reward (dynamic)</span></div>
+		  <div><span class="uk-text-primary uk-text-large uk-text-bold">{{ crash_reward_unit }}</span>
+                    <span class="uk-text-meta">(fuzzcoin)</span></div>
+                </div>
+              </li>
+
+              <li>
+                <div class="uk-child-width-expand@s" uk-grid>
+                  <div><span class="uk-label uk-text-capitalize">Fuzzing pool performance (last 1H avg.)</span></div>
+		  <div><span class="uk-text-primary uk-text-large uk-text-bold">{{ exec_per_sec }}</span>
+                    <span class="uk-text-meta">(execs/sec)</span></div>
+                </div>
+              </li>
+
+              <li>
+                <div class="uk-child-width-expand@s" uk-grid>
+                  <div><span class="uk-label uk-text-capitalize">Total fuzzcoins gathered</span></div>
+		  <div><span class="uk-text-primary uk-text-large uk-text-bold">{{ reward }}</span></div>
+                </div>
+              </li>
+
+              <li>
+                <div class="uk-child-width-expand@s" uk-grid>
+                  <div><span class="uk-label uk-text-capitalize">Total number of miners (active in 24H)</span></div>
+                  <div><span class="uk-text-primary uk-text-large uk-text-bold">{{ n_miner }}</span></div>
+                </div>
+              </li>
+
+            </ul>
+          </dd>
+
+
+	  <dt align=center>Top 10 lead miners in this pool (rank based on coverage/bug)</dt>
+	  <dd align=center>
+	  <table align=center style="width:85%" class="uk-table uk-table-striped uk-width-1-2">
+		<thead>
+		    <tr>
+			<th width=50>Rank</th>
+			<th width=150>Name</th>
+			<th width=80># Bugs Found</th>
+			<th width=80># Coverage Discovered</th>
+			<th width=80># PoFW Finished (daily)</th>
+			<th width=200>Last Activity</th>
+		    </tr>
+		</thead>
+		<tbody>
+		  {% for user in users %}
+		    <tr>
+			<td>{{ loop.index }}</td>
+			<td>{{ user.name }}</td>
+			<td>{{ user.num_crashes }}</td>
+			<td>{{ user.num_coverage }}</td>
+			<td>{{ user.num_hashes }}</td>
+			<td>{{ user.last_update.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+		    </tr>
+		  {% endfor %}
+		</tbody>
+	    </table>
+	</dd>
+
+	<dt align=center>Current Coverage (updates daily. you can adjust textarea size)</dt>
+	<dd align=center>
+  	<div class="main">
+	<textarea id="autoresizing" rows={{cov_rows}}>{{cov_info}}</textarea>
+  	</div>
+
+
+	</dd>
+	</dt>
+      </dl>
+  </div>
+</div>
+
+{% endblock %}
+

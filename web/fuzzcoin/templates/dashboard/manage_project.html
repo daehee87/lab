@@ -1,0 +1,67 @@
+{% set title = 'Fuzzcoin | ' + project.name %}
+{% extends "layouts/dashboard.html" %}
+
+{% block content %}
+<div class="uk-container uk-margin">
+    <ul class="uk-breadcrumb">
+        <li><a href="{{ url_for('dashboard.projects_list') }}">Projects</a></li>
+        <li><a href="{{ url_for('dashboard.project', project_name=project.name) }}">{{ project.name }}</a></li>
+        <li><span>Manage</span></li>
+    </ul>
+</div>
+<div class="uk-container uk-margin uk-width-expand">
+    <div style="padding-bottom: 20px" class="uk-flex uk-flex-center">
+        <div class="uk-text-center">
+            <div class="uk-inline">
+                <img src="https://via.placeholder.com/400x200.png?text=Cover%20Photo" alt="">
+                <div class="uk-overlay uk-overlay-primary uk-position-bottom">
+                    <h1 style="margin-top: 0" class="uk-heading-medium uk-text-bold">{{ project.name }}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-flex uk-flex-center">
+        <form method="POST" class="uk-form-horizontal uk-margin-small">
+            <div class="uk-margin">
+                <label class="uk-form-label" for="form-horizontal-text">API Key</label>
+                <div class="uk-form-controls">
+                    <input disabled class="uk-input uk-disabled uk-form-width-large" id="form-horizontal-text" type="text" value="{{ project.api_key }}">
+                </div>
+            </div>
+
+            {{ form.csrf_token }}
+
+            <div class="uk-margin">
+                <label class="uk-form-label" for="form-horizontal-text">{{ form.description.label }}</label>
+                <div class="uk-form-controls">
+                    {{ form.description(class='uk-textarea uk-form-width-large') }}
+                </div>
+            </div>
+
+            <div class="uk-margin">
+                <label class="uk-form-label" for="form-horizontal-text">{{ form.reward_fuzzing.label }}</label>
+                <div class="uk-form-controls">
+                    {{ form.reward_fuzzing(class='uk-input uk-form-width-large', value=project.reward_hash) }}
+                </div>
+            </div>
+
+            <div class="uk-margin">
+                <label class="uk-form-label" for="form-horizontal-text">{{ form.reward_coverage.label }}</label>
+                <div class="uk-form-controls">
+                    {{ form.reward_coverage(class='uk-input uk-form-width-large', value=project.reward_coverage) }}
+                </div>
+            </div>
+
+            <div class="uk-margin">
+                <label class="uk-form-label" for="form-horizontal-text">{{ form.reward_crash.label }}</label>
+                <div class="uk-form-controls">
+                    {{ form.reward_crash(class='uk-input uk-form-width-large', value=project.reward_crash) }}
+                </div>
+            </div>
+
+            <button type="submit" class="uk-button uk-button-primary uk-button-large">Save</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

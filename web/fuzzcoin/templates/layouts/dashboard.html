@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  {% if title %}    
+  <title>{{ title }}</title>
+  {% else %}
+  <title>Fuzzcoin - let's find bug</title>
+  {% endif %}
+  
+  <link rel="stylesheet" href="/static/css/uikit.fuzzcoin.min.css" />
+  {% block head %}
+  {% endblock %}
+</head>
+
+<body>
+  <nav class="uk-navbar-container {{ navbar_class }}" uk-navbar>
+    <div class="uk-navbar-left">
+      <ul class="uk-navbar-nav">
+        {% set navbar_pages = [
+          {'title': 'Home', 'url': 'dashboard.index'},
+          {'title': 'Projects', 'url': 'dashboard.projects_list'},
+          {'title': 'Howto', 'url': 'dashboard.readme'},
+          {'title': 'Roadmap', 'url': 'dashboard.roadmap'},
+          {'title': 'Ranking', 'url': 'dashboard.leaderboard'}
+        ] %}
+        {% for page in navbar_pages %}
+          <li {% if page['title'].lower() == current_page %}class="uk-active"{% endif %}>
+            <a href="{{ url_for(page['url']) }}">{{ page['title'] }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    {% if not hide_middle_logo %}
+    <div class="uk-navbar-center">
+      <a href="https://twitter.com/FGatech" class="uk-navbar-item uk-logo">
+        <img height="50" width="50" src="/static/img/logo-small.png" />
+      </a>
+    </div>
+    {% endif %}
+
+    <div class="uk-navbar-right">
+      <div class="uk-navbar-item uk-visible@m">
+        <a href="#" class="uk-button uk-button-secondary uk-icon-link" uk-icon="sign-in">
+          Sign In
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <div class="uk-container">
+      {% for category, message in messages %}
+      <div class="uk-flex uk-flex-center">  
+          <div class="uk-alert-danger" uk-alert>
+              <p>{{ message }}</p>
+          </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  {% endwith %}
+
+  {% block content %}{% endblock %}
+
+  {% block footer %}
+  <div id="footer" class="uk-section uk-section-secondary uk-section-xsmall">
+    <div class="uk-container">
+      <div class="uk-flex uk-flex-center">
+        <p>Made by <a class="uk-link-muted" href="https://gts3.org/">SSLab at Georgia Tech</a> &nbsp <a href="https://twitter.com/FGatech">Follow us on twitter</a></p>
+      </div>
+    </div>
+  </div>
+  {% endblock %}
+
+  <script src="/static/js/uikit.min.js"></script>
+  <script src="/static/js/uikit-icons.min.js"></script>
+  {% block body_end %}
+  {% endblock %}
+</body>
+
+</html>

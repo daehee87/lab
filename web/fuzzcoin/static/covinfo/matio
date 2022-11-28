@@ -1,0 +1,31 @@
+COVERAGE REPORT (matio)
+Filename                                                     Regions    Missed Regions     Cover   Functions  Missed Functions  Executed       Lines      Missed Lines     Cover
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+src/matio/ossfuzz/fuzzer_temp_file.h                              19                19     0.00%           5                 5     0.00%          36                36     0.00%
+src/matio/ossfuzz/matio_fuzzer.cpp                                 1                 1     0.00%           1                 1     0.00%           5                 5     0.00%
+src/matio/ossfuzz/matio_wrap.h                                     6                 6     0.00%           1                 1     0.00%          21                21     0.00%
+src/matio/src/endian.c                                            28                28     0.00%           8                 8     0.00%         125               125     0.00%
+src/matio/src/inflate.c                                          277               277     0.00%           9                 9     0.00%         467               467     0.00%
+src/matio/src/io.c                                               128               128     0.00%          18                18     0.00%         226               226     0.00%
+src/matio/src/mat.c                                             1117              1117     0.00%          40                40     0.00%        1947              1947     0.00%
+src/matio/src/mat4.c                                             353               353     0.00%           6                 6     0.00%         912               912     0.00%
+src/matio/src/mat5.c                                            9016              9016     0.00%          33                33     0.00%        4347              4347     0.00%
+src/matio/src/mat73.c                                           1341              1341     0.00%          39                39     0.00%        2187              2187     0.00%
+src/matio/src/read_data.c                                       1979              1979     0.00%           8                 8     0.00%         554               554     0.00%
+src/matio/src/read_data_impl.h                                  1050              1050     0.00%          22                22     0.00%         279               279     0.00%
+src/matio/src/safe-math.h                                          8                 8     0.00%           8                 8     0.00%          56                56     0.00%
+
+Files which contain no functions:
+src/matio/src/matio.h                                              0                 0         -           0                 0         -           0                 0         -
+src/matio/src/matioConfig.h                                        0                 0         -           0                 0         -           0                 0         -
+src/matio/src/matio_private.h                                      0                 0         -           0                 0         -           0                 0         -
+src/matio/src/matio_pubconf.h                                      0                 0         -           0                 0         -           0                 0         -
+usr/lib/x86_64-linux-gnu/hdf5/serial/include/H5Epublic.h           0                 0         -           0                 0         -           0                 0         -
+usr/lib/x86_64-linux-gnu/hdf5/serial/include/H5Fpublic.h           0                 0         -           0                 0         -           0                 0         -
+usr/lib/x86_64-linux-gnu/hdf5/serial/include/H5Ppublic.h           0                 0         -           0                 0         -           0                 0         -
+usr/lib/x86_64-linux-gnu/hdf5/serial/include/H5Spublic.h           0                 0         -           0                 0         -           0                 0         -
+usr/lib/x86_64-linux-gnu/hdf5/serial/include/H5Tpublic.h           0                 0         -           0                 0         -           0                 0         -
+usr/lib/x86_64-linux-gnu/hdf5/serial/include/H5public.h            0                 0         -           0                 0         -           0                 0         -
+usr/lib/x86_64-linux-gnu/hdf5/serial/include/H5version.h           0                 0         -           0                 0         -           0                 0         -
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                          15323             15323     0.00%         198               198     0.00%       11162             11162     0.00%

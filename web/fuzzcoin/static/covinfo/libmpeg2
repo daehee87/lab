@@ -1,0 +1,61 @@
+COVERAGE REPORT (libmpeg2)
+Filename                                          Regions    Missed Regions     Cover   Functions  Missed Functions  Executed       Lines      Missed Lines     Cover
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+common/icv_sad.c                                       14                14     0.00%           1                 1     0.00%          30                30     0.00%
+common/icv_variance.c                                  11                11     0.00%           1                 1     0.00%          41                41     0.00%
+common/ideint.c                                       137               136     0.73%           2                 1    50.00%         283               280     1.06%
+common/ideint_cac.c                                   105               105     0.00%           2                 2     0.00%         228               228     0.00%
+common/ideint_function_selector_generic.c               1                 1     0.00%           1                 1     0.00%           7                 7     0.00%
+common/ideint_utils.c                                 142               142     0.00%           4                 4     0.00%         261               261     0.00%
+common/impeg2_buf_mgr.c                                57                19    66.67%          10                 4    60.00%         122                42    65.57%
+common/impeg2_disp_mgr.c                               15                 1    93.33%           3                 0   100.00%          47                 3    93.62%
+common/impeg2_format_conv.c                            46                12    73.91%           4                 1    75.00%         214                84    60.75%
+common/impeg2_idct.c                                  227                18    92.07%           3                 0   100.00%         361                 0   100.00%
+common/impeg2_inter_pred.c                             84                 0   100.00%           6                 0   100.00%         199                 0   100.00%
+common/impeg2_job_queue.c                             102                41    59.80%          11                 2    81.82%         215                63    70.70%
+common/impeg2_mem_func.c                                7                 0   100.00%           2                 0   100.00%          12                 0   100.00%
+common/ithread.c                                       21                13    38.10%          20                12    40.00%          64                37    42.19%
+common/x86/icv_platform_macros.h                        3                 3     0.00%           3                 3     0.00%          20                20     0.00%
+common/x86/icv_sad_ssse3.c                              5                 5     0.00%           1                 1     0.00%          50                50     0.00%
+common/x86/icv_variance_ssse3.c                         5                 5     0.00%           1                 1     0.00%          73                73     0.00%
+common/x86/ideint_cac_ssse3.c                          82                82     0.00%           1                 1     0.00%         139               139     0.00%
+common/x86/ideint_function_selector.c                   6                 6     0.00%           2                 2     0.00%          22                22     0.00%
+common/x86/ideint_function_selector_sse42.c             2                 2     0.00%           1                 1     0.00%           4                 4     0.00%
+common/x86/ideint_function_selector_ssse3.c             1                 1     0.00%           1                 1     0.00%           7                 7     0.00%
+common/x86/ideint_spatial_filter_ssse3.c               41                41     0.00%           1                 1     0.00%         144               144     0.00%
+common/x86/impeg2_idct_recon_sse42_intr.c              55                 0   100.00%           3                 0   100.00%        2068                 0   100.00%
+common/x86/impeg2_inter_pred_sse42_intr.c               6                 0   100.00%           6                 0   100.00%         665                 0   100.00%
+common/x86/impeg2_mem_func_sse42_intr.c                 2                 0   100.00%           2                 0   100.00%          23                 0   100.00%
+common/x86/impeg2_platform_macros.h                     4                 0   100.00%           1                 0   100.00%           6                 0   100.00%
+decoder/impeg2d_api_main.c                            926               415    55.18%          24                 9    62.50%        2941              1443    50.94%
+decoder/impeg2d_bitstream.c                            38                 0   100.00%           7                 0   100.00%         178                 0   100.00%
+decoder/impeg2d_d_pic.c                                69                 0   100.00%           3                 0   100.00%         148                 0   100.00%
+decoder/impeg2d_dec_hdr.c                             663                36    94.57%          26                 2    92.31%        1568                90    94.26%
+decoder/impeg2d_decoder.c                              55                 6    89.09%           2                 0   100.00%         221                12    94.57%
+decoder/impeg2d_deinterlace.c                          33                32     3.03%           5                 4    20.00%         172               169     1.74%
+decoder/impeg2d_function_selector_generic.c             1                 0   100.00%           1                 0   100.00%          29                 0   100.00%
+decoder/impeg2d_i_pic.c                                74                 1    98.65%           2                 0   100.00%         260                 2    99.23%
+decoder/impeg2d_mc.c                                  261                 0   100.00%          18                 0   100.00%         788                 0   100.00%
+decoder/impeg2d_mv_dec.c                              111                 6    94.59%           8                 0   100.00%         349                 0   100.00%
+decoder/impeg2d_pic_proc.c                            176                19    89.20%           7                 1    85.71%         568                82    85.56%
+decoder/impeg2d_pnb_pic.c                             264                 2    99.24%           3                 0   100.00%         678                 2    99.71%
+decoder/impeg2d_vld.c                                 445               100    77.53%           9                 3    66.67%         964               229    76.24%
+decoder/x86/impeg2d_function_selector.c                 7                 1    85.71%           2                 0   100.00%          30                 3    90.00%
+decoder/x86/impeg2d_function_selector_sse42.c           1                 0   100.00%           1                 0   100.00%          18                 0   100.00%
+decoder/x86/impeg2d_function_selector_ssse3.c           1                 0   100.00%           1                 0   100.00%           8                 0   100.00%
+fuzzer/mpeg2_dec_fuzzer.cpp                           112                10    91.07%          13                 0   100.00%         348                23    93.39%
+
+Files which contain no functions:
+common/icv_macros.h                                     0                 0         -           0                 0         -           0                 0         -
+common/ideint_defs.h                                    0                 0         -           0                 0         -           0                 0         -
+common/impeg2_buf_mgr.h                                 0                 0         -           0                 0         -           0                 0         -
+common/impeg2_defs.h                                    0                 0         -           0                 0         -           0                 0         -
+common/impeg2_disp_mgr.h                                0                 0         -           0                 0         -           0                 0         -
+common/impeg2_macros.h                                  0                 0         -           0                 0         -           0                 0         -
+decoder/impeg2d_api.h                                   0                 0         -           0                 0         -           0                 0         -
+decoder/impeg2d_bitstream.h                             0                 0         -           0                 0         -           0                 0         -
+decoder/impeg2d_structs.h                               0                 0         -           0                 0         -           0                 0         -
+decoder/impeg2d_vld_tables.h                            0                 0         -           0                 0         -           0                 0         -
+decoder/ivd.h                                           0                 0         -           0                 0         -           0                 0         -
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                4418              1286    70.89%         225                59    73.78%       14573              3590    75.37%

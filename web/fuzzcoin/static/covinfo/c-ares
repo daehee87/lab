@@ -1,0 +1,49 @@
+COVERAGE REPORT (c-ares)
+Filename                        Regions    Missed Regions     Cover   Functions  Missed Functions  Executed       Lines      Missed Lines     Cover
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ares__close_sockets.c                27                27     0.00%           1                 1     0.00%          39                39     0.00%
+ares__get_hostent.c                 152               152     0.00%           1                 1     0.00%         226               226     0.00%
+ares__parse_into_addrinfo.c         120                17    85.83%           2                 1    50.00%         211                40    81.04%
+ares__read_line.c                    28                28     0.00%           1                 1     0.00%          42                42     0.00%
+ares__readaddrinfo.c                133               133     0.00%           1                 1     0.00%         221               221     0.00%
+ares__sortaddrinfo.c                168               168     0.00%           7                 7     0.00%         368               368     0.00%
+ares__timeval.c                       4                 4     0.00%           1                 1     0.00%          23                23     0.00%
+ares_create_query.c                  78                78     0.00%           1                 1     0.00%         117               117     0.00%
+ares_data.c                          66                17    74.24%           2                 0   100.00%         157                40    74.52%
+ares_expand_name.c                   75                 3    96.00%           3                 0   100.00%         132                 3    97.73%
+ares_expand_string.c                 14                 2    85.71%           1                 0   100.00%          29                 0   100.00%
+ares_free_hostent.c                   7                 1    85.71%           1                 0   100.00%          15                 1    93.33%
+ares_free_string.c                    1                 1     0.00%           1                 1     0.00%           3                 3     0.00%
+ares_freeaddrinfo.c                   7                 1    85.71%           3                 1    66.67%          26                 5    80.77%
+ares_getaddrinfo.c                  259               235     9.27%          16                10    37.50%         530               467    11.89%
+ares_gethostbyaddr.c                110               110     0.00%           6                 6     0.00%         180               180     0.00%
+ares_getnameinfo.c                  163               163     0.00%           6                 6     0.00%         322               322     0.00%
+ares_library_init.c                  36                36     0.00%           6                 6     0.00%          52                52     0.00%
+ares_llist.c                          9                 9     0.00%           5                 5     0.00%          27                27     0.00%
+ares_nowarn.c                        21                16    23.81%           8                 6    25.00%          29                22    24.14%
+ares_parse_a_reply.c                 65                 8    87.69%           1                 0   100.00%         162                25    84.57%
+ares_parse_aaaa_reply.c              65                 8    87.69%           1                 0   100.00%         163                25    84.66%
+ares_parse_mx_reply.c                77                 2    97.40%           1                 0   100.00%         125                 4    96.80%
+ares_parse_naptr_reply.c             90                 2    97.78%           1                 0   100.00%         144                 4    97.22%
+ares_parse_ns_reply.c                84                 9    89.29%           1                 0   100.00%         137                16    88.32%
+ares_parse_ptr_reply.c              116                13    88.79%           1                 0   100.00%         177                22    87.57%
+ares_parse_soa_reply.c               89                 5    94.38%           1                 0   100.00%         137                13    90.51%
+ares_parse_srv_reply.c               79                 2    97.47%           1                 0   100.00%         129                 4    96.90%
+ares_parse_txt_reply.c               88                 7    92.05%           3                 1    66.67%         162                11    93.21%
+ares_process.c                      594               594     0.00%          33                33     0.00%        1194              1194     0.00%
+ares_query.c                         58                58     0.00%           6                 6     0.00%         127               127     0.00%
+ares_search.c                       141               141     0.00%           5                 5     0.00%         258               258     0.00%
+ares_send.c                          37                37     0.00%           1                 1     0.00%         101               101     0.00%
+ares_strdup.c                        13                13     0.00%           1                 1     0.00%          26                26     0.00%
+inet_net_pton.c                     265               265     0.00%           6                 6     0.00%         324               324     0.00%
+inet_ntop.c                           1                 1     0.00%           1                 1     0.00%           4                 4     0.00%
+test/ares-test-fuzz.c                19                 0   100.00%           1                 0   100.00%          45                 0   100.00%
+
+Files which contain no functions:
+ares.h                                0                 0         -           0                 0         -           0                 0         -
+ares_data.h                           0                 0         -           0                 0         -           0                 0         -
+ares_dns.h                            0                 0         -           0                 0         -           0                 0         -
+ares_private.h                        0                 0         -           0                 0         -           0                 0         -
+setup_once.h                          0                 0         -           0                 0         -           0                 0         -
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                              3359              2366    29.56%         138               109    21.01%        6164              4356    29.33%

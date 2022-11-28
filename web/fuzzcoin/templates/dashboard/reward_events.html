@@ -1,0 +1,50 @@
+{% set current_page = 'reward_events' %}
+{% extends "layouts/dashboard.html" %}
+
+{% block content %}
+<div class="uk-tile uk-tile-default">
+  <div class="uk-flex uk-flex-center">
+    <p class="uk-h2 uk-text-bold">Reward Event Log</p>
+  </div>
+</div>
+
+<div class="uk-flex uk-flex-center">
+    <table style="width:85%" class="uk-table uk-table-striped uk-width-1-2">
+        <thead>
+            <tr>
+                <th width=35>no</th>
+                <th width=35>uid</th>
+                <th width=150>user</th>
+                <th width=80>pool</th>
+                <th width=80>type</th>
+                <th width=190>time</th>
+                <th width=70>reward</th>
+                <th width=70>pofw point</th>
+                <th width=70>cov point</th>
+                <th width=70>crash point</th>
+                <th width=100>exec_per_sec</th>
+            </tr>
+        </thead>
+        <tbody>
+          {% for event in reward_events %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>{{ event.uid }}</td>
+                <td>{{ event.user }}</td>
+                <td>{{ event.pool.name }}</td>
+                <td>{{ event.type }}</td>
+                <td>{{ event.time }}</td>
+                <td>{{ event.reward }}</td>
+                <td>{{ event.pofw_reward_unit }}</td>
+                <td>{{ event.cov_reward_unit }}</td>
+                <td>{{ event.crash_reward_unit }}</td>
+                <td>{{ event.exec_per_sec }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
+
+
+

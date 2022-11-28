@@ -1,0 +1,182 @@
+{% set current_page = 'home' %}
+
+{% extends "layouts/dashboard.html" %}
+
+{% block content %}
+<div class="uk-container">
+    <div class="uk-flex uk-flex-center">
+        <div class="uk-tile uk-tile-secondary">
+            <p class="uk-h4">Welcome {{ current_user.email }}</p>
+        </div>
+    </div>
+</div>
+<div class="uk-section">
+    <div class="uk-container">
+        <div class="uk-flex uk-flex-center">
+            <article class="uk-article">
+            <h1 class="uk-article-title">Projects you Manage</h1>
+            <hr class="uk-divider-small">
+            {% if current_user.maintained_projects %}
+            {% else %}
+            <p>Looks like you aren't managing any projects yet. <a href="#">Create a project here.</a></p>
+            {% endif %}
+            </article>
+        </div>
+    </div>
+</div>
+<div class="uk-section uk-section-primary">
+    <div class="uk-container">
+        <div class="uk-flex uk-flex-center">
+            <article class="uk-article">
+            <h1 class="uk-article-title">Projects you participate in</h1>
+            <hr class="uk-divider-small">
+            <p>Looks like you aren't participating in any projects yet. 
+                <a href="{{ url_for('dashboard.projects_list') }}">Find one here.</a>
+            </p>
+            </article>
+        </div>
+    </div>
+</div>
+
+  <div class="uk-section">
+    <div class="uk-container">
+      <div class="uk-flex uk-flex-center">
+        <div id="terminal"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="uk-section uk-section-muted">
+    <div class="uk-container">
+      <div class="uk-flex uk-flex-center">
+          <article id="how-it-works" class="uk-article">
+
+              <h1 class="uk-article-title">How it Works</h1>
+
+              <hr class="uk-divider-small">
+
+              <p class="uk-column-1-2@s uk-dropcap">
+              FuzzCoin allows people to share their spare computing power for the use of good: Fuzzing (automatic bug finding).
+	      Borrowed from `BitCoin`, FuzzCoin incorporates the Proof-of-Work concept to fuzzing; enabling people to `mine` bugs.
+	      See the list of our <a href='#'>fuzz-mining-pools</a>. You can contribute to these projects by simply running our
+	      fuzzing-client. The fuzzing-client will perform the bug mining, automatically generate `Proof-of-Work`, and upload it to server.
+	      As a result, your account to this website gets some rewards (depending on your computation power) as `FuzzCoin` :)
+	      
+	      Today's biggest miner in this perspective is Google's ClusterFuzz (equipped with 25,000 cores).
+	      However, as BitCoin demonstrated, no single machine can beat the computing power of massive public collaboration.
+	      Gather your spare computers and join our fuzzing pool now! let's beat Google's computing power!
+	      </p>
+          </article>
+      </div>
+    </div>
+  </div>
+
+  <div class="uk-section">
+    <div class="uk-container">
+      <div class="uk-flex uk-flex-center">
+        <div class="uk-text-center">
+            <h2 style="margin-bottom: 0" class="uk-heading-small">Cluster-Wide Execution Rate</h2>
+            <div id="chart"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer" class="uk-section uk-section-secondary uk-section-xsmall">
+    <div class="uk-container">
+      <div class="uk-flex uk-flex-center">
+        <p>Made by <a class="uk-link-muted" href="https://gts3.org/">SSLab at Georgia Tech</a></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/js/uikit.min.js"></script>
+  <script src="/static/js/uikit-icons.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xterm/3.14.5/xterm.min.js"></script>
+  <script>
+    var term = new Terminal({
+      disableStdin: true,
+      scrollback: 0,
+      cols: 80,
+      rows: 20,
+      fontSize: 18,
+      theme: {
+        background: '#2d2a2e',
+        foreground: '#fcfcfa',
+        blue: '#ab9df2',
+        cyan: '#78dce8',
+        brightRed: '#ff6188',
+        red: '#fc9867',
+        yellow: '#ffd866'
+      }
+    });
+
+    term.open(document.getElementById('terminal'));
+    var afl_output = '\x1b[H\x1b[2J\x1b[?25l\x1b[H\r\n' +
+      '                             \x1b[1;93mfuzzcoin \x1b[1;96m0.1 beta\x1b[1;92m (global)\r\n' +
+      '\r\n' +
+      '\x1b)0\x0e\x1b[1;90mlq\x0f\x1b[0;36m fuzzcoin timing \x0e\x1b[1;90mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqwq\x0f\x1b[0;36m overall results \x0e\x1b[1;90mqqqqqk\r\n' +
+      'x\x0f        run time : \x1b[0m0 days, 0 hrs, 0 min, 0 sec        \x0e\x1b[1;90mx\x0f  cycles done : \x1b[0;35m0      \x0e\x1b[1;90mx\r\n' +
+      'x\x0f  last new proj. : \x1b[0mnone seen yet                      \x0e\x1b[1;90mx\x0f  total projs : \x1b[0m0      \x0e\x1b[1;90mx\r\n' +
+      'x\x0f last uniq crash : \x1b[0mnone seen yet                      \x0e\x1b[1;90mx\x0f uniq crashes : \x1b[0m0      \x0e\x1b[1;90mx\r\n' +
+      'tq\x0f\x1b[0;36m cluster stats \x0e\x1b[1;90mqqqqqqqqqqqqqqqqqqqqqnq\x0f\x1b[0;36m findings in depth \x0e\x1b[1;90mqqqqqqqqqqqqqqqqqqqqu\r\n' +
+      'x\x0f total users : \x1b[0m1                     \x0e\x1b[1;90mx\x0f      CVEs found : \x1b[0m1 (100% severe)      \x0e\x1b[1;90mx\r\n' +
+      'x\x0f total execs : \x1b[0m36B                   \x0e\x1b[1;90mx\x0f fuzzcoin awared : \x1b[0m20                   \x0e\x1b[1;90mx\r\n' +
+      'x\x0f ""  workers : \x1b[0m18                    \x0e\x1b[1;90mx\x0f    money awared : \x1b[0m$10,000              \x0e\x1b[1;90mx\r\n' +
+      'x\x0f  exec speed : \x1b[0m20k/sec               \x0e\x1b[1;90mx\x0f                   \x1b[0m                     \x0e\x1b[1;90mx\r\n' +
+      'tq\x1b[0;36m\x0f top contributors  \x0e\x1b[1;90mqqqqqqqqqqqqqqqqqvqqqqqqqqqqqqqqqwq\x0f\x1b[0;36m social stats \x0e\x1b[1;90mqqqqqqqqqu\r\n' +
+      'x\x0f           ammar : \x1b[0m35B execs                         \x0e\x1b[1;90mx\x0f git stars : \x1b[0m0          \x0e\x1b[1;90mx\r\n' +
+      'x\x0f          daehee : \x1b[0m20M execs                         \x0e\x1b[1;90mx\x0f git forks : \x1b[0m0          \x0e\x1b[1;90mx\r\n' +
+      'x\x0f            insu : \x1b[0m100K execs                        \x0e\x1b[1;90mx\x0f   twitter : \x1b[0m0          \x0e\x1b[1;90mx\r\n' +
+      'x\x0f          taesoo : \x1b[0m5K execs                          \x0e\x1b[1;90mx\x0f             \x1b[0m           \x0e\x1b[1;90mx\r\n' +
+      'x\x0f         chuwlon : \x1b[0m10 execs                          \x0e\x1b[1;90mtqqqqqqqqqqqqqqqqqqqqqqqqj\r\n' +
+      'mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj\x0f\x1b[0m\x1b)B          \x1b[1;90m   [cpu:\x1b[1;91m200%\x1b[1;90m]\r\n' +
+      '\x1b[0m\x1b[H\r\n';
+    term.write(afl_output);
+
+    console.log(term);
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <script>
+    var options = {
+      series: [{
+        name: 'Executions per second',
+        data: [400, 10000, 15000, 16000, 15400, 17000, 20000]
+      }],
+      chart: {
+        background: '#2d2a2e',
+        height: 350,
+        width: 700,
+        type: 'area',
+        toolbar: {
+          show: false
+        },
+        zoom: {
+          enabled: false
+        }
+      },
+      dataLabels: {
+        enabled: false
+      },
+      stroke: {
+        curve: 'smooth'
+      },
+      xaxis: {
+        type: 'datetime',
+        categories: ["2018-09-13T00:00:00.000Z", "2018-09-14T00:00:00.000Z", "2018-09-15T00:00:00.000Z", "2018-09-16T00:00:00.000Z", "2018-09-17T00:00:00.000Z", "2018-09-18T00:00:00.000Z", "2018-09-19T00:00:00.000Z"]
+      },
+      tooltip: {
+        x: {
+          format: 'dd/MM/yy'
+        },
+      },
+      theme: {
+        mode: 'dark'
+      }
+    };
+
+    var chart = new ApexCharts(document.querySelector("#chart"), options);
+    chart.render();
+  </script>
+
+{% endblock %}

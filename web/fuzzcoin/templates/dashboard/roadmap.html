@@ -1,0 +1,117 @@
+{% set current_page = 'roadmap' %}
+{% extends "layouts/dashboard.html" %}
+{% block content %}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<link rel="stylesheet" href="static/css/main.css">
+  <script src="static/js/main.js"></script>-->
+    <body>
+
+
+<div class="uk-section uk-description-list uk-description-list-divider">
+    <div class="uk-container uk-container-small">
+
+        <article class="uk-article">
+
+            <h1 class="uk-article-title">Project Roadmap</h1>
+
+            <div class="article-content link-primary">
+                <div class="tm-timeline uk-margin-large-top">
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5></h5>
+        </div>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle">Future Plans</h3>
+            <ul class="uk-list">
+                <li>Automatic Crash Reporting</li>                
+                <li>Code Coverage Visualization</li>                
+                <li>Commercialization with Software Vendors</li>                
+                <li>Fuzzing Pool Creation Service</li>                
+            </ul>
+        </div>
+    </div>
+
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5></h5>
+        </div>
+	<hr>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle">2020 July.<span class="uk-label uk-margin-small-left">BETA</span></h3>
+            <ul class="uk-list">                
+                <li>Web-assembly incorporation (Windows/Android/iOS/Mac support)</li>
+                <li>30 OSSFuzz Projects Ported/Added as WASM</li>                
+                <li>Build System Update (Clang 11)</li>                
+                <li>Various bug fixes, System stabilization</li>                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5></h5>
+        </div>
+	<hr>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle">2020 Feb.<span class="uk-label uk-margin-small-left">BETA</span></h3>
+            <ul class="uk-list">                
+                <li>Public Beta Service Open</li>
+                <li>41 OSSFuzz Projects Ported/Added</li>                
+                <li>PoFW Hash Consensus Protocol</li>                
+                <li>UI Support for Various Components</li>                
+                <li>Build System Update (Clang 10)</li>                
+                <li>PoFW Hash Determinism Experiments</li>                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5></h5>
+        </div>
+	<hr>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle">2019 Aug.<span class="uk-label uk-margin-small-left">ALPHA</span></h3>
+            <ul class="uk-list">                
+                <li>Libfuzzer Integration (Clang 6)</li>                
+                <li>AFL Integration</li>                
+		<li>Multiple Bug Fixes</li>                
+		<li>Code Refactoring</li>                
+                <li>Apply Bootstrap.386 UI</li>                
+                <li>Apply AIOHttp for Pool Server</li>                
+                <li>REST API Desig</li>                
+                <li>Update PoFW Verification Algorithm</li>                
+            </ul>
+        </div>
+    </div>
+    
+    <div class="tm-timeline-entry">
+        <div class="tm-timeline-time">
+            <h5></h5>
+        </div>
+	<hr>
+        <div class="tm-timeline-body">
+            <h3 class="uk-flex uk-flex-middle">2019 May.<span class="uk-label uk-margin-small-left">ALPHA</span></h3>
+            <ul class="uk-list">                
+		<li>Tiny Demonstration of Overall System Workflow</li>                
+                <li>Web Server Implementation</li>                
+                <li>PoC Server/Client Implementation</li>                
+                <li>Docker Porting</li>                
+                <li>LLVM Pass for PoFW Hash</li>
+                <li>Concept/Algorithm Design</li>                                
+            </ul>
+        </div>
+    </div>
+    
+</div>
+
+    </body>
+
+</html>
+
+{% endblock %}
+
+

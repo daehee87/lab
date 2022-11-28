@@ -1,0 +1,26 @@
+{% extends "layouts/security.html" %}
+
+{% block content %}
+<div class="uk-flex uk-flex-center uk-margin">
+    <div class="uk-container uk-container-small">
+        <ul class="uk-tab">
+            <li {% if current_page == 'profile' %}class="uk-active"{% endif %}>
+                <a {% if current_page == 'profile' %} href="#"
+                   {% else %}href="{{ url_for('dashboard.profile') }}"
+                   {% endif %}>
+                    Profile
+                </a>
+            </li>
+            <li {% if current_page == 'password' %}class="uk-active"{% endif %}>
+                <a {% if current_page == 'password' %}class="uk-active" href="#"
+                   {% else %}href="{{ url_for('security.change_password') }}"
+                   {% endif %}
+                >
+                    Password
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+{% block below_tabs %}{% endblock %}
+{% endblock %}

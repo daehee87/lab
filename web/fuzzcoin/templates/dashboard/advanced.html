@@ -1,0 +1,68 @@
+{% set current_page = 'advanced' %}
+{% extends "layouts/dashboard.html" %}
+{% block content %}
+<script language="JavaScript">
+function toggle(source) {
+  checkboxes = document.getElementsByName('projects');
+  for(var i=0, n=checkboxes.length;i<n;i++) {
+    checkboxes[i].checked = source.checked;
+  }
+}
+function random_check(source) {
+  checkboxes = document.getElementsByName('projects');
+  for(var i=0, n=checkboxes.length;i<n;i++) {
+    if(Math.random() < 0.5){
+      checkboxes[i].checked = source.checked;
+    }
+    else{
+      checkboxes[i].checked = !source.checked;
+    }
+  }
+}
+</script>
+
+    <body>
+        <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+	<form method="POST" class="uk-form-horizontal uk-margin-small">
+            <div class="uk-grid" data-uk-grid-margin>
+                <div class="uk-width-1-1">
+                    <h1 class="uk-heading">Fuzzer Customization</h1>
+                </div>
+            </div>
+
+	    <div class="uk-margin">
+	    <span class="uk-form-label">Select Mining Pools</span>
+	    <div class="uk-margin uk-grid-small uk-child-width-auto" uk-grid>
+            	{% for project in projects %}
+		<label><input class="uk-checkbox" type="checkbox" name="projects" value={{project.name}}>&nbsp;&nbsp;{{project.name}}</label><br>
+	    	{% endfor %}
+		&nbsp;&nbsp;<label><input class="uk-checkbox" type="checkbox" onClick="toggle(this)">(toggle)</label><br>
+		&nbsp;&nbsp;<label><input class="uk-checkbox" type="checkbox" onClick="random_check(this)">(random)</label><br>
+	    </div>
+	    </div>
+
+	    <div class="uk-margin">
+	    <label class="uk-form-label" for="form-h-range">CPU Usage for Mining</label>
+	    <div class="uk-form-controls uk-form-controls-text">
+		0% <input class="uk-range uk-form-width-large" id="form-h-range" name="cpu" type="range" value="25" min="0" max="100" step="1"> 100%
+	    </div>
+	    </div>
+
+	    <div class="uk-margin">
+	    <span class="uk-form-label">Automatic Restart On Reboot</span>
+	    <div class="uk-form-controls uk-form-controls-text">
+		<label><input class="uk-radio" type="radio" name="reboot" value="manual" checked="checked"> Disabled</label><br>
+		<label><input class="uk-radio" type="radio" name="reboot" value="auto"> Enabled</label>
+	    </div>
+	    </div>
+
+            <hr class="uk-grid-divider">
+	    <button type="submit" class="uk-button uk-button-primary uk-button-large">Download Install Script</button>
+	    </form>
+
+    </body>
+
+
+{% endblock %}
+
+

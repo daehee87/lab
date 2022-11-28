@@ -1,0 +1,4 @@
+graft fuzzcoin/static
+graft fuzzcoin/templates
+graft tests
+global-exclude *.pyc
