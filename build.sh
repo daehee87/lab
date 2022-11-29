@@ -6,7 +6,7 @@ sudo docker rm -f "web-$ID-nick"
 sudo docker run --security-opt \
                 seccomp=unconfined \
                 -v $PWD/out:/out \
-                -p 8000:8000/tcp \
+                -p 4000:4000/tcp \
                 --name "web-$ID-nick" \
                 -it \
                 "web-$ID"

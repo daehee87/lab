@@ -1,55 +1,11 @@
-# fuzzcoin-web
+# Allan Lab Website
 
-This folder contains the Flask-based fuzzcoin website. Structure is based on
-the [official flask tutorial](https://github.com/pallets/flask/tree/master/examples/tutorial).
+This is the website of our academic research group at Leiden University.
 
-## Installation
+This website is powered by Jekyll and some Bootstrap, Bootwatch. We tried to make it simple yet adaptable, so that it is easy for you to use it as a template. Plese feel free to copy and modify for your own purposes.  You don't have to link to us or mention us (but of course we appreciate it).
 
-A virtualenv is highly recommended to keep fuzzcoin-web's dependencies isolated
-from your system.
+Go to *aboutwebsite.md*  to learn how to copy and modidy this page for your purpose. 
 
-### Linux:
 
-```shell
-$ python3 -m venv venv
-$ . venv/bin/activate
-```
+Copyright Allan Lab. Code released under the MIT License.
 
-### Windows:
-
-```shell
-$ py -3 -m venv venv
-$ venv\Scripts\activate.bat
-```
-
-And then finally install fuzzcoin-web's dependencies using:
-
-```shell
-$ pip install -e .
-```
-
-## Running
-
-```shell
-$ export FLASK_APP=fuzzcoin
-$ export FLASK_ENV=development
-$ flask run
-```
-
-This should start up a development serving on Open http://127.0.0.1:5000
-
-## Testing
-
-```shell
-$ pip install -e ".[test]"
-$ pytest
-```
-
-## Formatting
-
-Use [black](https://github.com/psf/black) for formatting the code:
-
-```shell
-$ pip install black
-$ black tests/ fuzzcoin/
-```
