@@ -6,12 +6,14 @@ RUN apt update && apt-get install -y ruby-full build-essential zlib1g-dev
 RUN gem install jekyll bundler
 
 # setup configs
-ADD web /web
+ADD web.base /web
 WORKDIR /web
 RUN chmod +x run.sh
 RUN bundle update --bundler
 RUN bundle install
 STOPSIGNAL SIGTERM
+WORKDIR /
+ADD web /web
 CMD ["/web/run.sh"]
 
 
