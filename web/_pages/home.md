@@ -28,7 +28,7 @@ Our aim is to effectively discover security vulnerabilities in various system so
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/defcon2019.png" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/codegate2015.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/codegate2015.png" alt="Slide 2" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/calc.png" alt="Slide 3" />
