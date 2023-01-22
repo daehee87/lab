@@ -61,8 +61,8 @@ Also, we play CTF/Wargame just for fun.
 
 We work closely with the following organizations.
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/etri.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsr.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/etri.png" style="width:250px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsr.png" style="width:250px">
 </figure>
 
 
