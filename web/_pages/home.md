@@ -55,32 +55,31 @@ Our aim is to effectively discover security vulnerabilities in various system so
 
 
 To this end, we analyze system software and develope fuzzing/reverse-engineering platform for finding security-bugs (see [Research](research)).
-Also, we play CTF/Wargame just for fun. Following are the 
+Also, we play CTF/Wargame just for fun. Following are the recommended list. 
 
 - Recommended Wargame List
-[rootme](https://www.root-me.org/)
-[w3challs.com](https://w3challs.com/)
-[pwnable.kr](https://pwnable.kr)
-[pwnable.tw](https://pwnable.tw)
-[pwnable.xyz](https://pwnable.xyz)
-[reversing.kr](http://reversing.kr)
-[webhacking.kr](https://webhacking.kr)
+ - [w3challs.com](https://w3challs.com/)
+ - [pwnable.kr](https://pwnable.kr)
+ - [pwnable.tw](https://pwnable.tw)
+ - [pwnable.xyz](https://pwnable.xyz)
+ - [reversing.kr](http://reversing.kr)
+ - [webhacking.kr](https://webhacking.kr)
+ - [rootme](https://www.root-me.org/)
 
 - Recommended CTF List
-[SECCON CTF](https://ctf.seccon.jp)
-[HITCON CTF](https://ctf2021.hitcon.org)
-[HXP](https://2021.ctf.link)
-[Dragon CTF](https://dragonsector.pl)
-[Hack.lu CTF](https://flu.xxx/info)
-[ASIS CTF](https://asisctf.com)
-[Google CTF](https://capturetheflag.withgoogle.com)
-[Plaid CTF](https://plaidctf.com)
-[Tokyo Western CTF](https://ctf.westerns.tokyo)
-[DEFCON CTF](https://oooverflow.io/dc-ctf-2020-finals)
-[CODEGATE CTF](http://codegate.org/en)
+ - [DEFCON CTF](https://oooverflow.io/dc-ctf-2020-finals)
+ - [SECCON CTF](https://ctf.seccon.jp)
+ - [CODEGATE CTF](http://codegate.org/en)
+ - [HITCON CTF](https://ctf2021.hitcon.org)
+ - [Plaid CTF](https://plaidctf.com)
+ - [Google CTF](https://capturetheflag.withgoogle.com)
+ - [Dragon CTF](https://dragonsector.pl)
+ - [Tokyo Western CTF](https://ctf.westerns.tokyo)
+ - [Hack.lu CTF](https://flu.xxx/info)
+ - [ASIS CTF](https://asisctf.com)
+ - [HXP](https://2021.ctf.link)
 
-
- **We are looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+**We are looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 Our lab is funded by the following organizations.
 <figure class="fourth">
