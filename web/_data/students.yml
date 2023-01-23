@@ -8,16 +8,31 @@
 #  education3:
 #  education4:
 
-- name: Thijs van den Munckhof
+- name: Position Open.
   photo: rock.jpg
-  info: Master student
-  email: m.ortego.larrazabal@umail.leidenuniv.nl
+  info: Ph.D. Candidate
+  email: none
   number_educ: 0
   education1:
 
-- name: João van der Ven
+- name: Position Open.
   photo: rock.jpg
-  info: BSc student
-  email: m.ortego.larrazabal@umail.leidenuniv.nl
+  info: Ph.D. Candidate
+  email: none
   number_educ: 0
   education1:
+
+- name: Position Open.
+  photo: rock.jpg
+  info: M.S. Candidate
+  email: none
+  number_educ: 0
+  education1:
+
+- name: Position Open.
+  photo: rock.jpg
+  info: M.S. Candidate
+  email: none
+  number_educ: 0
+  education1:
+

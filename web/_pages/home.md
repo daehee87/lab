@@ -52,18 +52,18 @@ Our aim is to effectively discover security vulnerabilities in various system so
   </a>
 </div>
 
-
 To this end, we analyze system software and develope fuzzing/reverse-engineering platform for finding security-bugs (see [Research](research)).
+The lab activities are mainly categorized in two folds: (i) software development/hacking for government project, (ii) academic paper writing for journal/conference publication.
+
 Also, we play CTF/Wargame just for fun.
 
 **Recommended Wargame List**
- - [w3challs.com](https://w3challs.com/)
  - [pwnable.kr](https://pwnable.kr)
  - [pwnable.tw](https://pwnable.tw)
  - [pwnable.xyz](https://pwnable.xyz)
+ - [w3challs.com](https://w3challs.com/)
  - [reversing.kr](http://reversing.kr)
  - [webhacking.kr](https://webhacking.kr)
- - [rootme](https://www.root-me.org/)
 
 **Recommended CTF List**
  - [DEFCON CTF](https://oooverflow.io/dc-ctf-2020-finals)
@@ -72,13 +72,6 @@ Also, we play CTF/Wargame just for fun.
  - [HITCON CTF](https://ctf2021.hitcon.org)
  - [Plaid CTF](https://plaidctf.com)
  - [Google CTF](https://capturetheflag.withgoogle.com)
- - [Dragon CTF](https://dragonsector.pl)
- - [Tokyo Western CTF](https://ctf.westerns.tokyo)
- - [Hack.lu CTF](https://flu.xxx/info)
- - [ASIS CTF](https://asisctf.com)
- - [HXP](https://2021.ctf.link)
-
-**We are looking for passionate CTF player, Grad students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 Our lab is funded by the following organizations.
 <figure class="fourth">
