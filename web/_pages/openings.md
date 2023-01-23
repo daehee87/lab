@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Vacancies"
+title: "PwnLab - Contact"
 layout: textlay
-excerpt: "Openings"
+excerpt: "Contact"
 sitemap: false
 permalink: /vacancies
 ---
@@ -24,9 +24,9 @@ permalink: /vacancies
 
 ### 졸업 후 진로
 연구실 활동을 우수한 역량으로 수행할 수 있는 학생의 진로는 아래의 수준을 목표로 합니다.
-정부기관: 국가정보원, 국가보안기술연구소, ETRI, 국방부, 한국인터넷진흥원
-대기업: 삼성리서치, 삼성 SDS, 네이버, LINE
-학계: SPK 박사/포닥, 정출연포닥, 해외유학 (미국)
+- 정부기관: 국가정보원, 국가보안기술연구소, ETRI, 국방부, 한국인터넷진흥원
+- 대기업: 삼성리서치, 삼성 SDS, 네이버, LINE
+- 학계: SPK 박사/포닥, 정출연포닥, 해외유학 (미국)
 
 
 ### 모집절차
@@ -55,6 +55,13 @@ There are mainly two activities in our lab: (i) software development/hacking for
 - Exceptionally high overall undergrad GPA score.
 - Student who has a lot of experience in writing/polishing high quality tech-documents.
 - English native, semi-native for academic writing.
+
+### How to contact
+Please send an e-mail including your CV and Undergrad GPA scores to ... to setup an interview. If you consider M.S./Ph.D. candidate, contact me before the semester begins.
+For research intern position, you can contact me anytime.
+
+### Miscellaneous
+We welcome CTF/Wargame player and bug hunter. One of a lab's goal is to form a CTF team and participate in CTFs.
 
 
 
