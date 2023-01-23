@@ -54,9 +54,9 @@ Our aim is to effectively discover security vulnerabilities in various system so
 
 
 To this end, we analyze system software and develope fuzzing/reverse-engineering platform for finding security-bugs (see [Research](research)).
-Also, we play CTF/Wargame just for fun. Following are the recommended list. 
+Also, we play CTF/Wargame just for fun.
 
-* Recommended Wargame List
+**Recommended Wargame List**
  - [w3challs.com](https://w3challs.com/)
  - [pwnable.kr](https://pwnable.kr)
  - [pwnable.tw](https://pwnable.tw)
@@ -65,7 +65,7 @@ Also, we play CTF/Wargame just for fun. Following are the recommended list.
  - [webhacking.kr](https://webhacking.kr)
  - [rootme](https://www.root-me.org/)
 
-* Recommended CTF List
+**Recommended CTF List**
  - [DEFCON CTF](https://oooverflow.io/dc-ctf-2020-finals)
  - [SECCON CTF](https://ctf.seccon.jp)
  - [CODEGATE CTF](http://codegate.org/en)
