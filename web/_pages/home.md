@@ -9,7 +9,6 @@ permalink: /
 We are a research group (also a CTF team) at the [Kyunghee University, Computer Science/Engineering Department](http://ce.khu.ac.kr).
 Our aim is to effectively discover security vulnerabilities in various system software, including operating system, web server/application, embedded system, and so forth.
 
-
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
@@ -57,7 +56,7 @@ Our aim is to effectively discover security vulnerabilities in various system so
 To this end, we analyze system software and develope fuzzing/reverse-engineering platform for finding security-bugs (see [Research](research)).
 Also, we play CTF/Wargame just for fun. Following are the recommended list. 
 
-- Recommended Wargame List
+* Recommended Wargame List
  - [w3challs.com](https://w3challs.com/)
  - [pwnable.kr](https://pwnable.kr)
  - [pwnable.tw](https://pwnable.tw)
@@ -66,7 +65,7 @@ Also, we play CTF/Wargame just for fun. Following are the recommended list.
  - [webhacking.kr](https://webhacking.kr)
  - [rootme](https://www.root-me.org/)
 
-- Recommended CTF List
+* Recommended CTF List
  - [DEFCON CTF](https://oooverflow.io/dc-ctf-2020-finals)
  - [SECCON CTF](https://ctf.seccon.jp)
  - [CODEGATE CTF](http://codegate.org/en)
@@ -79,7 +78,7 @@ Also, we play CTF/Wargame just for fun. Following are the recommended list.
  - [ASIS CTF](https://asisctf.com)
  - [HXP](https://2021.ctf.link)
 
-**We are looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+**We are looking for passionate CTF player, Grad students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 Our lab is funded by the following organizations.
 <figure class="fourth">
@@ -87,8 +86,5 @@ Our lab is funded by the following organizations.
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsr.png" style="width:200px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nrf.png" style="width:200px">
 </figure>
-
-
-
 
 
