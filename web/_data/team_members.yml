@@ -1,11 +1,10 @@
-- name: Daehee Jang
-  photo: daehee.jpg
-  info: Assistant Professor at Kyunghee University, Dept. of Computer Engineering (2023 Mar - Current) <a href="http://daehee87.github.io/">Homepage</a>
+- name: Daehee Jang (장대희)
+  photo: daehee.png
+  info: Assistant Professor at KHU Department of Computer Engineering <a href=http://daehee87.github.io/>Homepage</a>
   email: ????@khu.ac.kr
   number_educ: 5
-  education1: "Assistant Professor at Sungshin W. University, Dept. of Convergence Security Engineering (2021 Mar - 2022 Feb)"
-  education2: "Postdoc at Georgia Tech <a href=https://gts3.org/>SSLab</a> (2019 May - 2020 Dec)"
-  education3: "Ph.D. in Computer Science, Graduate School of Information Security, KAIST (Advisor: Brent Byunghoon Kang, 2014 Sep - 2019 Feb)"
-  education4: "M.S. in Computer Science, Graduate School of Information Security, KAIST (Advisor: Brent Byunghoon Kang, 2012 Mar - 2014 Mar)"
-  education5: "B.S. in Computer Engineering, Dept. of Computer Engineering, Hanyang University (Cum Laude, 2005 March - 2012 Feb)"
+  education1: "Postdoc at Georgia Tech <a href=http://gts3.org/>SSLab</a>"
+  education2: "Ph.D. at KAIST, Department of Computer Science"
+  education3: "M.S. at KAIST, Department of Computer Science"
+  education4: "B.S. at Hanyang University, Department of Computer Engineering (Cum Laude)"
 
