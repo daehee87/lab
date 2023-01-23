@@ -59,10 +59,11 @@ Also, we play CTF/Wargame just for fun.
 
  **We are looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
-We work closely with the following organizations.
+Our lab is funded by the following organizations.
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/etri.png" style="width:250px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsr.png" style="width:250px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/etri.png" style="width:200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsr.png" style="width:200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nrf.png" style="width:200px">
 </figure>
 
 
