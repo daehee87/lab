@@ -1,10 +1,10 @@
 - name: Daehee Jang (장대희)
   photo: daehee.png
-  info: Assistant Professor at KHU Department of Computer Engineering <a href=http://daehee87.github.io/>Homepage</a>
+  info: Assistant Professor at KHU Department of Computer Engineering. <a href='http://daehee87.github.io/'>Homepage</a>
   email: ????@khu.ac.kr
-  number_educ: 5
-  education1: "Postdoc at Georgia Tech <a href=http://gts3.org/>SSLab</a>"
-  education2: "Ph.D. at KAIST, Department of Computer Science"
-  education3: "M.S. at KAIST, Department of Computer Science"
-  education4: "B.S. at Hanyang University, Department of Computer Engineering (Cum Laude)"
+  number_educ: 4
+  education1: Postdoc at Georgia Tech <a href=http://gts3.org/>SSLab</a>
+  education2: Ph.D. at KAIST, Department of Computer Science
+  education3: M.S. at KAIST, Department of Computer Science
+  education4: B.S. at Hanyang University, Department of Computer Engineering (Cum Laude)
 
