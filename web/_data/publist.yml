@@ -1,11 +1,11 @@
-- title: "AAA Determination of the charge transfer when tunneling into putative Majorana modes in individual vortices in FeTe0.55Se0.045"
-  image: imageaward_edited.png
-  description: Shot noise has been suggested for a long time as a tell-tale probe for Majorana bound states. We are the first to carry out local tunneling shot noise measurements on the putative vortex Majorana states.
-  authors: J-F Ge, KM Bastiaans, D Chatzopoulos, D Cho, WO Tromp, T Benschop, J Niu, G Gu, MP Allan
+- title: "Detection Enhancement for Various Deepfake Types Based on Residual Noise and Manipulation Traces"
+  image: none
+  description: none
+  authors: Jihyeon Kang, Sangkeun Ji, Sangyeong Lee, <strong>Daehee Jang</strong>, Jong-Uk Hou
   link:
-    url: https://arxiv.org/abs/2205.10346
-    display: arXiv:2205.10346 (2022)
-  highlight: 1
+    url: "{{ site.url }}{{ site.baseurl }}/downloads/deepfake.pdf"
+    display: IEEE Access (2022)
+  highlight: 0
 
 - title: "Puddle formation, persistent gaps, and non-mean-field breakdown of superconductivity in overdoped (Pb,Bi)2Sr2CuO6+δ"
   image: BSCCOgap.png
@@ -14,7 +14,7 @@
   link:
     url: https://arxiv.org/abs/2205.09740
     display: arXiv:2205.09740 (2022)
-  highlight: 1
+  highlight: 0
 
 - title: "Direct evidence for Cooper pairing without a spectral gap in a disordered superconductor above Tc"
   image: Pairs3.png
