@@ -8,13 +8,13 @@
   highlight: 0
 
 - title: "Fuzzing@Home: Distributed Fuzzing on Untrusted Heterogeneous Clients"
-  image: none
+  image: fuzzhome.png
   description: none
   authors: <strong>Daehee Jang</strong>, Ammar Askar, Insu Yun, Stephen Tong, Yiqin Cai, Taesoo Kim
   link:
     url: ../downloads/fuzzhome.pdf
     display: 25th International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2022)
-  highlight: 0
+  highlight: 1
 
 - title: "Efficient Generation of Program Execution Hash"
   image: none
@@ -28,13 +28,13 @@
   news2: See [Physics World](https://physicsworld.com/a/cooper-pairs-spotted-above-critical-temperature-for-superconductivity/), [SRON news](https://www.sron.nl/news/5169-elektronparen-blijven-stabiel-boven-kritische-temperatuur-supergeleiding), [TU Delft news](https://www.tudelft.nl/en/2021/eemcs/inexplicably-stable-electron-pairs-without-superconductivity), [Leiden news](https://www.universiteitleiden.nl/en/news/2021/10/new-quantum-liquid-discovered).
 
 - title: "Badaslr: Exceptional cases of ASLR aiding exploitation"
-  image: none
+  image: badaslr.png
   description: none
   authors: <strong>Daehee Jang</strong>
   link:
     url: ../downloads/badaslr.pdf
     display: ELSEVIER Computers and Security Journal (Volume 112, January 2022, 102510)
-  highlight: 0
+  highlight: 1
 
 - title: "EmuID: Detecting presence of emulation through microarchitectural characteristic on ARM"
   image: none
@@ -56,13 +56,13 @@
   highlight: 0
 
 - title: "On the Analysis of Byte-Granularity Heap Randomization"
-  image: none
+  image: ruma.png
   description: none
   authors: <strong>Daehee Jang</strong>, Jonghwan Kim, Hojoon Lee, Minjoon Park, Yunjong Jung, Minsu Kim, Brent Byunghoon Kang
   link:
     url: ../downloads/ruma.pdf
     display:  IEEE Transactions on Dependable and Secure Computing (Volume 18, Issue 5, 01 Sept.-Oct. 2021)
-  highlight: 0
+  highlight: 1
 
 - title: "Fuzzing JavaScript Engines with Aspect-preserving Mutation"
   image: none
@@ -93,13 +93,13 @@
   highlight: 0
 
 - title: "Rethinking anti-emulation techniques for large-scale software deployment"
-  image: none
+  image: qemu.png
   description: none
   authors: <strong>Daehee Jang</strong>, Yunjong Jung, Sungman Lee, Minjoon Park, Donguk Kim, Kuenhwan Kwak, Brent Byunghoon Kang
   link:
     url: ../downloads/qemu.pdf
     display: ELSEVIER Computers and Security Journal (Volume 83, June 2019, Pages 182-200)
-  highlight: 0
+  highlight: 1
 
 - title: "SGX-LEGO: Fine-grained SGX controlled-channel attack and its countermeasure"
   image: none
