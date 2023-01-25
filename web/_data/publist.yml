@@ -4,65 +4,146 @@
   authors: Jihyeon Kang, Sangkeun Ji, Sangyeong Lee, <strong>Daehee Jang</strong>, Jong-Uk Hou
   link:
     url: ../downloads/deepfake.pdf
-    display: IEEE Access (2022)
+    display: IEEE Access (Volume 10. 2022)
   highlight: 0
 
-- title: "Puddle formation, persistent gaps, and non-mean-field breakdown of superconductivity in overdoped (Pb,Bi)2Sr2CuO6+δ"
-  image: BSCCOgap.png
-  description: Why do cuprate superconductors stop superconducting past a certain doping level? Using scanning tunneling spectroscopy we find that an emerging metallic matrix inside the superconducting state is responsible for the overall reduction of Tc and the superfluid density, while leaving the gapsize unchanged. The formation of the matrix is tied to a pair breaking process violating a core principle of mean-field theories.
-  authors: WO Tromp, T Benschop, J-F Ge, I Battisti, KM Bastiaans, D Chatzopoulos, A Vervloet, S Smit, E van Heumen, MS Golden, Y Huang, T Kondo, Y Yin, JE Hoffman, MA Sulangi, J Zaanen, MP Allan
+- title: "Fuzzing@Home: Distributed Fuzzing on Untrusted Heterogeneous Clients"
+  image: none
+  description: none
+  authors: <strong>Daehee Jang</strong>, Ammar Askar, Insu Yun, Stephen Tong, Yiqin Cai, Taesoo Kim
   link:
-    url: https://arxiv.org/abs/2205.09740
-    display: arXiv:2205.09740 (2022)
+    url: ../downloads/fuzzhome.pdf
+    display: 25th International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2022)
   highlight: 0
 
-- title: "Direct evidence for Cooper pairing without a spectral gap in a disordered superconductor above Tc"
-  image: Pairs3.png
-  description: We use our atomic-scale scanning tunneling noise setup on a disordered superconductor, and discover a state above TC that, much like an ordinary metal, has no (pseudo)gap, but carries charge via paired electrons.
-  authors: KM Bastiaans, D Chatzopoulos, J-F Ge, D Cho, WO Tromp, JM van Ruitenbeek, MH Fischer, PJ de Visser, DJ Thoen, EFC Driessen, TM Klapwijk, MP Allan
+- title: "Efficient Generation of Program Execution Hash"
+  image: none
+  description: none
+  authors: <strong>Eunyeong Ahn, Sunjin Kim</strong>, Saerom Park, Jong-Uk Hou, <strong>Daehee Jang</strong>
   link:
-    url: https://www.science.org/doi/10.1126/science.abe3987
-    display: Science 374, 608 (2021)
-  highlight: 1
+    url: ../downloads/hash.pdf
+    display: IEEE Access (Volume 10. 2022)
+  highlight: 0
   news1:   <a style="color:#FF0000" href="https://www.nature.com/articles/s41567-021-01468-w">Featured as 'Research Highlight' in Nature Physics by David Abergel</a>
   news2: See [Physics World](https://physicsworld.com/a/cooper-pairs-spotted-above-critical-temperature-for-superconductivity/), [SRON news](https://www.sron.nl/news/5169-elektronparen-blijven-stabiel-boven-kritische-temperatuur-supergeleiding), [TU Delft news](https://www.tudelft.nl/en/2021/eemcs/inexplicably-stable-electron-pairs-without-superconductivity), [Leiden news](https://www.universiteitleiden.nl/en/news/2021/10/new-quantum-liquid-discovered).
 
-- title: "Imaging moiré deformation and dynamics in twisted bilayer graphene"
-  image: TBG_SL.png
-  description: Why is there so much variation in TBG devices? And are open devices more disordered than encapsulated ones? We introduce a new method to continuously map inhomogeneities of a moiré lattice and apply it to open-device TBG to show that twist angle variation is small over areas of hundreds of nm.
-  authors: TA de Jong, T Benschop, X Chen, EE Krasovskii, MJA de Dood, RM Tromp,  MP Allan, SJ van der Molen
+- title: "Badaslr: Exceptional cases of ASLR aiding exploitation"
+  image: none
+  description: none
+  authors: <strong>Daehee Jang</strong>
   link:
-    url: https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.013153
-    display:  arXiv:2107.14716 (2021)
+    url: ../downloads/badaslr.pdf
+    display: ELSEVIER Computers and Security Journal (Volume 112, January 2022, 102510)
+  highlight: 0
+
+- title: "EmuID: Detecting presence of emulation through microarchitectural characteristic on ARM"
+  image: none
+  description: none
+  authors: Yeseul Choi, Yunjong Jeong, <strong>Daehee Jang</strong>, Brent Byunghoon Kang, Hojoon Lee
+  link:
+    url: ../downloads/emuid.pdf
+    display:  ELSEVIER Computers and Security Journal (Volume 113, February 2022, 102569)
   highlight: 0
   news2:
 
-- title: "Measuring local moiré lattice heterogeneity of twisted bilayer graphene"
-  image: TBG_SL.png
-  description: Why is there so much variation in TBG devices? And are open devices more disordered than encapsulated ones? We introduce a new method to continuously map inhomogeneities of a moiré lattice and apply it to open-device TBG to show that twist angle variation is small over areas of hundreds of nm.
-  authors: T Benschop *, TA de Jong*, P Stepanov*, Xiaobo Lu, V Stalman, SJ van der Molen, DK Efetov, MP Allan
+- title: "Preventing Use-After-Free Attacks with Fast Forward Allocation"
+  image: none
+  description: none
+  authors: Brian Wickman, Hong Hu, Insu Yun, <strong>Daehee Jang</strong>, JungWon Lim, Sanidhya Kashyap, Taesoo Kim
   link:
-    url: https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.013153
-    display:  Phys. Rev. Research 3, 013153 (2021)
-  highlight: 1
-  news2: See also [arXiv:2107.14716](https://arxiv.org/abs/2107.14716)
+    url: ../downloads/ffmalloc.pdf
+    display:  USENIX Security (2021)
+  highlight: 0
 
-- title: "Spatially dispersing Yu-Shiba-Rusinov states in the unconventional superconductor FeTe0.55Se0.45"
-  image: YSR.png
-  description: We report on a peculiar, spatially dispersing YSR state in Fe(Se,Te) that can be tuned by the tip.
-  authors: D Chatzopoulos, Doohee Cho, KM Bastiaans, GO Steffensen, D Bouwmeester, A Akbari, Genda Gu, J Paaske, BM Andersen, MP Allan
+- title: "On the Analysis of Byte-Granularity Heap Randomization"
+  image: none
+  description: none
+  authors: <strong>Daehee Jang</strong>, Jonghwan Kim, Hojoon Lee, Minjoon Park, Yunjong Jung, Minsu Kim, Brent Byunghoon Kang
   link:
-    url: https://www.nature.com/articles/s41467-020-20529-x
-    display:  Nature Communications 12, 298 (2021)
-  highlight: 1
+    url: ../downloads/ruma.pdf
+    display:  IEEE Transactions on Dependable and Secure Computing (Volume: 18, Issue: 5, 01 Sept.-Oct. 2021)
+  highlight: 0
 
-- title: "Multi-Atom Quasiparticle Scattering Interference for Superconductor Energy-Gap Symmetry Determination"
-  image: TBG_ARPES.png
-  description:
-  authors: R Sharma, A Kreisel, MA Sulangi, J Böker, A Kostin, MP Allan, H Eisaki, AE Böhmer, PC Canfield, I Eremin, JC Davis, PJ Hirschfeld, PO Sprau
+- title: "Fuzzing JavaScript Engines with Aspect-preserving Mutation"
+  image: none
+  description: none
+  authors: Soyeon Park, Wen Xu, Insu Yun, <strong>Daehee Jang</strong>, Taesoo Kim
   link:
-    url: https://dx.doi.org/10.1038/s41535-020-00303-4
-    display: npj Quantum Materials 6, 7 (2021)
+    url: ../downloads/die.pdf
+    display: IEEE Symposium on Security and Privacy (2020)
   highlight: 0
   news2:
+
+- title: "PoLaR: Per-allocation Object Layout Randomization"
+  image: none
+  description: none
+  authors: Jonghwan Kim, <strong>Daehee Jang</strong>, Yunjong Jeong, Brent Byunghoon Kang
+  link:
+    url: ../downloads/polar.pdf
+    display: IEEE/IFIP International Conference on Dependable Systems and Networks (2019)
+  highlight: 0
+
+- title: "KI-Mon ARM: A Hardware-assisted Event-triggered Monitoring Platform for Mutable Kernel Object"
+  image: none
+  description: none
+  authors: Hojoon Lee, Hyungon Moon, Ingoo Heo, <strong>Daehee Jang</strong>, Jinsoo Jang, Kihwan Kim, Yunheung Paek
+  link:
+    url: ../downloads/kimonarm.pdf
+    display: IEEE Transactions on Dependable and Secure Computing (Volume: 16, Issue: 2, 01 March-April 2019)
+  highlight: 0
+
+- title: "Rethinking anti-emulation techniques for large-scale software deployment"
+  image: none
+  description: none
+  authors: <strong>Daehee Jang</strong>, Yunjong Jung, Sungman Lee, Minjoon Park, Donguk Kim, Kuenhwan Kwak, Brent Byunghoon Kang
+  link:
+    url: ../downloads/qemu.pdf
+    display: ELSEVIER Computers and Security Journal (Volume 83, June 2019, Pages 182-200)
+  highlight: 0
+
+- title: "SGX-LEGO: Fine-grained SGX controlled-channel attack and its countermeasure"
+  image: none
+  description: none
+  authors: Deokjin Kim, <strong>Daehee Jang (co-first)</strong>, Minjoon Park, Yunjong Jung, Jonghwan Kim, Seokjin Choi, Brent Byunghoon Kang
+  link:
+    url: ../downloads/sgxlego.pdf
+    display: ELSEVIER Computers and Security Journal (Volume 82, May 2019, Pages 118-139)
+  highlight: 0
+
+- title: "Domain Isolated Kernel: A lightweight sandbox for untrusted kernel extensions"
+  image: none
+  description: none
+  authors: Valentin J.M. Manes, <strong>Daehee Jang</strong>, Brent Byunghoon Kang, Chanho Ryu
+  link:
+    url: ../downloads/dikernel.pdf
+    display: ELSEVIER Computers and Security Journal (Volume 74, May 2018, Pages 130-143)
+  highlight: 0
+
+- title: "S-OpenSGX: A system-level platform for exploring SGX enclave-based computing"
+  image: none
+  description: none
+  authors: Changho Choi, Nohyun Kwak, Jinsoo Jang, <strong>Daehee Jang</strong>, Kuenwhee Oh, Kyungsoo Kwag, Brent Byunghoon Kang
+  link:
+    url: ../downloads/sopensgx.pdf
+    display: ELSEVIER Computers and Security Journal (Volume 70, September 2017, Pages 290-306)
+  highlight: 0
+
+- title: "ATRA: Address Translation Redirection Attack against Hardware-based External Monitors"
+  image: none
+  description: none
+  authors: <strong>Daehee Jang</strong>, Hojoon Lee, Minsu Kim, Daehyeok Kim, Daegyeong Kim, Brent Byunghoon Kang
+  link:
+    url: ../downloads/atra.pdf
+    display: ACM Conference on Computer and Communications Security (2014)
+  highlight: 0
+
+- title: "KI-Mon: A Hardware-assisted Event-triggered Monitoring Platform for Mutable Kernel Object"
+  image: none
+  description: none
+  authors: Hojoon Lee, HyunGon Moon, <strong>Daehee Jang</strong>, Kihwan Kim, Jihoon Lee, Yunheung Paek, Brent ByungHoon Kang
+  link:
+    url: ../downloads/kimon.pdf
+    display: USENIX Security (2013)
+  highlight: 0
+
 
