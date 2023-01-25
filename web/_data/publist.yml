@@ -9,7 +9,7 @@
 
 - title: "Fuzzing@Home: Distributed Fuzzing on Untrusted Heterogeneous Clients"
   image: fuzzhome.png
-  description: none
+  description: Fuzzing@Home is the first public collaborative fuzzing network, based on heterogeneous machines owned by potentially untrusted users. Using our system, multiple organizations (or individuals) can easily collaborate to fuzz a software of common interest in an efficient way.
   authors: <strong>Daehee Jang</strong>, Ammar Askar, Insu Yun, Stephen Tong, Yiqin Cai, Taesoo Kim
   link:
     url: ../downloads/fuzzhome.pdf
@@ -29,7 +29,7 @@
 
 - title: "Badaslr: Exceptional cases of ASLR aiding exploitation"
   image: badaslr.png
-  description: none
+  description: Address Space Layout Randomization (ASLR) is de-facto standard exploit mitigation technique. Ironically, although exceptional,there are rare edge cases where ASLR becomes handy for memory exploitation. This research dig into such theoretical set of cases and name it as BadASLR.
   authors: <strong>Daehee Jang</strong>
   link:
     url: ../downloads/badaslr.pdf
@@ -57,7 +57,7 @@
 
 - title: "On the Analysis of Byte-Granularity Heap Randomization"
   image: ruma.png
-  description: none
+  description: Modern heap exploits often abuse the determinism in word alignment, and modern CPU architecture better supports unaligned access (since Nehalem). Based on such new developments, this research conducts an in-depth analysis of evaluating the efficacy of byte-granularity heap randomization.
   authors: <strong>Daehee Jang</strong>, Jonghwan Kim, Hojoon Lee, Minjoon Park, Yunjong Jung, Minsu Kim, Brent Byunghoon Kang
   link:
     url: ../downloads/ruma.pdf
@@ -94,7 +94,7 @@
 
 - title: "Rethinking anti-emulation techniques for large-scale software deployment"
   image: qemu.png
-  description: none
+  description: This research proposes new anti-emulation techniques that leverage CPU architecture properties such as instruction atomicity, memory alignment. To confirm the effectiveness, the paper applied its idea against 176 real Android devices in Amazon Device Farm and system emulators.
   authors: <strong>Daehee Jang</strong>, Yunjong Jung, Sungman Lee, Minjoon Park, Donguk Kim, Kuenhwan Kwak, Brent Byunghoon Kang
   link:
     url: ../downloads/qemu.pdf
