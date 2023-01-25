@@ -9,7 +9,7 @@
 
 - title: "Fuzzing@Home: Distributed Fuzzing on Untrusted Heterogeneous Clients"
   image: fuzzhome.png
-  description: Fuzzing@Home is the first public collaborative fuzzing network, based on heterogeneous machines owned by potentially untrusted users. Using our system, multiple organizations (or individuals) can easily collaborate to fuzz a software of common interest in an efficient way.
+  description: Fuzzing@Home is the first public/collaborative distributed fuzzing network, based on heterogeneous machines owned by potentially untrusted users. We build additional features on top of Google's ClusterFuzz to support untrusted/heterogeneous machines as a part of distributed network.
   authors: <strong>Daehee Jang</strong>, Ammar Askar, Insu Yun, Stephen Tong, Yiqin Cai, Taesoo Kim
   link:
     url: ../downloads/fuzzhome.pdf
