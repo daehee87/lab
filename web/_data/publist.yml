@@ -61,7 +61,7 @@
   authors: <strong>Daehee Jang</strong>, Jonghwan Kim, Hojoon Lee, Minjoon Park, Yunjong Jung, Minsu Kim, Brent Byunghoon Kang
   link:
     url: ../downloads/ruma.pdf
-    display:  IEEE Transactions on Dependable and Secure Computing (Volume: 18, Issue: 5, 01 Sept.-Oct. 2021)
+    display:  IEEE Transactions on Dependable and Secure Computing (Volume 18, Issue 5, 01 Sept.-Oct. 2021)
   highlight: 0
 
 - title: "Fuzzing JavaScript Engines with Aspect-preserving Mutation"
@@ -89,7 +89,7 @@
   authors: Hojoon Lee, Hyungon Moon, Ingoo Heo, <strong>Daehee Jang</strong>, Jinsoo Jang, Kihwan Kim, Yunheung Paek
   link:
     url: ../downloads/kimonarm.pdf
-    display: IEEE Transactions on Dependable and Secure Computing (Volume: 16, Issue: 2, 01 March-April 2019)
+    display: IEEE Transactions on Dependable and Secure Computing (Volume 16, Issue 2, 01 March-April 2019)
   highlight: 0
 
 - title: "Rethinking anti-emulation techniques for large-scale software deployment"
