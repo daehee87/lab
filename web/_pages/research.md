@@ -46,7 +46,8 @@ _Windows 7, 8, 10 기준 64비트 운영체제의 32비트 어플리케이션의
 생성하기 위한 파이썬 코드 예시를 보여줍니다. 이러한 <U>Exploit 코드개발을 통해서 소프트웨어의 내부 동작 과정 및 프로그래밍의 원리등을
 심도있게 연구 할 수 있습니다.</U> 
 
-```python
+```py
+
 from pythoncom import *
 import sys, zlib, struct, random, string
 
@@ -263,7 +264,7 @@ if __name__ == '__main__':
 ```
 
 
-<br><br><br><br>
+<br><br>
 
 
 위와 같은 메모리 버그로 인한 보안 취약점들은 Fuzzing 이라는 방법으로 탐색을 자동화 할 수 있으며 관련해서 수많은
@@ -272,9 +273,11 @@ if __name__ == '__main__':
 Fuzzing@Home 시스템의 일부분으로, Google 의 libfuzzer 를 Web Assembly 바이너리로 포팅하여 웹 브라우저 엔진 내부에서
 실행시킬 수 있도록 한 것을 나타냅니다.
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/fuzzhome2.png){: style="width: 90%; float: left; margin: 10px 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/fuzzhome2.png){: style="width: 80%; float: center; margin: 15px 15px"}
 
-현재 퍼징을 통해 Google 에서는 수많은 메모리 버그들을 자동적으로 발견하고 패치하고 있습니다. 또한 컴파일러 보안 기술의 발달로 인해
+<br><br>
+
+현재 퍼징을 통해 Google 에서는 수많은 메모리 버그들을 자동적으로 발견하고 패치하고 있습니다. 또한, 컴파일러 보안 기술의 발달로 인해
 대다수의 메모리 버그들은 점점더 RCE Exploit 단계까지 가는데에 어려움이 있습니다. 저희 연구실에서는 전통적인 메모리 버그에 관한
 연구 뿐 만 아니라, 앞으로 IT 시장에서 클라우드 서버가 늘어날 것을 예상하여 <U>가상화 및 Container, SandBox 에 관한 보안문제, 임베디드 시스템
 및 드론시스템 등 여러가지 시스템에서 구성요소들 간의 상호작용에서 발생 할 수 있는 로직버그의 발견을 효과적으로 하기위한 연구</U> 또한 중점적으로 수행합니다.
