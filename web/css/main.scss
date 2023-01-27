@@ -20,11 +20,13 @@ figcaption {
 }
 
 .highlight {
-  margin: 0;
-  padding: 0.5em;
-  font-family: $monospace;
-  font-size: $type-size-5b;
-  line-height: 1.8;
+    font-family: Monaco, monospace;
+    line-height: 100%;
+    background-color: #eee;
+    padding: 0.2em;
+    letter-spacing: -0.05em;
+    word-break: normal;
+    /border-radius: 5px;/
 }
 
 /* Top navigation bar */
