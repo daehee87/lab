@@ -21,21 +21,12 @@ sass:
   sass_dir: _sass
 
 # Conversion
-markdown: kramdown
+markdown:    kramdown
 highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
 
-# Markdown Processing
+# Markdown Processors
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
-  hard_wrap: false
   auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+  syntax_highlighter: rouge
+

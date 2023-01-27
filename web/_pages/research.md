@@ -46,7 +46,7 @@ _Windows 7, 8, 10 기준 64비트 운영체제의 32비트 어플리케이션의
 생성하기 위한 파이썬 코드 예시를 보여줍니다. 이러한 <U>Exploit 코드개발을 통해서 소프트웨어의 내부 동작 과정 및 프로그래밍의 원리등을
 심도있게 연구 할 수 있습니다.</U> 
 
-{{ "{% highlight python "}}%}
+```python
 from pythoncom import *
 import sys, zlib, struct, random, string
 
@@ -260,8 +260,7 @@ if __name__ == '__main__':
 	dst_stg.Commit(STGC_DEFAULT)
 
 	print "[*] End exploit"
-{{ "{% endhighlight "}}%}
-
+```
 
 <br>
 
