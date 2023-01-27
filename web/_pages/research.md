@@ -46,7 +46,7 @@ _Windows 7, 8, 10 기준 64비트 운영체제의 32비트 어플리케이션의
 생성하기 위한 파이썬 코드 예시를 보여줍니다. 이러한 <U>Exploit 코드개발을 통해서 소프트웨어의 내부 동작 과정 및 프로그래밍의 원리등을
 심도있게 연구 할 수 있습니다.</U> 
 
-```javascript
+{{ "{% highlight python "}}%}
 from pythoncom import *
 import sys, zlib, struct, random, string
 
@@ -260,7 +260,7 @@ if __name__ == '__main__':
 	dst_stg.Commit(STGC_DEFAULT)
 
 	print "[*] End exploit"
-```
+{{ "{% endhighlight "}}%}
 
 
 <br>
@@ -280,10 +280,6 @@ Fuzzing@Home 시스템의 일부분으로, Google 의 libfuzzer 를 Web Assembly
 대다수의 메모리 버그들은 점점더 RCE Exploit 단계까지 가는데에 어려움이 있습니다. 저희 연구실에서는 전통적인 메모리 버그에 관한
 연구 뿐 만 아니라, 앞으로 IT 시장에서 클라우드 서버가 늘어날 것을 예상하여 <U>가상화 및 Container, SandBox 에 관한 보안문제, 임베디드 시스템
 및 드론시스템 등 여러가지 시스템에서 구성요소들 간의 상호작용에서 발생 할 수 있는 로직버그의 발견을 효과적으로 하기위한 연구</U> 또한 중점적으로 수행합니다.
-
-
-
-
 
 
 
