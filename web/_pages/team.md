@@ -69,8 +69,8 @@ permalink: /team/
 {% endif %}
 
 
-## Student (Positions Open for M.S./Ph.D. Candidate.)
-**We are looking for passionate CTF player, M.S./Ph.D. Candidate.** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+## Student
+**Position open for M.S./Ph.D. Candidates.** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}

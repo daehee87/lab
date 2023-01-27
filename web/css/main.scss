@@ -19,7 +19,13 @@ figcaption {
     margin-bottom: 20px;
 }
 
-
+.highlight {
+  margin: 0;
+  padding: 0.5em;
+  font-family: $monospace;
+  font-size: $type-size-5b;
+  line-height: 1.8;
+}
 
 /* Top navigation bar */
 
