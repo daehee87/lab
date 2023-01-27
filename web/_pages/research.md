@@ -8,11 +8,12 @@ permalink: /research/
 
 ## Research
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/pwn.gif){: style="width: 400px; float: left; margin: 10px 10px"}  저희 연구실에서는 다양한 시스템에 대한 Offensive Security 연구를 수행하고 있습니다. 왼쪽은 [CVE-2018-5200](https://www.boho.or.kr/krcert/secNoticeView.do?bulletin_writing_sequence=30113) RCE 취약점의 Exploit (pwn) 데모 영상입니다. 이러한 RCE 취약점을 공격하는 과정에서 여러가지 시스템 지식 및 익스플로잇 기술을 터득 할 수 있습니다. 예를들어 KMPlayer CVE-2018-5200 의 취약점을 통해 최종 RCE 까지의 Exploit 흐름을 이끌어내는 과정에서 힙 레이아웃 제어 및 힙 스프레이 등에 관한 다양한 연구를 동반하게 됩니다.
+![]({{ site.url }}{{ site.baseurl }}/images/respic/pwn.gif){: style="width: 400px; float: left; margin: 10px 10px"}  저희 연구실에서는 다양한 시스템에 대한 Offensive Security 연구를 수행하고 있습니다. 왼쪽은 [CVE-2018-5200](https://www.boho.or.kr/krcert/secNoticeView.do?bulletin_writing_sequence=30113) RCE 취약점의 Exploit (pwn) 데모 영상입니다. 이러한 RCE 취약점을 공격하는 과정에서 여러가지 시스템 지식 및 익스플로잇 기술을 터득 할 수 있습니다. 예를들어 KMPlayer CVE-2018-5200 의 취약점을 통해 최종 RCE 까지의 Exploit 흐름을 이끌어내는 과정에서 
+메모리 취약점에 대한 이해 뿐만 아니라 힙 레이아웃 제어 및 힙 스프레이, 운영체제와 아키텍쳐별 쉘코드 작성방법 등에 관한 다양한 연구를 동반하게 됩니다.
 
 **힙 레이아웃 조작:** KMPlayer 가 사용하는 커스텀 힙 할당자는 2가지 size 를 기준으로 bin 을 관리하여 메모리를 할당하는 dl-malloc 스타일의 할당자 입니다. 이 경우 Windows 의 표준 LFH 와는 다르기 때문에, 힙 메모리를 제어함에 있어서 연구가 필요합니다. 예를들어 메모리의 Temporal Locality, Spatial Locality 를 이용하여 메모리 de-fragmentation 을 유발하고, 원하는 객체를 원하는 상대적 위치에 할당되게 유도하는 등과 관련한 연구가 필요합니다.
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/defrag.png){: style="width: 250px; float: right; margin: 10px 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/defrag.png){: style="width: 350px; float: right; margin: 10px 10px"}
 
 **힙 스프레이 방법론:** 힙 스프레이는 Application 및 OS 와 기타 상황에따라 그 전략이 매우 상이할 수 있습니다. 파일 파서와 같은 어플리케이션의 경우 JavaScript 엔진등과 힙스프레이 방법론이 차이나게 되며, 파일내부의 데이터들 중 경우에 따라 힙 할당자 대신 MapViewOfFile 등과 같은 형태로 매핑이 되는 이슈, 64bit 운영체제에서 32bit Application 을 실행할때의 가상메모리 공간 레이아웃, 메모리 할당에 관한 입상도 (Alignment) 등 다양한 연구들이 취약점 분석 및 Exploit 개발을 위해서 필요합니다.
 
@@ -20,7 +21,7 @@ permalink: /research/
 수많은 테크닉 및 연구적 의문들을 접할 수 있으며, 특히 Linux 및 Windows 운영체제 시스템에 대한 여러가지 기술적인 이슈들을 살펴 볼 수 있습니다.
 이러한 방향의 연구를 시작하기에 가장 좋은 출발점은 재미있는 Wargame 을 찾아서 경쟁적으로 점수를 얻기위해 노력하는 것입니다.
 
-<br><br>
+<br>
 
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/pwn2.gif){: style="width: 400px; float: left; margin: 10px  10px"}
 왼쪽의 영상은 한컴오피스 문서파싱 프로그램의 RCE 취약점 Exploit 데모 영상입니다. 해당 버그는 힙 메모리에서의 Use-After-Free 와 같은
