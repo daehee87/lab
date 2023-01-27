@@ -21,7 +21,7 @@ permalink: /research/
 수많은 테크닉 및 연구적 의문들을 접할 수 있으며, 특히 Linux 및 Windows 운영체제 시스템에 대한 여러가지 기술적인 이슈들을 살펴 볼 수 있습니다.
 이러한 방향의 연구를 시작하기에 가장 좋은 출발점은 재미있는 Wargame 을 찾아서 경쟁적으로 점수를 얻기위해 노력하는 것입니다.
 
-<br>
+<br><hr><br>
 
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/pwn2.gif){: style="width: 400px; float: left; margin: 10px  10px"}
 왼쪽의 영상은 한컴오피스 문서파싱 프로그램의 RCE 취약점 Exploit 데모 영상입니다. 해당 버그는 힙 메모리에서의 Use-After-Free 와 같은
@@ -40,6 +40,8 @@ permalink: /research/
 이러한 <U>Exploit 코드개발을 통해서 소프트웨어의 내부 동작 과정 및 프로그래밍의 원리등을
 심도있게 연구 할 수 있습니다.</U> 
 
+<br>
+<hr>
 <br>
 
 위와 같은 메모리 버그로 인한 보안 취약점들은 Fuzzing 이라는 방법으로 탐색을 자동화 할 수 있으며 이와 관련해서 수많은
