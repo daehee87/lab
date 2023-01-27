@@ -6,7 +6,7 @@ sitemap: false
 permalink: /research/
 ---
 
-## Research
+## Pwnable and Exploitation
 
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/pwn.gif){: style="width: 400px; float: left; margin: 10px 10px"}  저희 연구실에서는 다양한 시스템에 대한 Offensive Security 연구를 수행하고 있습니다. 왼쪽은 [CVE-2018-5200](https://www.boho.or.kr/krcert/secNoticeView.do?bulletin_writing_sequence=30113) RCE 취약점의 Exploit (pwn) 데모 영상입니다. 이러한 RCE 취약점을 공격하는 과정에서 여러가지 시스템 지식 및 익스플로잇 기술을 터득 할 수 있습니다. 예를들어 KMPlayer CVE-2018-5200 의 취약점을 통해 최종 RCE 까지의 Exploit 흐름을 이끌어내는 과정에서 
 메모리 취약점에 대한 이해 뿐만 아니라 힙 레이아웃 제어 및 힙 스프레이, 운영체제와 아키텍쳐별 쉘코드 작성방법 등에 관한 다양한 연구를 동반하게 됩니다.
@@ -21,7 +21,8 @@ permalink: /research/
 수많은 테크닉 및 연구적 의문들을 접할 수 있으며, 특히 Linux 및 Windows 운영체제 시스템에 대한 여러가지 기술적인 이슈들을 살펴 볼 수 있습니다.
 이러한 방향의 연구를 시작하기에 가장 좋은 출발점은 재미있는 Wargame 을 찾아서 경쟁적으로 점수를 얻기위해 노력하는 것입니다.
 
-<br><hr><br>
+<br>
+<hr>
 
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/pwn2.gif){: style="width: 400px; float: left; margin: 10px  10px"}
 왼쪽의 영상은 한컴오피스 문서파싱 프로그램의 RCE 취약점 Exploit 데모 영상입니다. 해당 버그는 힙 메모리에서의 Use-After-Free 와 같은
@@ -42,7 +43,8 @@ permalink: /research/
 
 <br>
 <hr>
-<br>
+
+## Fuzzing
 
 위와 같은 메모리 버그로 인한 보안 취약점들은 Fuzzing 이라는 방법으로 탐색을 자동화 할 수 있으며 이와 관련해서 수많은
 연구들이 수행되고 있습니다. [Fuzzing@Home](http://fuzzcoin.gtisc.gatech.edu:8000) 은 이러한 Fuzzing 프로그램을
