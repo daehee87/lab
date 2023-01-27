@@ -6,8 +6,6 @@ sitemap: false
 permalink: /research/
 ---
 
-## Research
-
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/pwn.gif){: style="width: 40%; float: left; margin: 10px 10px"}  저희 연구실에서는 다양한 시스템에 대한 Offensive Security 연구를 수행하고 있습니다. 왼쪽은 [CVE-2018-5200](https://www.boho.or.kr/krcert/secNoticeView.do?bulletin_writing_sequence=30113) RCE 취약점의 Exploit 데모 영상입니다. 이러한 RCE 취약점을 공격하는 과정에서 여러가지 시스템 지식 및 익스플로잇 기술을 터득 할 수 있습니다. 예를들어 아래는 KMPlayer CVE-2018-5200 의 분석보고서 중 일부분으로서, Heap Overflow 취약점을 유발시킨 이후 최종 RCE 까지의 흐름을 이끌어내는 과정에서 어떠한 연구들이 필요한지를 엿볼 수 있습니다 (취약점 위치등의 내용은 비공개).
 
 **힙 레이아웃 조작:** _동일한 바이트로만 구성된 페이로드로 Heap Overflow 를 길이제약 없이 (거의 없이) 길게 트리거 할수 있는 상황에서 어떻게 해야 VPTR 과 같은 실행흐름과 연관되는 포인터를 가지고있는 객체를 덮어쓸수 있는지 연구한다. 앞서 KMPlayer 가 사용하는 커스텀 힙 할당자는 2가지 정도의 size 를 기준으로 bin 을 관리하여 메모리를 할당하는 dl-malloc 스타일의 할당자임을 확인하였다. 이 경우 Windows 의 표준 LFH 와 같이 할당 알고리즘 자체가 구체적인 size 를 기반으로 할당위치를 찾는 경우보다 다양한 size 의 힙 객체들이 인접한 메모리공간에 존재할 수 있기때문에 힙 메모리 레이아웃 예측이 어려워진다._
