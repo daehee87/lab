@@ -8,22 +8,20 @@ permalink: /research/
 
 ## Pwnable and Exploitation
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/pwn.gif){: style="width: 400px; float: left; margin: 10px 10px 10px 10px"}  저희 연구실에서는 다양한 시스템에 대한 Offensive Security 연구를 수행하고 있습니다. 다음은 [CVE-2018-5200](https://www.boho.or.kr/krcert/secNoticeView.do?bulletin_writing_sequence=30113) RCE 취약점의 Exploitation (pwn) Proof-of-Concept 데모 영상입니다. 이러한 RCE 취약점을 공격하는 과정에서 여러가지 시스템 지식 및 익스플로잇 기술을 터득 할 수 있습니다. 예를들어 KMPlayer CVE-2018-5200 의 취약점을 통해 최종 RCE 까지의 Exploit 흐름을 이끌어내는 과정은 
+![]({{ site.url }}{{ site.baseurl }}/images/respic/pwn.gif){: style="width: 400px; float: left; margin: 10px 10px 10px 0px"}  저희 연구실에서는 다양한 시스템에 대한 Offensive Security 연구를 수행하고 있습니다. 다음은 [CVE-2018-5200](https://www.boho.or.kr/krcert/secNoticeView.do?bulletin_writing_sequence=30113) RCE 취약점의 Exploitation (pwn) Proof-of-Concept 데모 영상입니다. 이러한 RCE 취약점을 공격하는 과정에서 여러가지 시스템 지식 및 익스플로잇 기술을 터득 할 수 있습니다. 예를들어 KMPlayer CVE-2018-5200 의 취약점을 통해 최종 RCE 까지의 Exploit 흐름을 이끌어내는 과정은 
 메모리 취약점에 대한 이해 뿐만 아니라 파일 및 프로세스의 메모리 구조, 힙 레이아웃 제어방법 및 힙 스프레이 방법론, 운영체제/아키텍쳐별 쉘코드 작성방법 등에 관한 다양한 연구를 동반하게 됩니다.
 
 <br>
 
 **힙 레이아웃 조작:** KMPlayer 가 사용하는 커스텀 힙 할당자는 2가지 size 를 기준으로 bin 을 관리하여 메모리를 할당하는 dl-malloc 스타일의 할당자 입니다. 이 경우 Windows 의 표준 LFH 와는 메모리 할당 순서 등이 다르기 때문에, 힙 메모리를 원하는 형태로 제어하기 위해서 추가적인 알고리즘 분석 및 연구가 필요합니다. 예를들어 다음 그림에서 묘사하는 것과 같이 메모리의 Temporal Locality, Spatial Locality 를 이용하여 메모리 de-fragmentation 을 유발하고, 원하는 객체를 원하는 상대 위치에 할당되도록 유도하는 등, 다양한 연구가 필요합니다.
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/defrag.png){: style="width: 400px; float: right; margin: 10px 10px 10px 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/defrag.png){: style="width: 400px; float: right; margin: 10px 0px 10px 10px"}
 
 **힙 스프레이 방법론:** 힙 스프레이는 메모리 버그를 통한 Exploit 을 개발할때 필요한 기술중 하나이며, Application/OS 특성과 기타 시스템 상황에따라 그 방법론이 매우 상이할 수 있습니다. 예를 들어 파일 파서는 직접적으로 명령어를 실행하여 메모리 할당을 유도할 수 없고, 파일의 내용을 통해 간접적으로 힙 할당을 유도해야 하는 반면와 JavaScript 엔진과 같은 구문해석기는 직접적으로 메모리 사용을 유발하는 관련함수를 호출하여 힙 할당 및 해제를 유도할 수 있습니다. 힙 스프레이 분석 과정에서 다양한 메모리 할당 알고리즘, Garbage Collection, 메모리 할당 입상도 (Granularity/Alignment) 문제 등 시스템 심화 내용들에 대한 연구가 요구됩니다. 이러한 연구들 중 일반화 할 수 있는 내용들의 경우 논문화 할 수 있습니다. 이와같은 방향의 연구를 시작하기에 가장 좋은 출발점은 재미있는 Wargame 을 찾아서 경쟁적으로 점수를 얻기위해 노력하는 것입니다.
 
 <br>
-<hr>
-<br>
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/pwn2.gif){: style="width: 400px; float: left; margin: 10px 10px 10px 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/pwn2.gif){: style="width: 400px; float: left; margin: 10px 10px 10px 0px"}
 다음 영상은 한컴오피스 문서파싱 프로그램의 RCE 취약점 Exploit 데모 영상입니다. 해당 버그는 힙 메모리에서의 Use-After-Free 와 같은
 취약점으로 인해 발생하게 되며, 이러한 버그를 RCE 까지 이끌어내는 과정에서는 Reverse Engineering (역공학) 이 필요합니다. 효과적인
 역공학을 수행하기 위해서는 메모리 분석, 어셈블리 코드 분석, 디버거의 사용법 등도 중요하지만 무엇보다도 프로그래밍 및 소프트웨어 개발에 관한 다양한 경험이 필요합니다.
@@ -31,7 +29,7 @@ permalink: /research/
 분석대상 바이너리가 어떠한 개발환경을 통해서 제작된 것인지 알기 어려우며, 이것은 역공학을 통한 프로그램의 로직을
 이해하는데 어려움을 주게 됩니다.
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/code.png){: style="width: 400px; float: right; margin: 10px 10px 10px 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/code.png){: style="width: 400px; float: right; margin: 10px 0px 10px 10px"}
 
 뿐만 아니라 취약점의 발견, Exploit 개발등을 위해서도 프로그래밍 능력과 소프트웨어 개발능력이 중요하게 요구됩니다. 
 다음 코드는 데모영상의 Exploit에 사용된 문서파일을 생성하는 파이썬 코드의 일부분 예시를 보여줍니다. 
