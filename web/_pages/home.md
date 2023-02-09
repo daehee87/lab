@@ -6,8 +6,8 @@ sitemap: false
 permalink: /
 ---
 
-We are a research group (also a CTF team) at the [Kyunghee University, Computer Science/Engineering Department](http://ce.khu.ac.kr).
-Our aim is to effectively discover security vulnerabilities in various system software, including operating system, web server/application, embedded system, and so forth.
+We are an offensive-security research group (we pursue to be a top-notch CTF team!) at the [Kyunghee University, Computer Science/Engineering Department](http://ce.khu.ac.kr).
+We aim to effectively discover security vulnerabilities in various system software, including operating system, web server/application, embedded system, and so forth.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -52,10 +52,8 @@ Our aim is to effectively discover security vulnerabilities in various system so
   </a>
 </div>
 
-To this end, we analyze system software and develope fuzzing/reverse-engineering platform for finding security-bugs (see [Research](research)).
-The lab activities are mainly categorized in two folds: (i) software development/hacking for government project, (ii) academic paper writing for journal/conference publication.
-
-Also, we play CTF/Wargame just for fun.
+To this end, we analyze system software and develop fuzzing/reverse-engineering platform for finding security bugs (see [Research](research)).
+We work closely with government agencies such as ETRI/NSR. Also, we play CTF/Wargame just for fun.
 
 **Recommended Wargame List**
  - [pwnable.kr](https://pwnable.kr)
