@@ -7,7 +7,7 @@ permalink: /
 ---
 
 We are an offensive-security research group (we pursue to be a top-notch CTF team!) at the [Kyunghee University, Computer Science/Engineering Department](http://ce.khu.ac.kr).
-We aim to effectively discover security vulnerabilities in various system software, including operating system, web server/application, embedded system, and so forth.
+We aim to effectively discover security vulnerabilities in various system software.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -53,7 +53,8 @@ We aim to effectively discover security vulnerabilities in various system softwa
 </div>
 
 To this end, we analyze system software and develop fuzzing/reverse-engineering platform for finding security bugs (see [Research](research)).
-We work closely with government agencies such as ETRI/NSR. Also, we play CTF/Wargame just for fun.
+Most recently, we want to find logic/memory bugs in <u>Kernel, Container, Drone System, Web Application/Server, and so forth</u> for RCE/LPE.
+We work closely with infosec government agencies including ETRI/NSR. Also, we play CTF/Wargame just for fun.
 
 **Recommended Wargame List**
  - [pwnable.kr](https://pwnable.kr)
@@ -75,6 +76,8 @@ Our lab is funded by the following organizations.
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/etri.png" style="width:200px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsr.png" style="width:200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/defense.png" style="width:200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/krit.png" style="width:200px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nrf.png" style="width:200px">
 </figure>
 
