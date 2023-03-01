@@ -2,11 +2,19 @@
 <html>
 
   <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ74T97MZY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ74T97MZY');
+</script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Allan Lab - Research</title>
-  <meta name="description" content="Allan Lab -- Research">
+  <title>PwnLab - Research</title>
+  <meta name="description" content="PwnLab -- Research">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="/research/">
 <link rel="shortcut icon" type ="image/x-icon" href="/images/favicon.ico">
@@ -44,11 +52,10 @@
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
 	  <ul class="nav navbar-nav navbar-right">
 		<li><a href="/">Home</a></li>
-		<li><a href="/team">Team</a></li>
-		<li><a href="/vacancies">Vacancies</a></li>
-		<li><a href="/publications">Publications</a></li>
+		<li><a href="/team">People</a></li>
 		<li><a href="/research">Research</a></li>
-		<li><a href="/pictures">(Pics)</a></li>
+		<li><a href="/publications">Publication</a></li>
+		<li><a href="/vacancies">Contact</a></li>
 	  </ul>
 	</div>
   </div>
@@ -58,42 +65,67 @@
     <div class="container-fluid">
       <div class="row">
         <div id="textid" class="col-sm-12">
-  <h1 id="research">Research</h1>
+  <h2 id="pwnable-and-exploitation">Pwnable and Exploitation</h2>
 
-<p>Our overarching goal is to explore and understand new quantum states of electronic matter on the atomic scale. To do so, we use and develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom.</p>
+<p><img src="/images/respic/pwn.gif" alt="" style="width: 400px; float: left; margin: 10px 10px 10px 0px" />  저희 연구실에서는 다양한 시스템에 대한 Offensive Security 연구를 수행하고 있습니다. 다음은 <a href="https://www.boho.or.kr/krcert/secNoticeView.do?bulletin_writing_sequence=30113">CVE-2018-5200</a> RCE 취약점의 Exploitation (pwn) Proof-of-Concept 데모 영상입니다. 이러한 RCE 취약점을 공격하는 과정에서 여러가지 시스템 지식 및 익스플로잇 기술을 터득 할 수 있습니다. 예를들어 KMPlayer CVE-2018-5200 의 취약점을 통해 최종 RCE 까지의 Exploit 흐름을 이끌어내는 과정은 
+메모리 취약점에 대한 이해 뿐만 아니라 파일 및 프로세스의 메모리 구조, 힙 레이아웃 제어방법 및 힙 스프레이 방법론, 운영체제/아키텍쳐별 쉘코드 작성방법 등에 관한 다양한 연구를 동반하게 됩니다.</p>
 
-<p>Our goal is to build instruments and develop techniques that enable us to address the questions we find most interesting. This is possible thanks also to Milan’s broad background with different research themes and technologies: he learned his trade in <a href="http://davisgroup.lassp.cornell.edu/">Seamus Davis’ SI-STM lab</a> and with <a href="http://dpmc.unige.ch/gr_baumberger/index.html">Felix Baumberger</a>, and later moved as an <a href="http://www.ethfellows.ethz.ch/">ETH fellow</a> to <a href="http://www.qudev.ethz.ch/">Andreas Wallraff’s qudev lab</a> where he investigated coupled cavity arrays in circuit QED. We further have group members with different background and interests, working together on physics and instrumentation.</p>
+<p><br /></p>
 
-<p>Here are some themes and techniques that we currently work on:</p>
+<p><strong>힙 레이아웃 조작:</strong> KMPlayer 가 사용하는 커스텀 힙 할당자는 2가지 size 를 기준으로 bin 을 관리하여 메모리를 할당하는 dl-malloc 스타일의 할당자 입니다. 이 경우 Windows 의 표준 LFH 와는 메모리 할당 순서 등이 다르기 때문에, 힙 메모리를 원하는 형태로 제어하기 위해서 추가적인 알고리즘 분석 및 연구가 필요합니다. 예를들어 다음 그림에서 묘사하는 것과 같이 메모리의 Temporal Locality, Spatial Locality 를 이용하여 메모리 de-fragmentation 을 유발하고, 원하는 객체를 원하는 상대 위치에 할당되도록 유도하는 등, 다양한 연구가 필요합니다.</p>
 
-<p><strong>Scanning tunneling noise spectroscopy (STNS).</strong> We have developed a novel cryogenic MHz amplifier that allows us to measure not only the average tunneling current, but also its fluctuation! This has many applications: one can detect the fluctuations of the electronic states, peculiar tunneling processes, and shot noise. We have used this instrument to discover charge trapping in the insulating layer of the cuprates, connected to the c-axis mystery, and to measure the doubling of the charge due to Andreev processes to the superfluid in a lead sample.</p>
+<p><img src="/images/respic/defrag.png" alt="" style="width: 400px; float: right; margin: 10px 0px 10px 10px" /></p>
 
-<p><strong>Mott physics and high-temperature superconductivity.</strong> Questions of interest include: (i), How does the Mott state collapse upon doping and how is this related to the complex phase diagram of high-temperature superconductors? (ii), What is the strange metal phase seen in correlated electron systems? Is this an exotic long-range entangled state? What is the mechanism of dissipation in that state? (iii), Why is the transition temperature in high-temperature superconductors so high? We have worked on iridates, rhodates, and cuprates.</p>
+<p><strong>힙 스프레이 방법론:</strong> 힙 스프레이는 메모리 버그를 통한 Exploit 을 개발할때 필요한 기술중 하나이며, Application/OS 특성과 기타 시스템 상황에따라 그 방법론이 매우 상이할 수 있습니다. 예를 들어 파일 파서는 직접적으로 명령어를 실행하여 메모리 할당을 유도할 수 없고, 파일의 내용을 통해 간접적으로 힙 할당을 유도해야 하는 반면와 JavaScript 엔진과 같은 구문해석기는 직접적으로 메모리 사용을 유발하는 관련함수를 호출하여 힙 할당 및 해제를 유도할 수 있습니다. 힙 스프레이 분석 과정에서 다양한 메모리 할당 알고리즘, Garbage Collection, 메모리 할당 입상도 (Granularity/Alignment) 문제 등 시스템 심화 내용들에 대한 연구가 요구됩니다. 이러한 연구들 중 일반화 할 수 있는 내용들의 경우 논문화 할 수 있습니다. 이와같은 방향의 연구를 시작하기에 가장 좋은 출발점은 재미있는 Wargame 을 찾아서 경쟁적으로 점수를 얻기위해 노력하는 것입니다.</p>
 
-<p><strong>Nanofabricated “Smart Tips”</strong>.
-<img src="/images/respic/SmartTip.png" alt="" style="width: 250px; float: left; margin: 0px  10px" />
-One of the  projects back from my job-proposal is to develop nanofabricated STM tips. The idea behind these “smart tips” is to use the technologies that were developed over decades in nanofabrication and make them available for scanning probe by using a nano-device instead of the traditional STM tungsten tip. One gains the flexibility of using different functionalities that are known from the fields of nanofabrication and mesoscopic physics. We are collaborating with the group Simon Groeblacher at TU Delft to realize this concept, benefitting from their unparalleled micro/nano fabrication know how.  A prototype of a smart tip is shown to the left. See publications in Microsyst Nanoeng, Nanotechnology, and PRB.</p>
+<p><br /></p>
 
-<p><strong>Josephson STM.</strong> Josephson STM has the ability to gain insight into spatial variations of the order parameter, or superfluid density. We have managed to, for the first time, use JSTM with atomic resolution on a quantum material.
-We have used atomic-resolution Josephson scanning tunneling microscopy to reveal a strongly inhomogeneous superfluid in the iron-based superconductor FeTe0.55Se0.45. The results and their implications are published in Nature.</p>
+<p><img src="/images/respic/pwn2.gif" alt="" style="width: 400px; float: left; margin: 10px 10px 10px 0px" />
+다음 영상은 한컴오피스 문서파싱 프로그램의 RCE 취약점 Exploit 데모 영상입니다. 해당 버그는 힙 메모리에서의 Use-After-Free 와 같은
+취약점으로 인해 발생하게 되며, 이러한 버그를 RCE 까지 이끌어내는 과정에서는 Reverse Engineering (역공학) 이 필요합니다. 효과적인
+역공학을 수행하기 위해서는 메모리 분석, 어셈블리 코드 분석, 디버거의 사용법 등도 중요하지만 무엇보다도 프로그래밍 및 소프트웨어 개발에 관한 다양한 경험이 필요합니다.
+예를 들어, 메모리 레이아웃과 어셈블리코드를 디버거를 통해서 열심히 분석한다고 해도 소프트웨어에 대한 개발경험이 부족하다면
+분석대상 바이너리가 어떠한 개발환경을 통해서 제작된 것인지 알기 어려우며, 이것은 역공학을 통한 프로그램의 로직을
+이해하는데 어려움을 주게 됩니다.</p>
 
-<p>We also detected and investigated a quite particular YSR state in the same material.</p>
+<p><img src="/images/respic/code.png" alt="" style="width: 400px; float: right; margin: 10px 0px 10px 10px" /></p>
 
-<p><strong>Ultra-stable SI-STM instrument.</strong>  <img src="/images/respic/STMHead.png" alt="" style="width: 250px; float: right; margin: 0px 10px" />
-For SI-STM, having the most stable STM head is key. We have used finite element simulations, good choices in material science, and craftsmanship to build the most stable STM head in the world, to our knowledge. See publication in RSI.</p>
+<p>뿐만 아니라 취약점의 발견, Exploit 개발등을 위해서도 프로그래밍 능력과 소프트웨어 개발능력이 중요하게 요구됩니다. 
+다음 코드는 데모영상의 Exploit에 사용된 문서파일을 생성하는 파이썬 코드의 일부분 예시를 보여줍니다. 
+예시 코드를 보면, 기계어 Hex 코드로부터 쉘코드를 준비하는 부분부터, 메모리상의 데이터를 여러가지 형태로 변환하고 다루기위한 
+라이브러리 사용, 취약점을 발현시키는 데이터 생성을 위한 자료구조 파악 및 디버깅 정보 생성 등 
+다양한 종류의 프로그래밍이 요구 됩니다.
+저희 연구실에서 수행하는 Offensive Security 연구는 <u>프로그래밍과 소프트웨어 개발능력을 기반으로 합니다.</u></p>
 
-<p><strong>Strange Metals.</strong> The strange metal phase might be the most mysterious phase of high-temperature superconductors. Here, the electrical resistivity grows linearly with temperature T in large areas of the phase diagram, with a mean free path that diminishes to a fraction of the interatomic distance. T-linear resistivity is often associated with quantum critical points and marginal-Fermi-liquid physics. In strange metals, the mystery seems to go even further: we deal with something that looks like a quantum critical phase over an extended range of the phase diagram instead of cumulating in a point. There exists no consistent theory for strange metals, leading to more adventurous new approaches including the holographic theories that use insights from gravity to explain strange metals (a recent textbook on this was written by our colleagues at Leiden University, Schalm and Zaanen).
-We are part of the ‘Strange Metal consortium NL’ that includes the groups of Hussey, Golden, van Heumen, Zaanen, Schalm, Stoof and Vandoren. </p>
+<p><br /></p>
+<hr />
 
-<p><strong>Magnetic fluctuations and electron spin resonance.</strong>
-<img src="/images/respic/SpinFluc.png" alt="" style="width: 70%; float: center; margin: 10px" /></p>
+<p><br /></p>
 
-<p><strong>Twisted bilayer graphene and other material with super-periodicities.</strong>
-We have proposed that artificial super-periodicities can lead to improved superconductivity, both because of increased density of states and because of phase space arguments (see image from our SciPost publication below). Perhaps for different reasons, twisted bilayer graphene has been shown to superconduct! We are investigate this material with the groups of Efetov, Baumberger, and van der Molen.</p>
+<h2 id="fuzzing">Fuzzing</h2>
 
-<p><img src="/images/respic/SciPost.png" alt="" style="width: 70%; float: center; margin: 0px" /></p>
+<p>위 예시들과 같은 메모리 버그 기반의 보안 취약점들은 <i>Fuzzing</i> 이라는 방법으로 탐색을 자동화 할 수 있으며 이와 관련해서 수많은
+연구들이 수행되고 있습니다. <a href="http://fuzzcoin.gtisc.gatech.edu:8000">Fuzzing@Home</a> 은 이러한 Fuzzing 프로그램을
+비신뢰 이기종 단말로 구성된 분산 컴퓨팅 네트워크에서 효율적으로 수행할 수 있는 인프라를 구축한 연구입니다. 아래의 그림은
+Fuzzing@Home 시스템의 일부분으로, Google 의 libfuzzer 를 Web Assembly 바이너리로 포팅하여 웹 브라우저 엔진 내부에서
+실행시킬 수 있도록 한 것을 나타냅니다.</p>
 
-<h3 id="-and-more">… and more.</h3>
+<p><img src="/images/respic/fuzzhome2.png" alt="" style="width: 95%; float: center; margin: 10px 10px 10px 10px" /></p>
+
+<p>현재 Google 에서는 퍼징을 통해 수많은 메모리 버그들을 자동적으로 발견하여 패치하고 있습니다, 이에 최신 소프트웨어에서는
+단순한 메모리 버그를 발견하기가 어려워 지고 있습니다. 또한, 컴파일러 보안 기술의 발달로 인해 대다수의 메모리 버그들은 점점더
+Unexploitable 해지고 있습니다. 그 대신, 클라우드 기반의 서비스들이 많고 다양해지면서 새로운 종류의 시스템 보안 취약점들이
+앞으로 더 많아질 것으로 보입니다. 저희 연구실에서는 이러한 트렌드를 고려하여 전통적인 메모리 버그에 관한 연구 뿐 만 아니라
+복잡한 시스템의 구성 및 상호작용에서 발생할 수 있는 <u>로직버그를 효과적으로 발견하기 위한 연구를 중점적으로 수행</u>합니다.
+특히, 다음의 시스템들을 대상으로 보안취약점 연구를 수행합니다.</p>
+<ul>
+  <li>운영체제 커널 (Linux, Windows, FreeBSD, …)</li>
+  <li>컨테이너 (Docker, Kubernetes, Podman, …)</li>
+  <li>서버 (DBMS, Apache/Nginx, PHP, Flask, …)</li>
+  <li>드론 (PX4, Ardupilot, DJI, …)</li>
+  <li>가상머신 (VirtualBox, VMWare, Parallels, …)</li>
+</ul>
+
 
 </div>
 
@@ -104,30 +136,9 @@ We have proposed that artificial super-periodicities can lead to improved superc
   <div class="panel-footer">
 	<div class="container-fluid">
 	  <div class="row">
-		<div class="col-sm-4">
-
-		  <p>&copy 2016 Allan Lab. Site made with <a href="https://jekyllrb.com">Jekyll</a>;  <a href="/aboutwebsite.html">copy and  modify it for your own research group.</a></p>
-              <p>We are part of the <a href="https://www.physics.leidenuniv.nl/">Leiden Institute of Physics</a> at <a href="https://www.leidenuniv.nl">Leiden University</a>.</p>
-
-
-		   <p>  </p><p>
-
-
-		</div>
-		<div class="col-sm-4">
-		  Funding:<br />
-      - StG and CoG from the <a href="https://erc.europa.eu">ERC</a><br />
-		  - <a href="http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme">Vidi </a> and <a href='https://www.fom.nl/en/news/press-releases/2016/11/18/28634/'>Projectruimte</a> grants from <a href="http://www.nwo.nl">NWO</a> <br />
-		  - <a href="https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront">Frontier of Nanosciences</a>, a gravity program from <a href="http://www.nwo.nl">NWO</a>
-		</div>
-		<div class="col-sm-4">
-		  Contact:<br />
-		  Oort building, Leiden University<br />
-		  Niels Bohrweg 2<br />
-		  2333 CA Leiden<br />
-		  Netherlands <br />
-            (<a href="https://goo.gl/maps/H2RjutkyoUH2">Maps</a>, <a href="http://www.physics.leidenuniv.nl/travel-directions">Directions</a>)
-		</div>
+		  &copy 2023 PwnLab. Site made with <a href="https://jekyllrb.com">Jekyll</a>.<br> 
+           Kyung Hee University Global Campus, 1732 Deokyeong-daero, Giheung-gu, Yongin-si, Gyeonggi-do.<br>
+           경기도 용인시 기흥구 덕영대로 1732 경희대학교 국제캠퍼스. 
 	  </div>
 	</div>
   </div>

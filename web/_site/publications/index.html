@@ -2,11 +2,19 @@
 <html>
 
   <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ74T97MZY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PJ74T97MZY');
+</script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Allan Lab - Publications</title>
-  <meta name="description" content="Allan Lab -- Publications.">
+  <title>PwnLab - Publications</title>
+  <meta name="description" content="PwnLab -- Publications.">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="/publications/">
 <link rel="shortcut icon" type ="image/x-icon" href="/images/favicon.ico">
@@ -44,11 +52,10 @@
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
 	  <ul class="nav navbar-nav navbar-right">
 		<li><a href="/">Home</a></li>
-		<li><a href="/team">Team</a></li>
-		<li><a href="/vacancies">Vacancies</a></li>
-		<li><a href="/publications">Publications</a></li>
+		<li><a href="/team">People</a></li>
 		<li><a href="/research">Research</a></li>
-		<li><a href="/pictures">(Pics)</a></li>
+		<li><a href="/publications">Publication</a></li>
+		<li><a href="/vacancies">Contact</a></li>
 	  </ul>
 	</div>
   </div>
@@ -58,113 +65,163 @@
     <div class="container-fluid">
       <div class="row">
         <div id="gridid" class="col-sm-12">
-  <h1 id="publications">Publications</h1>
-
-<h2 id="group-highlights">Group highlights</h2>
-
-<p><strong>At the end of this page, you can find the <a href="#full-list-of-publications">full list of publications and patents</a>. All papers are also available on <a href="https://arxiv.org/search/?searchtype=author&amp;query=Allan%2C+M+P">arXiv</a>.</strong></p>
+  <h2 id="highlights">Highlights</h2>
 
 <div class="row">
 
-  <div class="col-sm-6 clearfix">
-    <div class="well">
-      <pubtit>AAA Determination of the charge transfer when tunneling into putative Majorana modes in individual vortices in FeTe0.55Se0.045</pubtit>
-      <p><img src="/images/pubpic/imageaward_edited.png" class="img-responsive" width="33%" style="float: left" /></p>
-      <p>Shot noise has been suggested for a long time as a tell-tale probe for Majorana bound states. We are the first to carry out local tunneling shot noise measurements on the putative vortex Majorana states.</p>
-      <p><em>J-F Ge, KM Bastiaans, D Chatzopoulos, D Cho, WO Tromp, T Benschop, J Niu, G Gu, MP Allan</em></p>
-      <p><strong><a href="https://arxiv.org/abs/2205.10346">arXiv:2205.10346 (2022)</a></strong></p>
-      <p class="text-danger"><strong> </strong></p>
-      <p> </p>
-    </div>
-  </div>
 
-  <div class="col-sm-6 clearfix">
-    <div class="well">
-      <pubtit>Puddle formation, persistent gaps, and non-mean-field breakdown of superconductivity in overdoped (Pb,Bi)2Sr2CuO6+δ</pubtit>
-      <p><img src="/images/pubpic/BSCCOgap.png" class="img-responsive" width="33%" style="float: left" /></p>
-      <p>Why do cuprate superconductors stop superconducting past a certain doping level? Using scanning tunneling spectroscopy we find that an emerging metallic matrix inside the superconducting state is responsible for the overall reduction of Tc and the superfluid density, while leaving the gapsize unchanged. The formation of the matrix is tied to a pair breaking process violating a core principle of mean-field theories.</p>
-      <p><em>WO Tromp, T Benschop, J-F Ge, I Battisti, KM Bastiaans, D Chatzopoulos, A Vervloet, S Smit, E van Heumen, MS Golden, Y Huang, T Kondo, Y Yin, JE Hoffman, MA Sulangi, J Zaanen, MP Allan</em></p>
-      <p><strong><a href="https://arxiv.org/abs/2205.09740">arXiv:2205.09740 (2022)</a></strong></p>
-      <p class="text-danger"><strong> </strong></p>
-      <p> </p>
-    </div>
-  </div>
+<div class="col-sm-6 clearfix">
+ <div class="well">
+  <pubtit>Fuzzing@Home: Distributed Fuzzing on Untrusted Heterogeneous Clients</pubtit>
+  <img src="/images/pubpic/fuzzhome.png" class="img-responsive" width="100%" style="float: left" />
+  <p>Fuzzing@Home is the first public/collaborative distributed fuzzing network, based on heterogeneous machines owned by potentially untrusted users. We build additional features on top of Google's ClusterFuzz to support untrusted/heterogeneous machines as a part of distributed network.</p>
+  <p><em><strong>Daehee Jang</strong>, Ammar Askar, Insu Yun, Stephen Tong, Yiqin Cai, Taesoo Kim</em></p>
+  <p><strong><a href="../downloads/fuzzhome.pdf">25th International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2022)</a></strong></p>
+  <p class="text-danger"><strong> </strong></p>
+  <p> </p>
+ </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-sm-6 clearfix">
+ <div class="well">
+  <pubtit>Badaslr: Exceptional cases of ASLR aiding exploitation</pubtit>
+  <img src="/images/pubpic/badaslr.png" class="img-responsive" width="100%" style="float: left" />
+  <p>Address Space Layout Randomization (ASLR) is de-facto standard exploit mitigation technique. Ironically, although exceptional,there are rare edge cases where ASLR becomes handy for memory exploitation. This research dig into such theoretical set of cases and name it as BadASLR.</p>
+  <p><em><strong>Daehee Jang</strong></em></p>
+  <p><strong><a href="../downloads/badaslr.pdf">ELSEVIER Computers and Security Journal (Volume 112, January 2022, 102510)</a></strong></p>
+  <p class="text-danger"><strong> </strong></p>
+  <p> </p>
+ </div>
+</div>
+
+
+
 
 </div>
 
 <div class="row">
 
-  <div class="col-sm-6 clearfix">
-    <div class="well">
-      <pubtit>Direct evidence for Cooper pairing without a spectral gap in a disordered superconductor above Tc</pubtit>
-      <p><img src="/images/pubpic/Pairs3.png" class="img-responsive" width="33%" style="float: left" /></p>
-      <p>We use our atomic-scale scanning tunneling noise setup on a disordered superconductor, and discover a state above TC that, much like an ordinary metal, has no (pseudo)gap, but carries charge via paired electrons.</p>
-      <p><em>KM Bastiaans, D Chatzopoulos, J-F Ge, D Cho, WO Tromp, JM van Ruitenbeek, MH Fischer, PJ de Visser, DJ Thoen, EFC Driessen, TM Klapwijk, MP Allan</em></p>
-      <p><strong><a href="https://www.science.org/doi/10.1126/science.abe3987">Science 374, 608 (2021)</a></strong></p>
-      <p class="text-danger"><strong> <a style="color:#FF0000" href="https://www.nature.com/articles/s41567-021-01468-w">Featured as ‘Research Highlight’ in Nature Physics by David Abergel</a></strong></p>
-      <p> See <a href="https://physicsworld.com/a/cooper-pairs-spotted-above-critical-temperature-for-superconductivity/">Physics World</a>, <a href="https://www.sron.nl/news/5169-elektronparen-blijven-stabiel-boven-kritische-temperatuur-supergeleiding">SRON news</a>, <a href="https://www.tudelft.nl/en/2021/eemcs/inexplicably-stable-electron-pairs-without-superconductivity">TU Delft news</a>, <a href="https://www.universiteitleiden.nl/en/news/2021/10/new-quantum-liquid-discovered">Leiden news</a>.</p>
-    </div>
-  </div>
 
-  <div class="col-sm-6 clearfix">
-    <div class="well">
-      <pubtit>Measuring local moiré lattice heterogeneity of twisted bilayer graphene</pubtit>
-      <p><img src="/images/pubpic/TBG_SL.png" class="img-responsive" width="33%" style="float: left" /></p>
-      <p>Why is there so much variation in TBG devices? And are open devices more disordered than encapsulated ones? We introduce a new method to continuously map inhomogeneities of a moiré lattice and apply it to open-device TBG to show that twist angle variation is small over areas of hundreds of nm.</p>
-      <p><em>T Benschop <em>, TA de Jong</em>, P Stepanov*, Xiaobo Lu, V Stalman, SJ van der Molen, DK Efetov, MP Allan</em></p>
-      <p><strong><a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.013153">Phys. Rev. Research 3, 013153 (2021)</a></strong></p>
-      <p class="text-danger"><strong> </strong></p>
-      <p> See also <a href="https://arxiv.org/abs/2107.14716">arXiv:2107.14716</a></p>
-    </div>
-  </div>
+<div class="col-sm-6 clearfix">
+ <div class="well">
+  <pubtit>On the Analysis of Byte-Granularity Heap Randomization</pubtit>
+  <img src="/images/pubpic/ruma.png" class="img-responsive" width="100%" style="float: left" />
+  <p>Modern heap exploits often abuse the determinism in word alignment, and modern CPU architecture better supports unaligned access (since Nehalem). Based on such new developments, this research conducts an in-depth analysis of evaluating the efficacy of byte-granularity heap randomization.</p>
+  <p><em><strong>Daehee Jang</strong>, Jonghwan Kim, Hojoon Lee, Minjoon Park, Yunjong Jung, Minsu Kim, Brent Byunghoon Kang</em></p>
+  <p><strong><a href="../downloads/ruma.pdf">IEEE Transactions on Dependable and Secure Computing (Volume 18, Issue 5, 01 Sept.-Oct. 2021)</a></strong></p>
+  <p class="text-danger"><strong> </strong></p>
+  <p> </p>
+ </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-sm-6 clearfix">
+ <div class="well">
+  <pubtit>Rethinking anti-emulation techniques for large-scale software deployment</pubtit>
+  <img src="/images/pubpic/qemu.png" class="img-responsive" width="100%" style="float: left" />
+  <p>This research proposes new anti-emulation techniques that leverage CPU architecture properties such as instruction atomicity, memory alignment. To confirm the effectiveness, the paper applied its idea against 176 real Android devices in Amazon Device Farm and system emulators.</p>
+  <p><em><strong>Daehee Jang</strong>, Yunjong Jung, Sungman Lee, Minjoon Park, Donguk Kim, Kuenhwan Kwak, Brent Byunghoon Kang</em></p>
+  <p><strong><a href="../downloads/qemu.pdf">ELSEVIER Computers and Security Journal (Volume 83, June 2019, Pages 182-200)</a></strong></p>
+  <p class="text-danger"><strong> </strong></p>
+  <p> </p>
+ </div>
+</div>
+
+
+
 
 </div>
 
-<div class="row">
-
-  <div class="col-sm-6 clearfix">
-    <div class="well">
-      <pubtit>Spatially dispersing Yu-Shiba-Rusinov states in the unconventional superconductor FeTe0.55Se0.45</pubtit>
-      <p><img src="/images/pubpic/YSR.png" class="img-responsive" width="33%" style="float: left" /></p>
-      <p>We report on a peculiar, spatially dispersing YSR state in Fe(Se,Te) that can be tuned by the tip.</p>
-      <p><em>D Chatzopoulos, Doohee Cho, KM Bastiaans, GO Steffensen, D Bouwmeester, A Akbari, Genda Gu, J Paaske, BM Andersen, MP Allan</em></p>
-      <p><strong><a href="https://www.nature.com/articles/s41467-020-20529-x">Nature Communications 12, 298 (2021)</a></strong></p>
-      <p class="text-danger"><strong> </strong></p>
-      <p> </p>
-    </div>
-  </div>
-
-</div>
-
-<p>   </p>
-
-<h2 id="patents">Patents</h2>
-<p><em>Milan P Allan, S Gröblacher, RA Norte, M Leeuwenhoek</em><br />Novel atomic force microscopy probes with phononic crystals<br /> PCT/NL20-20/050797 (2020)</p>
-
-<p><em>Milan P Allan</em><br /> Methods of manufacturing superconductor and phononic elements <br /> <a href="https://patents.google.com/patent/US10439125B2/en?inventor=Milan+ALLAN&amp;oq=inventor:(Milan+ALLAN)">US10439125B2 (2016)</a></p>
+<p> &nbsp; </p>
 
 <h2 id="full-list-of-publications">Full List of publications</h2>
 
-<p>AAA Determination of the charge transfer when tunneling into putative Majorana modes in individual vortices in FeTe0.55Se0.045 <br />
-  <em>J-F Ge, KM Bastiaans, D Chatzopoulos, D Cho, WO Tromp, T Benschop, J Niu, G Gu, MP Allan </em><br /><a href="https://arxiv.org/abs/2205.10346">arXiv:2205.10346 (2022)</a></p>
+<p>Detection Enhancement for Various Deepfake Types Based on Residual Noise and Manipulation Traces <br />
+  <em>Jihyeon Kang, Sangkeun Ji, Sangyeong Lee, <strong>Daehee Jang</strong>, Jong-Uk Hou </em><br /><a href="../downloads/deepfake.pdf">IEEE Access (Volume 10. 2022)</a></p>
 
-<p>Puddle formation, persistent gaps, and non-mean-field breakdown of superconductivity in overdoped (Pb,Bi)2Sr2CuO6+δ <br />
-  <em>WO Tromp, T Benschop, J-F Ge, I Battisti, KM Bastiaans, D Chatzopoulos, A Vervloet, S Smit, E van Heumen, MS Golden, Y Huang, T Kondo, Y Yin, JE Hoffman, MA Sulangi, J Zaanen, MP Allan </em><br /><a href="https://arxiv.org/abs/2205.09740">arXiv:2205.09740 (2022)</a></p>
+<p>Fuzzing@Home: Distributed Fuzzing on Untrusted Heterogeneous Clients <br />
+  <em><strong>Daehee Jang</strong>, Ammar Askar, Insu Yun, Stephen Tong, Yiqin Cai, Taesoo Kim </em><br /><a href="../downloads/fuzzhome.pdf">25th International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2022)</a></p>
 
-<p>Direct evidence for Cooper pairing without a spectral gap in a disordered superconductor above Tc <br />
-  <em>KM Bastiaans, D Chatzopoulos, J-F Ge, D Cho, WO Tromp, JM van Ruitenbeek, MH Fischer, PJ de Visser, DJ Thoen, EFC Driessen, TM Klapwijk, MP Allan </em><br /><a href="https://www.science.org/doi/10.1126/science.abe3987">Science 374, 608 (2021)</a></p>
+<p>Efficient Generation of Program Execution Hash <br />
+  <em>Eunyeong Ahn, Sunjin Kim, Saerom Park, Jong-Uk Hou, <strong>Daehee Jang</strong> </em><br /><a href="../downloads/hash.pdf">IEEE Access (Volume 10. 2022)</a></p>
 
-<p>Imaging moiré deformation and dynamics in twisted bilayer graphene <br />
-  <em>TA de Jong, T Benschop, X Chen, EE Krasovskii, MJA de Dood, RM Tromp,  MP Allan, SJ van der Molen </em><br /><a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.013153">arXiv:2107.14716 (2021)</a></p>
+<p>Badaslr: Exceptional cases of ASLR aiding exploitation <br />
+  <em><strong>Daehee Jang</strong> </em><br /><a href="../downloads/badaslr.pdf">ELSEVIER Computers and Security Journal (Volume 112, January 2022, 102510)</a></p>
 
-<p>Measuring local moiré lattice heterogeneity of twisted bilayer graphene <br />
-  <em>T Benschop <em>, TA de Jong</em>, P Stepanov*, Xiaobo Lu, V Stalman, SJ van der Molen, DK Efetov, MP Allan </em><br /><a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.013153">Phys. Rev. Research 3, 013153 (2021)</a></p>
+<p>EmuID: Detecting presence of emulation through microarchitectural characteristic on ARM <br />
+  <em>Yeseul Choi, Yunjong Jeong, <strong>Daehee Jang</strong>, Brent Byunghoon Kang, Hojoon Lee </em><br /><a href="../downloads/emuid.pdf">ELSEVIER Computers and Security Journal (Volume 113, February 2022, 102569)</a></p>
 
-<p>Spatially dispersing Yu-Shiba-Rusinov states in the unconventional superconductor FeTe0.55Se0.45 <br />
-  <em>D Chatzopoulos, Doohee Cho, KM Bastiaans, GO Steffensen, D Bouwmeester, A Akbari, Genda Gu, J Paaske, BM Andersen, MP Allan </em><br /><a href="https://www.nature.com/articles/s41467-020-20529-x">Nature Communications 12, 298 (2021)</a></p>
+<p>Preventing Use-After-Free Attacks with Fast Forward Allocation <br />
+  <em>Brian Wickman, Hong Hu, Insu Yun, <strong>Daehee Jang</strong>, JungWon Lim, Sanidhya Kashyap, Taesoo Kim </em><br /><a href="../downloads/ffmalloc.pdf">USENIX Security (2021)</a></p>
 
-<p>Multi-Atom Quasiparticle Scattering Interference for Superconductor Energy-Gap Symmetry Determination <br />
-  <em>R Sharma, A Kreisel, MA Sulangi, J Böker, A Kostin, MP Allan, H Eisaki, AE Böhmer, PC Canfield, I Eremin, JC Davis, PJ Hirschfeld, PO Sprau </em><br /><a href="https://dx.doi.org/10.1038/s41535-020-00303-4">npj Quantum Materials 6, 7 (2021)</a></p>
+<p>On the Analysis of Byte-Granularity Heap Randomization <br />
+  <em><strong>Daehee Jang</strong>, Jonghwan Kim, Hojoon Lee, Minjoon Park, Yunjong Jung, Minsu Kim, Brent Byunghoon Kang </em><br /><a href="../downloads/ruma.pdf">IEEE Transactions on Dependable and Secure Computing (Volume 18, Issue 5, 01 Sept.-Oct. 2021)</a></p>
+
+<p>Fuzzing JavaScript Engines with Aspect-preserving Mutation <br />
+  <em>Soyeon Park, Wen Xu, Insu Yun, <strong>Daehee Jang</strong>, Taesoo Kim </em><br /><a href="../downloads/die.pdf">IEEE Symposium on Security and Privacy (2020)</a></p>
+
+<p>PoLaR: Per-allocation Object Layout Randomization <br />
+  <em>Jonghwan Kim, <strong>Daehee Jang</strong>, Yunjong Jeong, Brent Byunghoon Kang </em><br /><a href="../downloads/polar.pdf">IEEE/IFIP International Conference on Dependable Systems and Networks (2019)</a></p>
+
+<p>KI-Mon ARM: A Hardware-assisted Event-triggered Monitoring Platform for Mutable Kernel Object <br />
+  <em>Hojoon Lee, Hyungon Moon, Ingoo Heo, <strong>Daehee Jang</strong>, Jinsoo Jang, Kihwan Kim, Yunheung Paek </em><br /><a href="../downloads/kimonarm.pdf">IEEE Transactions on Dependable and Secure Computing (Volume 16, Issue 2, 01 March-April 2019)</a></p>
+
+<p>Rethinking anti-emulation techniques for large-scale software deployment <br />
+  <em><strong>Daehee Jang</strong>, Yunjong Jung, Sungman Lee, Minjoon Park, Donguk Kim, Kuenhwan Kwak, Brent Byunghoon Kang </em><br /><a href="../downloads/qemu.pdf">ELSEVIER Computers and Security Journal (Volume 83, June 2019, Pages 182-200)</a></p>
+
+<p>SGX-LEGO: Fine-grained SGX controlled-channel attack and its countermeasure <br />
+  <em>Deokjin Kim, <strong>Daehee Jang (co-first)</strong>, Minjoon Park, Yunjong Jung, Jonghwan Kim, Seokjin Choi, Brent Byunghoon Kang </em><br /><a href="../downloads/sgxlego.pdf">ELSEVIER Computers and Security Journal (Volume 82, May 2019, Pages 118-139)</a></p>
+
+<p>Domain Isolated Kernel: A lightweight sandbox for untrusted kernel extensions <br />
+  <em>Valentin J.M. Manes, <strong>Daehee Jang</strong>, Brent Byunghoon Kang, Chanho Ryu </em><br /><a href="../downloads/dikernel.pdf">ELSEVIER Computers and Security Journal (Volume 74, May 2018, Pages 130-143)</a></p>
+
+<p>S-OpenSGX: A system-level platform for exploring SGX enclave-based computing <br />
+  <em>Changho Choi, Nohyun Kwak, Jinsoo Jang, <strong>Daehee Jang</strong>, Kuenwhee Oh, Kyungsoo Kwag, Brent Byunghoon Kang </em><br /><a href="../downloads/sopensgx.pdf">ELSEVIER Computers and Security Journal (Volume 70, September 2017, Pages 290-306)</a></p>
+
+<p>ATRA: Address Translation Redirection Attack against Hardware-based External Monitors <br />
+  <em><strong>Daehee Jang</strong>, Hojoon Lee, Minsu Kim, Daehyeok Kim, Daegyeong Kim, Brent Byunghoon Kang </em><br /><a href="../downloads/atra.pdf">ACM Conference on Computer and Communications Security (2014)</a></p>
+
+<p>KI-Mon: A Hardware-assisted Event-triggered Monitoring Platform for Mutable Kernel Object <br />
+  <em>Hojoon Lee, HyunGon Moon, <strong>Daehee Jang</strong>, Kihwan Kim, Jihoon Lee, Yunheung Paek, Brent ByungHoon Kang </em><br /><a href="../downloads/kimon.pdf">USENIX Security (2013)</a></p>
 
 
 </div>
@@ -176,30 +233,9 @@
   <div class="panel-footer">
 	<div class="container-fluid">
 	  <div class="row">
-		<div class="col-sm-4">
-
-		  <p>&copy 2016 Allan Lab. Site made with <a href="https://jekyllrb.com">Jekyll</a>;  <a href="/aboutwebsite.html">copy and  modify it for your own research group.</a></p>
-              <p>We are part of the <a href="https://www.physics.leidenuniv.nl/">Leiden Institute of Physics</a> at <a href="https://www.leidenuniv.nl">Leiden University</a>.</p>
-
-
-		   <p>  </p><p>
-
-
-		</div>
-		<div class="col-sm-4">
-		  Funding:<br />
-      - StG and CoG from the <a href="https://erc.europa.eu">ERC</a><br />
-		  - <a href="http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme">Vidi </a> and <a href='https://www.fom.nl/en/news/press-releases/2016/11/18/28634/'>Projectruimte</a> grants from <a href="http://www.nwo.nl">NWO</a> <br />
-		  - <a href="https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront">Frontier of Nanosciences</a>, a gravity program from <a href="http://www.nwo.nl">NWO</a>
-		</div>
-		<div class="col-sm-4">
-		  Contact:<br />
-		  Oort building, Leiden University<br />
-		  Niels Bohrweg 2<br />
-		  2333 CA Leiden<br />
-		  Netherlands <br />
-            (<a href="https://goo.gl/maps/H2RjutkyoUH2">Maps</a>, <a href="http://www.physics.leidenuniv.nl/travel-directions">Directions</a>)
-		</div>
+		  &copy 2023 PwnLab. Site made with <a href="https://jekyllrb.com">Jekyll</a>.<br> 
+           Kyung Hee University Global Campus, 1732 Deokyeong-daero, Giheung-gu, Yongin-si, Gyeonggi-do.<br>
+           경기도 용인시 기흥구 덕영대로 1732 경희대학교 국제캠퍼스. 
 	  </div>
 	</div>
   </div>

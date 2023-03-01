@@ -45,7 +45,7 @@ Offensive Security 위주의 연구개발사업을 수행하고 있습니다.
 석차가 포함된 학부성적표, 자유양식의 이력서/자기소개서를 첨부하여 e-mail 로 사전컨택후 면접 진행
 - 학교 입학 일정 및 인턴/수습기간을 고려하여 사전에 미리 컨택 요망.
 - 단순문의, 인턴문의, 외부연구원참여문의 등에 관한 질의도 컨택 이메일을 사용.
-- Contact Email: djang@sungshin.ac.kr (2023.2월까지), djang@khu.ac.kr (2023.3월이후)
+- Contact Email: daehee87@khu.ac.kr
 - 입학전 3개월 이상의 인턴기간을 가질것을 권장.
 
 
