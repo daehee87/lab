@@ -59,10 +59,10 @@ Offensive Security 위주의 연구개발사업을 수행하고 있습니다.
 
 
 ### Foreign Students
-Our lab welcome english-native grad students and researchers from oversea.
-If you don't have any problem with VISA and university admission process,
+Our lab welcomes english-native grad students and researchers from overseas.
+If you don't have any problem with the VISA and university admission process,
 send your resume to daehee87@khu.ac.kr with your detailed plan for research/career.
-Foreing students/researchers are also eligible for Pwnlab funding support
-with same standard as domestic students, unless there is no legal/policy problem.
+Foreign students/researchers are also eligible for Pwnlab funding support
+with the same standard as domestic students, unless there is no legal/policy problem.
 
 
