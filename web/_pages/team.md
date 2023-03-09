@@ -128,6 +128,12 @@ permalink: /team/
 {% endif %}
 
 
+
+## Intern
+- 윤성배 (경희대학교 컴퓨터공학과. 학사과정)
+
+
+
 ## Alumni
 
 {% assign number_printed = 0 %}
