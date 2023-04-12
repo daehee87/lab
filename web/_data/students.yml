@@ -10,7 +10,7 @@
 
 - name: Minwoo Jeong (정민우)
   photo: jmw.jpg
-  info: B.S. Candidate (3-2. 연구인턴)
+  info: B.S. Candidate (3-2학기. Research Intern)
   email: p1nkjelly at pinkjelly.cat
   number_educ: 4
   education1: 경희대학교 컴퓨터공학과
@@ -20,7 +20,7 @@
 
 - name: Seokchan Yoon (윤석찬)
   photo: ysc.jpg
-  info: B.S. Candidate (3-2. 연구인턴)
+  info: B.S. Candidate (3-2학기. Research Intern)
   email: ch4n3.yoon at gmail.com
   number_educ: 4
   education1: 경희대학교 컴퓨터공학과
@@ -30,14 +30,14 @@
 
 - name: Sunhyuk Hwang (황선혁)
   photo: hsh.jpg
-  info: B.S. Candidate (3-2. 연구인턴)
+  info: B.S. Candidate (3-2학기. Research Intern)
   email: hsh048148 at gmail.com
   number_educ: 1
   education1: 경희대학교 컴퓨터공학과
 
 - name: Donghyeon Yeon (연동현)
   photo: ydh.jpg
-  info: B.S. Candidate (3-2. 연구인턴)
+  info: B.S. Candidate (3-2학기. Research Intern)
   email: dusehdgus12 at naver.com
   number_educ: 3
   education1: 경희대학교 컴퓨터공학과
@@ -46,14 +46,14 @@
 
 - name: Hyeongseok Bai (배형석)
   photo: bhs.jpg
-  info: B.S. Candidate (3-2. 연구인턴)
+  info: B.S. Candidate (3-2학기. Research Intern)
   email: bhs990310 at naver.com
   number_educ: 1
   education1: 경희대학교 컴퓨터공학과
 
 - name: Kyungjae Oh (오경제)
   photo: okj.jpg
-  info: B.S. Candidate (3-1. 연구인턴)
+  info: B.S. Candidate (3-1학기. Research Intern)
   email: ogj0824 at gmail.com
   number_educ: 4
   education1: 경희대학교 소프트웨어융합학과
@@ -63,15 +63,16 @@
 
 - name: Sungbae Yoon (윤성배)
   photo: ysb.jpg
-  info: B.S. Candidate (3-1. 스터디멤버)
+  info: B.S. Candidate (3-1학기. Studying)
   email: 2019102203 at khu.ac.kr
   number_educ: 1
   education1: 경희대학교 컴퓨터공학과
 
 - name: Wooseong Jung (정우성)
   photo: jws.jpg
-  info: B.S. Candidate (3-1. 스터디멤버)
+  info: B.S. Candidate (3-1학기. Studying)
   email: wjddntjd909 at naver.com
   number_educ: 1
   education1: 경희대학교 컴퓨터공학과
+
 
