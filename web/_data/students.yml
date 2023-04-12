@@ -24,16 +24,9 @@
   email: ch4n3.yoon at gmail.com
   number_educ: 4
   education1: 경희대학교 컴퓨터공학과
-  education2: BoB 5th 취약점트랙 상위권
+  education2: BoB 6th 취약점트랙 상위권
   education3: 코드게이트 CTF 본선진출 (대학부)
   education4: 스틸리언 연구원
-
-- name: Sunhyuk Hwang (황선혁)
-  photo: hsh.jpg
-  info: B.S. Candidate (3-2학기. Research Intern)
-  email: hsh048148 at gmail.com
-  number_educ: 1
-  education1: 경희대학교 컴퓨터공학과
 
 - name: Donghyeon Yeon (연동현)
   photo: ydh.jpg
@@ -42,7 +35,7 @@
   number_educ: 3
   education1: 경희대학교 컴퓨터공학과
   education2: BoB 11th 취약점트랙 상위권
-  education3: 육군 정보보호병
+  education3: 육군 정보보호병 20-6기
 
 - name: Hyeongseok Bai (배형석)
   photo: bhs.jpg
@@ -60,6 +53,13 @@
   education2: BoB 7th 취약점트랙 상위권
   education3: 코드게이트 CTF 본선진출 (대학부)
   education4: 하임시큐리티 연구원
+
+- name: Sunhyuk Hwang (황선혁)
+  photo: hsh.jpg
+  info: B.S. Candidate (3-1학기. Research Intern)
+  email: hsh048148 at gmail.com
+  number_educ: 1
+  education1: 경희대학교 컴퓨터공학과
 
 - name: Sungbae Yoon (윤성배)
   photo: ysb.jpg
