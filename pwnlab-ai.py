@@ -15,7 +15,6 @@ app = Flask(__name__)
 
 # Create a SlackClient for your bot to use for Web API requests
 slack_bot_token = os.environ["SLACK_BOT_TOKEN"]
-print(slack_bot_token)
 #slack_client = WebClient(slack_bot_token)
 
 openai.api_key = os.environ["OPENAI_KEY"]
@@ -41,15 +40,12 @@ def post_slack(channel_id, message, slack_token):
             'text': message
            }
     URL = "https://slack.com/api/chat.postMessage"
-    print(data)
     res = requests.post(URL, data=data)
-    print(res.text)
 
 
 @app.route('/slack/events', methods=['POST'])
 def handle_slack_events():
     global slack_bot_token
-    print(slack_bot_token)
     # Load the request data as JSON
     request_data = json.loads(request.data)
 
@@ -65,7 +61,9 @@ def handle_slack_events():
             # Extract the message text
             message_text = event_data['text']
             if message_text.startswith('<'):
-                message_text = message_text.split(' ')[1]
+                idx = message_text.find('> ')
+                if idx > 0:
+                    message_text = message_text[idx+2:]
             print("Message received:", message_text)
 
             # Extract the channel ID
@@ -73,7 +71,6 @@ def handle_slack_events():
             print("Channel ID:", channel_id)
 
             answer = ask_gpt(message_text + '. 짧고 간결히 반말로 답해줘.')
-            print(answer)
             post_slack(channel_id, answer, slack_bot_token)
             return '', 200
         else:
