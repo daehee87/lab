@@ -1,10 +1,11 @@
+import sys
 import json
 import requests
 import time
 import glob
 from datetime import date, datetime
 
-slack_token = 'xoxb-5025152806277-5146109190353-TEdCaFrVvZckE4Gzt0vpiYk8'
+slack_token = sys.argv[1]
 channel_id = 'C050MENA4H4'  # general  member id: U054A375LAD
 message = 'test'
 data = {
