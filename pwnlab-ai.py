@@ -7,6 +7,8 @@ from slackeventsapi import SlackEventAdapter
 from slack_sdk.web import WebClient
 import openai
 import requests
+import threading
+
 app = Flask(__name__)
 
 # Our app's Slack Event Adapter for receiving actions via the Events API
@@ -41,16 +43,19 @@ def post_slack(channel_id, message, slack_token):
            }
     URL = "https://slack.com/api/chat.postMessage"
     res = requests.post(URL, data=data)
+    return res
 
+
+def handle_msg(channel_id, msg, token):
+    answer = ask_gpt(msg + '. 짧고 간결히 반말로 답해줘.')
+    r = post_slack(channel_id, answer, token)
+    print(r)
 
 @app.route('/slack/events', methods=['POST'])
 def handle_slack_events():
     global slack_bot_token
     # Load the request data as JSON
     request_data = json.loads(request.data)
-
-    print(request_data, file=sys.stderr)
-
     # Check if the event is a challenge event
     if 'challenge' in request_data:
         return jsonify({'challenge': request_data['challenge']})
@@ -70,8 +75,8 @@ def handle_slack_events():
             channel_id = event_data['channel']
             print("Channel ID:", channel_id)
 
-            answer = ask_gpt(message_text + '. 짧고 간결히 반말로 답해줘.')
-            post_slack(channel_id, answer, slack_bot_token)
+            t = threading.Thread(target=handle_msg, args=(channel_id, message_text, slack_bot_token))
+            t.start()
             return '', 200
         else:
             return '', 200
