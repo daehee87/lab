@@ -1,4 +1,3 @@
-
 ---
 title: "PwnLab - Home"
 layout: homelay
@@ -54,16 +53,18 @@ permalink: /
   </a>
 </div>
 
+
 **[연구실 News]**
 - (주)테르텐 드론보안 연구개발과제 수행기관 선정 (2023. 연구책임)
-- 과학기술정보통신부-IITP 융합보안대학원사업 (https://www.khu.ac.kr/kor/focus/detail.do?seq=2170815) 수행기관 선정 (2023 - 2028. 연구책임. 정부지원금 55억원)
+- 과기정통부-IITP [융합보안대학원사업](https://www.khu.ac.kr/kor/focus/detail.do?seq=2170815) 수행기관 선정 (2023 - 2028. 연구책임. 정부지원금 55억원)
 - NAVER + PWNLAB 연합팀 삼성해킹대회 (SCTF 2023) 8위.
 - ETRI 학술용역연구과제 수행기관 선정 (2023. 연구책임)
-- IEEE Access SCI 논문 게재 (Fuzzability Testing Framework for Incomplete Firmware Binary)
-- 경희대미남해커팀 (정민우,윤석찬,오경제,배형석) 코드게이트 (CODEGATE CTF 2023) 대학부 본선진출.
+- IEEE Access SCI 저널 논문 게재 (Fuzzability Testing Framework)
+- 경희대미남해커팀 코드게이트 (CODEGATE CTF 2023) 대학부 본선진출.
 - 국가보안기술연구소 드론보안 위탁연구과제 수행기관 선정 (2023. 연구책임)
 - 한국정보보호학회 연구회 위탁연구과제 수행기관 선정 (2023 - 2024. 연구책임).
-- 방위사업청/국방기술진흥연구소 드론보안연구 컨소시엄의 (ETRI 주관) 협력기관 선정 (2023 - 2026. 연구책임).
+- 방위사업청 보안사업 컨소시엄 (ETRI 주관) 협력기관 선정 (2023 - 2026. 연구책임).
+
 
 **[권장 CTF 리스트]**
  - [DEFCON CTF](https://oooverflow.io/dc-ctf-2020-finals)
@@ -102,4 +103,3 @@ permalink: /
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/78research.png" style="width:200px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/teeware.png" style="width:200px">
 -->
-

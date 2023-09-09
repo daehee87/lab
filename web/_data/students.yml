@@ -10,27 +10,27 @@
 
 - name: Minwoo Jeong (정민우)
   photo: jmw.jpg
-  info: B.S. Candidate (3-2학기)
+  info: B.S. Candidate (4-1학기)
   email: p1nkjelly at pinkjelly.cat
   number_educ: 4
   education1: 경희대학교 컴퓨터공학과
   education2: BoB 10th 취약점트랙 Top10
-  education3: 코드게이트 CTF 본선진출 (대학부)
+  education3: 코드게이트 CTF 본선 2회진출 (대학부)
   education4: 라온 화이트햇 연구원
 
 - name: Seokchan Yoon (윤석찬)
   photo: ysc.jpg
-  info: B.S. Candidate (3-2학기)
+  info: B.S. Candidate (군휴학중)
   email: ch4n3.yoon at gmail.com
   number_educ: 4
   education1: 경희대학교 컴퓨터공학과
   education2: BoB 6th 취약점트랙 상위권수료
-  education3: 코드게이트 CTF 본선진출 (대학부)
-  education4: 스틸리언 연구원
+  education3: 코드게이트 CTF 본선 2회진출 (대학부)
+  education4: 스틸리언 연구원, CVE-2023-36053 보유
 
 - name: Donghyeon Yeon (연동현)
   photo: ydh.jpg
-  info: B.S. Candidate (3-2학기)
+  info: B.S. Candidate (4-1학기)
   email: dusehdgus12 at naver.com
   number_educ: 3
   education1: 경희대학교 컴퓨터공학과
@@ -39,39 +39,40 @@
 
 - name: Hyeongseok Bai (배형석)
   photo: bhs.jpg
-  info: B.S. Candidate (3-2학기)
+  info: B.S. Candidate (4-1학기)
   email: bhs990310 at naver.com
-  number_educ: 1
+  number_educ: 2
   education1: 경희대학교 컴퓨터공학과
+  education2: 코드게이트 CTF 본선 진출 (대학부)
 
 - name: Gyeongje Oh (오경제)
   photo: okj.jpg
-  info: B.S. Candidate (3-1학기)
+  info: B.S. Candidate (3-2학기)
   email: ogj0824 at gmail.com
   number_educ: 4
   education1: 경희대학교 소프트웨어융합학과
   education2: BoB 7th 취약점트랙 상위권수료
-  education3: 코드게이트 CTF 본선진출 (대학부)
+  education3: 코드게이트 CTF 본선 2회진출 (대학부)
   education4: 하임시큐리티 연구원
 
 - name: Sunhyuk Hwang (황선혁)
   photo: hsh.jpg
-  info: B.S. Candidate (3-1학기)
+  info: B.S. Candidate (3-2학기)
   email: hsh048148 at gmail.com
   number_educ: 2
   education1: 경희대학교 컴퓨터공학과
-  education2: PWNLab 연구실 랩장
+  education2: PwnLab 연구실 랩장
 
 - name: Sungbae Yoon (윤성배)
   photo: ysb.jpg
-  info: B.S. Candidate (3-1학기)
+  info: B.S. Candidate (3-2학기)
   email: 2019102203 at khu.ac.kr
   number_educ: 1
   education1: 경희대학교 컴퓨터공학과
 
 - name: Wooseong Jung (정우성)
   photo: jws.jpg
-  info: B.S. Candidate (3-1학기)
+  info: B.S. Candidate (3-2학기)
   email: wjddntjd909 at naver.com
   number_educ: 1
   education1: 경희대학교 컴퓨터공학과
