@@ -1,13 +1,16 @@
+
 ---
 title: "PwnLab - Home"
 layout: homelay
-excerpt: "PwnLab at Kyunghee University."
+excerpt: "PwnLab at Kyung Hee University."
 sitemap: false
 permalink: /
 ---
 
-We are an offensive-security research group (we pursue to be a top-notch CTF team!) at the [Kyunghee University, Computer Science/Engineering Department](http://ce.khu.ac.kr).
-We aim to effectively discover security vulnerabilities in various system software.
+경희대학교 [컴퓨터공학과의](http://ce.khu.ac.kr) 해킹보안 연구실 (PWNLAB) 에 오신것을 환영합니다.
+저희 연구실에서는 시스템해킹, 웹해킹 을 위주로 소프트웨어 취약점에 관한 다양한 [연구](research)를 수행합니다.
+또한 저희 연구실 멤버들은 CTF (Capture The Flag) 팀 으로도 활동하기 때문에 
+학술적인 이론 연구 뿐 아니라 소프트웨어 개발, 버그헌팅에 관심있는 학생들을 특별히 환영합니다.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -18,28 +21,27 @@ We aim to effectively discover security vulnerabilities in various system softwa
         <li data-target="#carousel" data-slide-to="3"></li>
         <li data-target="#carousel" data-slide-to="4"></li>
         <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li>
     </ol>
 
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/defcon2019.png" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/0.png" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/codegate2015.png" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/1.png" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/calc.png" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/2.png" alt="Slide 3" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/rce.png" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/3.png" alt="Slide 4" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/wps.png" alt="Slide 5" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/4.png" alt="Slide 5" />
         </div>       
          <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/defcon2015.png" alt="Slide 6" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/5.png" alt="Slide 6" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -52,27 +54,36 @@ We aim to effectively discover security vulnerabilities in various system softwa
   </a>
 </div>
 
-To this end, we analyze system software and develop fuzzing/reverse-engineering platform for finding security bugs (see [Research](research)).
-Most recently, we want to find logic/memory bugs in <u>Kernel, Container/VM, Drone System, Web Application/Server</u> for RCE/LPE.
-We work closely with infosec government agencies including ETRI/NSR. Also, we play CTF/Wargame just for fun.
+**[연구실 News]**
+- (주)테르텐 드론보안 연구개발과제 수행기관 선정 (2023. 연구책임)
+- 과학기술정보통신부-IITP 융합보안대학원사업 (https://www.khu.ac.kr/kor/focus/detail.do?seq=2170815) 수행기관 선정 (2023 - 2028. 연구책임. 정부지원금 55억원)
+- NAVER + PWNLAB 연합팀 삼성해킹대회 (SCTF 2023) 8위.
+- ETRI 학술용역연구과제 수행기관 선정 (2023. 연구책임)
+- IEEE Access SCI 논문 게재 (Fuzzability Testing Framework for Incomplete Firmware Binary)
+- 경희대미남해커팀 (정민우,윤석찬,오경제,배형석) 코드게이트 (CODEGATE CTF 2023) 대학부 본선진출.
+- 국가보안기술연구소 드론보안 위탁연구과제 수행기관 선정 (2023. 연구책임)
+- 한국정보보호학회 연구회 위탁연구과제 수행기관 선정 (2023 - 2024. 연구책임).
+- 방위사업청/국방기술진흥연구소 드론보안연구 컨소시엄의 (ETRI 주관) 협력기관 선정 (2023 - 2026. 연구책임).
 
-**Recommended Wargame List**
- - [pwnable.kr](https://pwnable.kr)
- - [pwnable.tw](https://pwnable.tw)
- - [pwnable.xyz](https://pwnable.xyz)
- - [w3challs.com](https://w3challs.com/)
- - [reversing.kr](http://reversing.kr)
- - [webhacking.kr](https://webhacking.kr)
-
-**Recommended CTF List**
+**[권장 CTF 리스트]**
  - [DEFCON CTF](https://oooverflow.io/dc-ctf-2020-finals)
- - [SECCON CTF](https://ctf.seccon.jp)
  - [CODEGATE CTF](http://codegate.org/en)
+ - [SECCON CTF](https://ctf.seccon.jp)
  - [HITCON CTF](https://ctf2021.hitcon.org)
  - [Plaid CTF](https://plaidctf.com)
  - [Google CTF](https://capturetheflag.withgoogle.com)
+ - [Samsung CTF](https://research.samsung.com/sctf)
+ - [LINE CTF](https://linectf.me/)
 
-Our lab is funded by the following organizations.
+**[권장 워게임 리스트]**
+ - [pwnable.kr](https://pwnable.kr)
+ - [pwnable.tw](https://pwnable.tw)
+ - [pwnable.xyz](https://pwnable.xyz)
+ - [webhacking.kr](https://webhacking.kr)
+ - [w3challs.com](https://w3challs.com/)
+ - [reversing.kr](http://reversing.kr)
+
+**[PWNLAB 과의 MOU 협약기업 및 연구지원기관]** 
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/etri.png" style="width:200px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsr.png" style="width:200px">
@@ -81,4 +92,14 @@ Our lab is funded by the following organizations.
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nrf.png" style="width:200px">
 </figure>
 
+<!--
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/cw.png" style="width:200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/enki.png" style="width:200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/teruten.png" style="width:200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/lig.png" style="width:200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/s2w.png" style="width:200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/theori.png" style="width:200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/78research.png" style="width:200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/teeware.png" style="width:200px">
+-->
 

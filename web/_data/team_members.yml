@@ -1,12 +1,14 @@
-- name: Daehee Jang (장대희)
+- name: Daehee Jang (장대희, daehee87@khu.ac.kr) [Download CV](../downloads/cv.pdf)
   photo: daehee.png
-  info: Assistant Professor at Kyunghee University <a href='http://daehee87.github.io/'>[Homepage]</a>
-  email: daehee87@khu.ac.kr
-  number_educ: 6
-  education1: Korea Digital Forensic Society Board Member (2023.02 ~ )
-  education2: Assistant Professor at Sungshin W. University (2021.03 ~ 2023.02)
-  education3: Postdoc at Georgia Tech <a href='http://gts3.org/'>SSLab</a> (2019.05 ~ 2020.12)
-  education4: Ph.D. at KAIST (2014.03 ~ 2019.02)
-  education5: M.S. at KAIST (2012.03 ~ 2014.02)
-  education6: B.S. at Hanyang University (Cum Laude, 2005.03 ~ 2012.02)
+  number_educ: 11
+  education1: 2023.07 ~ 현재. 경희대학교 융합보안대학원 책임교수
+  education2: 2023.07 ~ 현재. 세종시 핵테온 해킹대회 자문위원
+  education3: 2023.06 ~ 현재. 국방부, KISTI, 방위사업청 정보보호분야 자문위원
+  education4: 2023.03 ~ 현재. 경희대학교 컴퓨터공학과 조교수
+  education5: 2023.02 ~ 현재. 한국디지털포렌식학회 이사
+  education5: 2022.02 ~ 현재. 한국정보보호학회 PC 멤버 (종신회원)
+  education9: 2021.03 ~ 2023.02 성신여대 융합보안공학과 조교수
+  education10: 2019.05 ~ 2020.12 Georgia Institute of Technology 박사후연구원 (Advisor Prof. Taesoo Kim [SSLab](http://gts3.org/))
+  education11: 2014.03 ~ 2019.02 KAIST 정보보호대학원 석/박사 (Advisor: Prof. Brent Byunghoon Kang)
+  education11: 2005.03 ~ 2012.02 한양대학교 컴퓨터공학과 학사 (Cum Laude)
 
