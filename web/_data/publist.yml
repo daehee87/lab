@@ -1,3 +1,12 @@
+- title: "Fuzzability Testing Framework for Incomplete Firmware Binary"
+  image: none
+  description: none
+  authors: Jiwon Jang, Gyeongjin Son, Hyeonsu Lee, Deokjin Kim, Sangwook Lee, Seongmin Kim, <strong>Daehee Jang</strong>
+  link:
+  url: ../downloads/ftframe.pdf
+  display: IEEE Access (Volume 11. 2023)
+  highlight: 0
+
 - title: "Detection Enhancement for Various Deepfake Types Based on Residual Noise and Manipulation Traces"
   image: none
   description: none

@@ -16,22 +16,22 @@ permalink: /team/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix" style="width: 85%;">
+<div class="col-sm-6 clearfix" style="width: 100%;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i> {{ member.email }}<br></i>
   <i> <a href='/downloads/cv.pdf'>[Download CV]</a><br></i>
   <ul style="overflow: hidden">
-  <li> 2023.07 ~ 현재. 경희대학교 융합보안대학원 책임교수 </li>
-  <li> 2023.07 ~ 현재. 세종시 핵테온 해킹대회 자문위원 </li>
-  <li> 2023.06 ~ 현재. 국방부, KISTI, 방위사업청 정보보호분야 자문위원 </li>
-  <li> 2023.03 ~ 현재. 경희대학교 컴퓨터공학과 조교수 </li>
-  <li> 2023.02 ~ 현재. 한국디지털포렌식학회 이사 </li>
-  <li> 2022.02 ~ 현재. 한국정보보호학회 PC 멤버 (종신회원) </li>
-  <li> 2021.03 ~ 2023.02 성신여대 융합보안공학과 조교수 </li>
-  <li> 2019.05 ~ 2020.12 <a href="https://gts3.org">Georgia Tech</a> 박사후연구원 (Advisor: Prof. Taesoo Kim) </li>
-  <li> 2014.03 ~ 2019.02 KAIST 정보보호대학원 석,박사 (Advisor: Prof. Byunghoon Kang) </li>
-  <li> 2005.03 ~ 2012.02 한양대학교 컴퓨터공학과 학사 (Cum Laude) </li>
+  <li> 경희대 융합보안대학원 책임교수 </li>
+  <li> 세종시핵테온 해킹대회 자문위원 </li>
+  <li> 국방부, KISTI, 방위사업청 정보보호분야 자문위원 </li>
+  <li> 경희대 컴퓨터공학과 조교수 </li>
+  <li> 한국디지털포렌식학회 이사 </li>
+  <li> 한국정보보호학회 PC (종신회원) </li>
+  <li> 2021.3 ~ 2023.2 성신여대 융합보안공학과 조교수 </li>
+  <li> 2019.5 ~ 2020.12 <a href="https://gts3.org">Georgia Tech</a> 박사후연구원 (Advisor: Prof. Taesoo Kim) </li>
+  <li> 2014.3 ~ 2019.2 KAIST 정보보호대학원 석,박사 (Advisor: Prof. Byunghoon Kang) </li>
+  <li> 2005.3 ~ 2012.2 한양대학교 컴퓨터공학과 학사 (Cum Laude) </li>
   </ul>
 </div>
 
