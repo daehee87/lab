@@ -1,19 +1,14 @@
-FROM ubuntu:20.04
-RUN sed -i "s/http:\/\/archive.ubuntu.com/http:\/\/kr.archive.ubuntu.com/g" /etc/apt/sources.list
+FROM ruby:3.0-slim
 
-# install related libraries
-RUN apt update && apt-get install -y ruby-full build-essential zlib1g-dev
+RUN apt-get update -qq && apt-get install -y build-essential libxml2-dev libxslt1-dev
 RUN gem install jekyll bundler
 
 # setup configs
-ADD web.base /web
-WORKDIR /web
-RUN chmod +x run.sh
-RUN bundle update --bundler
-RUN bundle install
-STOPSIGNAL SIGTERM
-WORKDIR /
 ADD web /web
-CMD ["/web/run.sh"]
+WORKDIR /web
+RUN bundle install
+RUN chmod +x run.sh
+STOPSIGNAL SIGTERM
+CMD ["./run.sh"]
 
 
