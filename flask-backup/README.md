@@ -1,2 +1,0 @@
-# lab
-lab homepage
