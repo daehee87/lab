@@ -87,6 +87,14 @@ permalink: /
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/defense.png" style="width:140px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/krit.png" style="width:180px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nrf.png" style="width:200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/theori.png" style="width:150px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/teruten.png" style="width:200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/78researchlab.jpg" style="width:200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/lignex1.png" style="width:150px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/teeware.png" style="width:200px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/enki.png" style="width:150px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/s2w.png" style="width:150px">
+  <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/cwresearchlag.png" style="width:200px"> -->
 </figure>
 
 <!--
