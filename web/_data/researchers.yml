@@ -1,0 +1,83 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+- name: Jiho Kim (김지호)
+  photo: jhk.jpg
+  info: B.S. Software Engineer
+  email: jhkim19940830 at gmail.com
+  number_educ: 4
+  education1: 경희대학교 물리학과 졸업
+  education2: ETRI 연구연수생
+  education3: 삼성전자 DS부문 연구원
+  education4: 삼성전자 Expert Programmer
+
+- name: Woohyeop Lim (임우협)
+  photo: whl.jpg
+  info: B.S. Candidate (4-2학기)
+  email: dnguq13 at sju.ac.kr
+  number_educ: 2
+  education1: 세종대학교 정보보호학과
+  education2: BoB 10th 취약점트랙 상위권수료
+
+- name: Minwoo Jeong (정민우)
+  photo: jmw.jpg
+  info: B.S. Candidate (4-1학기)
+  email: p1nkjelly at pinkjelly.cat
+  number_educ: 4
+  education1: 경희대학교 컴퓨터공학과
+  education2: BoB 10th 취약점트랙 Top10
+  education3: 코드게이트 CTF 본선 2회진출 (대학부)
+  education4: 라온 화이트햇 연구원
+
+- name: Donghyeon Yeon (연동현)
+  photo: ydh.jpg
+  info: B.S. Candidate (4-1학기)
+  email: dusehdgus12 at naver.com
+  number_educ: 3
+  education1: 경희대학교 컴퓨터공학과
+  education2: BoB 11th 취약점트랙 상위권수료
+  education3: 육군 정보보호병 20-6기
+
+- name: Hyeongseok Bai (배형석)
+  photo: bhs.jpg
+  info: B.S. Candidate (4-1학기)
+  email: bhs990310 at naver.com
+  number_educ: 2
+  education1: 경희대학교 컴퓨터공학과
+  education2: 코드게이트 CTF 본선 진출 (대학부)
+
+- name: Seokchan Yoon (윤석찬)
+  photo: ysc.jpg
+  info: B.S. Candidate (군휴학중)
+  email: ch4n3.yoon at gmail.com
+  number_educ: 4
+  education1: 경희대학교 컴퓨터공학과
+  education2: BoB 6th 취약점트랙 상위권수료
+  education3: 코드게이트 CTF 본선 2회진출 (대학부)
+  education4: 스틸리언 연구원, CVE-2023-36053 보유
+
+- name: Gyeongje Oh (오경제)
+  photo: okj.jpg
+  info: B.S. Candidate (3-2학기)
+  email: ogj0824 at gmail.com
+  number_educ: 4
+  education1: 경희대학교 소프트웨어융합학과
+  education2: BoB 7th 취약점트랙 상위권수료
+  education3: 코드게이트 CTF 본선 2회진출 (대학부)
+  education4: 하임시큐리티 연구원
+
+- name: Sunhyuk Hwang (황선혁)
+  photo: hsh.jpg
+  info: B.S. Candidate (3-2학기)
+  email: ericwhale0 at gmail.com
+  number_educ: 2
+  education1: 경희대학교 컴퓨터공학과
+  education2: PwnLab 연구실 랩장
+

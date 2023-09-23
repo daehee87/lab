@@ -81,20 +81,20 @@ permalink: /
  - [reversing.kr](http://reversing.kr)
 
 **[PWNLAB 과의 MOU 협약기업 및 연구지원기관]** 
-<figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/etri.png" style="width:200px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsr.png" style="width:200px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/defense.png" style="width:140px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/krit.png" style="width:180px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nrf.png" style="width:200px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/theori.png" style="width:150px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/teruten.png" style="width:200px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/78researchlab.jpg" style="width:200px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/lignex1.png" style="width:150px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/teeware.png" style="width:200px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/enki.png" style="width:150px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/s2w.png" style="width:150px">
-  <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/cwresearchlag.png" style="width:200px"> -->
+<figure class="fourth mou-logos">
+  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/etri.png" style="width:200px">
+  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsr.png" style="width:200px">
+  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/defense.png" style="width:140px">
+  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/krit.png" style="width:180px">
+  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/nrf.png" style="width:200px">
+  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/theori.png" style="width:150px">
+  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/teruten.png" style="width:200px">
+  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/78researchlab.jpg" style="width:200px">
+  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/lignex1.png" style="width:150px">
+  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/teeware.png" style="width:200px">
+  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/enki.png" style="width:150px">
+  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/s2w.png" style="width:150px">
+  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/cwresearch.png" style="width:300px">
 </figure>
 
 <!--

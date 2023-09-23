@@ -49,11 +49,11 @@ permalink: /team/
 {% endif %}
 
 
-## Student
+## Researcher
 **Position open for M.S./Ph.D. Candidates.** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 {% assign number_printed = 0 %}
-{% for member in site.data.students %}
+{% for member in site.data.researchers %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -108,9 +108,9 @@ permalink: /team/
 
 
 
-## Intern
+## Student
 {% assign number_printed = 0 %}
-{% for member in site.data.interns %}
+{% for member in site.data.students %}
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 0 %}
 <div class="row">
