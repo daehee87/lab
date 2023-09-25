@@ -8,6 +8,13 @@
 #  education3:
 #  education4:
 
+- name: Jiwan Kim (김지완)
+  photo: kjw.jpg
+  info: B.S. Candidate (4-2학기)
+  email: kimjiwan0619 at khu.ac.kr
+  number_educ: 1
+  education1: 경희대학교 컴퓨터공학과
+
 - name: Sungbae Yoon (윤성배)
   photo: ysb.jpg
   info: B.S. Candidate (3-2학기)
@@ -22,9 +29,3 @@
   number_educ: 1
   education1: 경희대학교 컴퓨터공학과
 
-# - name: Jiwan Kim (김지완)
-#   photo: dummy.png
-#   info: B.S. Candidate (3-2학기)
-#   email: wjddntjd909 at naver.com
-#   number_educ: 1
-#   education1: 경희대학교 컴퓨터공학과
