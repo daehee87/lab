@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-경희대학교 [컴퓨터공학과의](http://ce.khu.ac.kr) 해킹보안 연구실 (PWNLAB) 에 오신것을 환영합니다.
+경희대학교 [컴퓨터공학과](http://ce.khu.ac.kr) [융합보안대학원](https://csec.khu.ac.kr)의 해킹보안 연구실 (PWNLAB) 에 오신것을 환영합니다.
 저희 연구실에서는 시스템해킹, 웹해킹 을 위주로 소프트웨어 취약점에 관한 다양한 [연구](research)를 수행합니다.
 또한 저희 연구실 멤버들은 CTF (Capture The Flag) 팀 으로도 활동하기 때문에 
 학술적인 이론 연구 뿐 아니라 소프트웨어 개발, 버그헌팅에 관심있는 학생들을 특별히 환영합니다.
@@ -19,6 +19,8 @@ permalink: /
         <li data-target="#carousel" data-slide-to="2"></li>
         <li data-target="#carousel" data-slide-to="3"></li>
         <li data-target="#carousel" data-slide-to="4"></li>
+        <li data-target="#carousel" data-slide-to="5"></li>
+        <li data-target="#carousel" data-slide-to="6"></li>
     </ol>
 
     <!-- Items -->
@@ -37,6 +39,9 @@ permalink: /
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/4.png" alt="Slide 5" />
+        </div>       
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/5.png" alt="Slide 6" />
         </div>       
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
