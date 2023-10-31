@@ -1,3 +1,3 @@
 #!/bin/bash
-JEKYLL_ENV=production jekyll serve --host=127.0.0.1 --trace
+JEKYLL_ENV=production bundle exec jekyll serve --host=0.0.0.0 --trace
 
