@@ -51,10 +51,4 @@ Offensive Security 위주의 연구를 수행하고 있습니다 ([연구페이�
 - 논문/프로젝트 등 연구 (Research) 에 참여하지 않는 경우 미지급.
 - 외부 연구원의 경우 규정상 인건비 지급 불가.
 
-### Foreign Students
-Our lab welcomes english-native grad students and researchers from overseas.
-If you don't have any problem with the VISA and admission process,
-send your resume to daehee87@khu.ac.kr with your detailed plan for research/career.
-Foreign students/researchers are also eligible for Pwnlab funding support
-with the same standard as domestic students, unless there is no legal/policy problem.
 
