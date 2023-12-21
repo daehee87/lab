@@ -43,6 +43,9 @@ permalink: /
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/5.png" alt="Slide 6" />
         </div>       
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/6.jpg" alt="Slide 7" />
+        </div>       
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -56,36 +59,44 @@ permalink: /
 
 
 **[연구실 News]**
-- (주)테르텐 드론보안 연구개발과제 수행기관 선정 (2023. 연구책임)
-- 과기정통부-IITP [융합보안대학원사업](https://www.khu.ac.kr/kor/focus/detail.do?seq=2170815) 수행기관 선정 (2023 - 2028. 연구책임. 정부지원금 55억원)
-- NAVER + PWNLAB 연합팀 삼성해킹대회 (SCTF 2023) 8위.
-- ETRI 학술용역연구과제 수행기관 선정 (2023. 연구책임)
+- 2024년 봄 학기 석사과정 7명 입학예정
+- PWNLAB 정민우 연구원, HITCON 2023 국제 CTF 본선전 연합팀으로 4위 달성
+- PWNLAB 임우협 연구원, [CVE-2023-48123](https://nvd.nist.gov/vuln/detail/CVE-2023-48123) 보안취약점 발굴 및 제보
+- NAVER + PWNLAB 연합팀 삼성해킹대회 (SCTF 2023) 8위 달성
 - IEEE Access SCI 저널 논문 게재 (Fuzzability Testing Framework)
-- "경희대미남해커"팀 코드게이트 (CODEGATE CTF 2023) 대학부 본선진출.
-- 국가보안기술연구소 드론보안 위탁연구과제 수행기관 선정 (2023. 연구책임)
-- 한국정보보호학회 연구회 위탁연구과제 수행기관 선정 (2023 - 2024. 연구책임).
-- 방위사업청 보안사업 컨소시엄 (ETRI 주관) 협력기관 선정 (2023 - 2026. 연구책임).
+- "경희대미남해커"팀 코드게이트 (CODEGATE CTF 2023) 대학부 본선진출
 
 
-**[권장 CTF 리스트]**
- - [DEFCON CTF](https://oooverflow.io/dc-ctf-2020-finals)
- - [CODEGATE CTF](http://codegate.org/en)
- - [SECCON CTF](https://ctf.seccon.jp)
- - [HITCON CTF](https://ctf2021.hitcon.org)
- - [Plaid CTF](https://plaidctf.com)
- - [Google CTF](https://capturetheflag.withgoogle.com)
- - [Samsung CTF](https://research.samsung.com/sctf)
- - [LINE CTF](https://linectf.me/)
+**[권장 CTF/워게임 리스트]**
+<div class="recommend_list">
+    <p class="column">
+        - <a href="https://oooverflow.io/dc-ctf-2020-finals">DEFCON CTF</a><br>
+        - <a href="http://codegate.org/en">CODEGATE CTF</a><br>
+        - <a href="https://ctf.seccon.jp">SECCON CTF</a><br>
+        - <a href="https://ctf2021.hitcon.org">HITCON CTF</a><br>
+        - <a href="https://plaidctf.com">Plaid CTF</a><br>
+        - <a href="https://capturetheflag.withgoogle.com">Google CTF</a><br>
+        - <a href="https://research.samsung.com/sctf">Samsung CTF</a><br>
+        - <a href="https://linectf.me/">LINE CTF</a>
+    </p>
+    <p class="column">
+        - <a href="https://pwnable.kr">pwnable.kr</a><br>
+        - <a href="https://pwnable.tw">pwnable.tw</a><br>
+        - <a href="https://pwnable.xyz">pwnable.xyz</a><br>
+        - <a href="https://webhacking.kr">webhacking.kr</a><br>
+        - <a href="https://w3challs.com/">w3challs.com</a><br>
+        - <a href="http://reversing.kr">reversing.kr</a>
+    </p>
+</div>
 
-**[권장 워게임 리스트]**
- - [pwnable.kr](https://pwnable.kr)
- - [pwnable.tw](https://pwnable.tw)
- - [pwnable.xyz](https://pwnable.xyz)
- - [webhacking.kr](https://webhacking.kr)
- - [w3challs.com](https://w3challs.com/)
- - [reversing.kr](http://reversing.kr)
+**[PWNLAB과의 MOU 협약기업 및 연구지원기관]**
+- 방위사업청 보안사업 컨소시엄 협력기관
+- 국가보안기술연구소 위탁연구과제 수행기관
+- (주)테르텐 연구개발과제 수행기관
+- ETRI 정보보호연구본부 연구개발과제 수행기관
+- 과기정통부 융합보안대학원사업 수행기관
+- IT플랫폼안전성연구회 위탁연구 수행기관
 
-**[PWNLAB 과의 MOU 협약기업 및 연구지원기관]** 
 <figure class="fourth mou-logos">
   <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/etri.png" style="width:200px">
   <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsr.png" style="width:200px">
