@@ -29,7 +29,7 @@ permalink: /
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/0.jpeg" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/1.png" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/1.jpg" alt="Slide 2" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/2.png" alt="Slide 3" />
@@ -41,10 +41,7 @@ permalink: /
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/4.png" alt="Slide 5" />
         </div>       
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/5.png" alt="Slide 6" />
-        </div>       
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/6.jpg" alt="Slide 7" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/5.jpg" alt="Slide 6" />
         </div>       
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
