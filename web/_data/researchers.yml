@@ -20,7 +20,7 @@
 
 - name: Woohyeop Lim (임우협)
   photo: whl.jpg
-  info: B.S. Candidate (외부연구원)
+  info: M.S. Candidate (1-1학기)
   email: dnguq13 at sju.ac.kr
   number_educ: 4
   education1: 세종대학교 정보보호학과
@@ -30,7 +30,7 @@
 
 - name: Minwoo Jeong (정민우)
   photo: jmw.jpg
-  info: B.S. Candidate (4-1학기)
+  info: B.S. Candidate (4-2학기)
   email: p1nkjelly at pinkjelly.cat
   number_educ: 4
   education1: 경희대학교 컴퓨터공학과
@@ -40,20 +40,12 @@
 
 - name: Donghyeon Yeon (연동현)
   photo: ydh.jpg
-  info: B.S. Candidate (4-1학기)
+  info: B.S. Candidate (4-2학기)
   email: dusehdgus12 at naver.com
   number_educ: 3
   education1: 경희대학교 컴퓨터공학과
   education2: BoB 11th 취약점트랙 수료
   education3: 육군 정보보호병 20-6기
-
-- name: Hyeongseok Bai (배형석)
-  photo: bhs.jpg
-  info: B.S. Candidate (4-1학기)
-  email: bhs990310 at naver.com
-  number_educ: 2
-  education1: 경희대학교 컴퓨터공학과
-  education2: 코드게이트 CTF 본선 진출 (대학부)
 
 - name: Seokchan Yoon (윤석찬)
   photo: ysc.jpg
@@ -67,7 +59,7 @@
 
 - name: Gyeongje Oh (오경제)
   photo: okj.jpg
-  info: B.S. Candidate (3-2학기)
+  info: B.S. Candidate (4-1학기)
   email: ogj0824 at gmail.com
   number_educ: 4
   education1: 경희대학교 소프트웨어융합학과
@@ -77,9 +69,54 @@
 
 - name: Sunhyuk Hwang (황선혁)
   photo: hsh.jpg
-  info: B.S. Candidate (3-2학기)
-  email: ericwhale0 at gmail.com
+  info: B.S. Candidate (4-1학기)
+  email: buckelwal8979 at khu.ac.kr
   number_educ: 2
   education1: 경희대학교 컴퓨터공학과
   education2: PwnLab 연구실 랩장
+
+- name: Hyeonsu Cha (차현수)
+  photo: chs.jpg
+  info: M.S. Candidate (1-1학기)
+  email: soosoo6558 at gmail.com
+  number_educ: 3
+  education1: 경희대학교 융합보안대학원
+  education2: 국내외 CTF 수상 다수
+  education3: (현) ENKI 연구원
+
+- name: Minsu Kim (김민수)
+  photo: kms.jpg
+  info: M.S. Candidate (1-1학기)
+  email: 1029mins at gmail.com
+  number_educ: 4
+  education1: 경희대학교 융합보안대학원
+  education2: K-Shield jr 4th 1등 수료
+  education3: (현) All it One 연구원
+  education4: (전) SK Shieldus EQST Lab 연구원
+
+- name: Hyeonjin Choi (최현진)
+  photo: chj.jpeg
+  info: M.S. Candidate (1-1학기)
+  email: d4m0n.8 at gmail.com
+  number_educ: 2
+  education1: 경희대학교 융합보안대학원
+  education2: CW Research 연구원
+
+- name: Inkyu Tae (태인규)
+  photo: tik.jpg
+  info: M.S. Candidate (1-1학기)
+  email: graylynx at gmail.com
+  number_educ: 5
+  education1: 경희대학교 융합보안대학원
+  education2: 핵인사이드 CTO
+  education3: NHSC 책임연구원
+  education4: 금융보안원
+  education5: 금융결제원(금융ISAC)
+
+- name: Yeongan Kim (김영안)
+  photo: kya.jpg
+  info: M.S. Candidate (1-1학기)
+  email: 
+  number_educ: 1
+  education1: 경희대학교 융합보안대학원
 
