@@ -8,7 +8,7 @@ permalink: /team/
 
 ## Professor
 {% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
+{% for member in site.data.prof %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -22,18 +22,61 @@ permalink: /team/
   <i> {{ member.email }}<br></i>
   <i> <a href='/downloads/cv.pdf'>[Download CV]</a><br></i>
   <ul style="overflow: hidden">
-  <li> 경희대 융합보안대학원 책임교수 </li>
+  <li> 경희대 융합보안대학원 사업단장 (2023~) </li>
   <li> 한국우주안보학회 평생회원 </li>
   <li> 한국드론보안협회 이사 </li>
   <li> 한국정보처리학회 운영위원 </li>
   <li> 세종시핵테온 해킹대회 자문위원 </li>
-  <li> 경희대 컴퓨터공학과 조교수 </li>
+  <li> 국방부, 방위사업청, KISTI 자문위원 </li>
   <li> 한국디지털포렌식학회 이사 </li>
   <li> 한국정보보호학회 PC (종신회원) </li>
+  <li> 2023.3 ~ 현재 경희대 컴퓨터공학과 조교수 </li>
   <li> 2021.3 ~ 2023.2 성신여대 융합보안공학과 조교수 </li>
   <li> 2019.5 ~ 2020.12 <a href="https://gts3.org">Georgia Tech</a> 박사후연구원 (Advisor: Prof. Taesoo Kim) </li>
   <li> 2014.3 ~ 2019.2 KAIST 정보보호대학원 석,박사 (Advisor: Prof. Byunghoon Kang) </li>
   <li> 2005.3 ~ 2012.2 한양대학교 컴퓨터공학과 학사 (Cum Laude) </li>
+  </ul>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+
+## Research Professor
+{% assign number_printed = 0 %}
+{% for member in site.data.researchprof %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix" style="width: 100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="17%" style="float: left" />
+  <h4>{{ member.name }}</h4>
+  <i> {{ member.email }}<br></i>
+  <ul style="overflow: hidden">
+  <li> 국방전산정보원 과업심의위원 </li>
+  <li> ADD, 방위사업청 C4I분야 자문위원 </li>
+  <li> 한국정보과학회(종신회원) </li>
+  <li> 2019.3~현재 경희대 컴퓨터공학과 학술연구교수 </li>
+  <li> 2014.11~2019.2 경희대 컴퓨터공학과 산학협력중점교수 </li>
+  <li> 2009.2~2014.10 국방대학교 국방과학학과 교수 </li>
+  <li> 1988.3~2014.10 국방부 육군 정보통신 중령 </li>
+  <li> 2000.9~2008.2 경희대 컴퓨터공학과 박사(Advisor:Prof. Choonsun Hong) </li>
+  <li> 1994.3~1996.3 KEIO University, JAPAN 석사(Advisor:Prof. Masao NAKAGAWA) </li>
+  <li> 1984.3~1988.2 국립 금오공과대학교 학사 </li>
   </ul>
 </div>
 
@@ -61,7 +104,7 @@ permalink: /team/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
+<div class="col-sm-6 clearfix" style="width: 50%;">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i> {{ member.email }}<br></i>
