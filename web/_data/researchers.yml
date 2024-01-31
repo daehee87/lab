@@ -8,115 +8,110 @@
 #  education3:
 #  education4:
 
-- name: Jiho Kim (김지호)
-  photo: jhk.jpg
-  info: M.S. Candidate (외부연구원)
-  email: jhkim19940830 at gmail.com
-  number_educ: 4
-  education1: 경희대학교 물리학과 졸업
-  education2: (전) 삼성전자 DS부문 연구원
-  education3: (전) 삼성전자 Expert Programmer
-  education4: (현) Georgia Tech M.S. Candidate
-
 - name: Woohyeop Lim (임우협)
   photo: whl.jpg
-  info: M.S. Candidate (1-1학기)
+  info: M.S. Candidate (융합보안대학원)
   email: dnguq13 at sju.ac.kr
   number_educ: 4
-  education1: 세종대학교 정보보호학과
+  education1: 세종대학교 정보보호학과 졸업
   education2: BoB 10th 취약점트랙 수료
-  education3: 코드게이트 CTF 본선 6th
-  education4: CVE-2023-48123 보유 
+  education3: 2023 코드게이트 CTF 본선 6th
+  education4: 다수의 CVE 보유 (CVE-2023-48123 등)
+
+- name: Hyeonsu Cha (차현수)
+  photo: chs.jpg
+  info: M.S. Candidate (융합보안대학원)
+  email: soosoo6558 at gmail.com
+  number_educ: 5
+  education1: 중고생 정보보호올림피아드 1위
+  education2: 국방부/행안부 등 장관상 다수 수상
+  education3: KISA 버그바운티 명예의전당 Top10
+  education4: DEFCON CTF 본선 5회 진출/입상
+  education5: 카카오톡 원격코드실행 PoC개발
+
+- name: Hyeonjin Choi (최현진)
+  photo: chj.jpeg
+  info: M.S. Candidate (융합보안대학원)
+  email: d4m0n.8 at gmail.com
+  number_educ: 3
+  education1: 1-day CVE 분석 및 PoC개발
+  education2: 상용시스템 0-day 취약점 다수 발굴
+  education3: (현) CW Research 연구원
+
+- name: Minsu Kim (김민수)
+  photo: kms.jpg
+  info: M.S. Candidate (융합보안대학원)
+  email: 1029mins at gmail.com
+  number_educ: 4
+  education1: K-Shield 주니어 1위 수료 (4기)
+  education2: 다수의 모의해킹 및 강의경험 보유
+  education3: (전) SK Shieldus EQST Lab 연구원
+  education4: (현) All it One 연구원
+
+- name: Jiwan Kim (김지완)
+  photo: kjw.jpg
+  info: M.S. Candidate (융합보안대학원)
+  email: kimjiwan0619 at khu.ac.kr
+  number_educ: 3
+  education1: 경희대학교 컴퓨터공학과 졸업
+  education2: 웹해킹 프로젝트 수행
+  education3: 웹보안, 시스템보안
 
 - name: Minwoo Jeong (정민우)
   photo: jmw.jpg
-  info: B.S. Candidate (4-2학기)
+  info: B.S. Candidate (컴퓨터공학과)
   email: p1nkjelly at pinkjelly.cat
   number_educ: 4
-  education1: 경희대학교 컴퓨터공학과
-  education2: BoB 10th 취약점트랙 Top10
-  education3: 국제 CTF 본선전 다회 진출
+  education1: BoB 10th 취약점트랙 Top10
+  education2: 국제 CTF 본선전 다회 진출, 0-day보유
+  education3: (전) 라온화이트햇 연구원
   education4: (현) ENKI 연구원
-
-- name: Donghyeon Yeon (연동현)
-  photo: ydh.jpg
-  info: B.S. Candidate (4-2학기)
-  email: dusehdgus12 at naver.com
-  number_educ: 3
-  education1: 경희대학교 컴퓨터공학과
-  education2: BoB 11th 취약점트랙 수료
-  education3: 육군 정보보호병 20-6기
 
 - name: Seokchan Yoon (윤석찬)
   photo: ysc.jpg
-  info: B.S. Candidate (군휴학중)
+  info: B.S. Candidate (컴퓨터공학과 - 군휴학)
   email: ch4n3.yoon at gmail.com
   number_educ: 4
-  education1: 경희대학교 컴퓨터공학과
-  education2: BoB 6th 취약점트랙 수료
-  education3: 코드게이트 CTF 본선 2회진출 (대학부)
-  education4: (현) 스틸리언 연구원, CVE-2023-36053 보유
+  education1: BoB 6th 취약점트랙 수료
+  education2: 코드게이트 CTF 본선 2회진출 (대학부)
+  education3: CVE-2023-36053 보유
+  education4: (현) 스틸리언 연구원
 
 - name: Gyeongje Oh (오경제)
   photo: okj.jpg
-  info: B.S. Candidate (4-1학기)
+  info: B.S. Candidate (소프트웨어융합학과)
   email: ogj0824 at gmail.com
   number_educ: 4
-  education1: 경희대학교 소프트웨어융합학과
+  education1: 드론해킹대회 출제/운영
   education2: BoB 7th 취약점트랙 수료
   education3: 코드게이트 CTF 본선 2회진출 (대학부)
   education4: (전) 하임시큐리티 연구원
 
-- name: Sunhyuk Hwang (황선혁)
-  photo: hsh.jpg
-  info: B.S. Candidate (4-1학기)
-  email: buckelwal8979 at khu.ac.kr
+- name: Donghyeon Yeon (연동현)
+  photo: ydh.jpg
+  info: B.S. Candidate (컴퓨터공학과)
+  email: dusehdgus12 at naver.com
+  number_educ: 4
+  education1: 경희대학교 컴퓨터공학과
+  education2: BoB 11th 취약점트랙 수료
+  education3: 육군 정보보호병 20-6기
+  education4: 드론해킹대회 출제/운영
+
+- name: Sungbae Yoon (윤성배)
+  photo: ysb.jpg
+  info: B.S. Candidate (컴퓨터공학과)
+  email: 2019102203 at khu.ac.kr
+  number_educ: 3
+  education1: 경희대학교 컴퓨터공학과
+  education2: 다수의 워게임풀이 경력
+  education3: 임베디드 시스템 보안
+
+- name: Wooseong Jung (정우성)
+  photo: jws.jpg
+  info: B.S. Candidate (컴퓨터공학과)
+  email: wjddntjd909 at naver.com
   number_educ: 2
   education1: 경희대학교 컴퓨터공학과
-  education2: PwnLab 연구실 랩장
+  education2: 네트워크 보안
 
-- name: Hyeonsu Cha (차현수)
-  photo: chs.jpg
-  info: M.S. Candidate (1-1학기)
-  email: soosoo6558 at gmail.com
-  number_educ: 3
-  education1: 경희대학교 융합보안대학원
-  education2: 국내외 CTF 수상 다수
-  education3: (현) ENKI 연구원
-
-- name: Minsu Kim (김민수)
-  photo: kms.jpg
-  info: M.S. Candidate (1-1학기)
-  email: 1029mins at gmail.com
-  number_educ: 4
-  education1: 경희대학교 융합보안대학원
-  education2: K-Shield jr 4th 1등 수료
-  education3: (현) All it One 연구원
-  education4: (전) SK Shieldus EQST Lab 연구원
-
-- name: Hyeonjin Choi (최현진)
-  photo: chj.jpeg
-  info: M.S. Candidate (1-1학기)
-  email: d4m0n.8 at gmail.com
-  number_educ: 2
-  education1: 경희대학교 융합보안대학원
-  education2: CW Research 연구원
-
-- name: Inkyu Tae (태인규)
-  photo: tik.jpg
-  info: M.S. Candidate (1-1학기)
-  email: graylynx at gmail.com
-  number_educ: 5
-  education1: 경희대학교 융합보안대학원
-  education2: 핵인사이드 CTO
-  education3: NHSC 책임연구원
-  education4: 금융보안원
-  education5: 금융결제원(금융ISAC)
-
-- name: Yeongan Kim (김영안)
-  photo: kya.jpg
-  info: M.S. Candidate (1-1학기)
-  email: 
-  number_educ: 1
-  education1: 경희대학교 융합보안대학원
 

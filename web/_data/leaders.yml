@@ -1,0 +1,46 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+- name: Yeongan Kim (김영안)
+  photo: kya.jpg
+  info: Ph.D. (학술연구교수)
+  email: roundsun@khu.ac.kr
+  number_educ: 1
+  education1: test
+
+- name: Inkyu Tae (태인규)
+  photo: tik.jpg
+  info: M.S. Candidate (융합보안대학원)
+  email: graylynx at gmail.com
+  number_educ: 4
+  education1: (전) NHSC 책임연구원
+  education2: (전) 금융결제원 연구원
+  education3: (전) 금융보안원 연구원
+  education4: (현) 핵인사이드 CTO
+
+- name: Jiho Kim (김지호)
+  photo: jhk.jpg
+  info: 외부연구원 (GeorgiaTech)
+  email: jhkim19940830 at gmail.com
+  number_educ: 4
+  education1: 경희대학교 물리학과 졸업
+  education2: (전) 삼성전자 DS부문 연구원
+  education3: (전) 삼성전자 Expert Programmer
+  education4: (현) Georgia Tech M.S. Candidate
+
+- name: Sunhyuk Hwang (황선혁)
+  photo: hsh.jpg
+  info: B.S. Candidate (컴퓨터공학과)
+  email: buckelwal8979 at khu.ac.kr
+  number_educ: 4
+  education1: 드론해킹대회 출제/운영
+  education2: PwnLab 연구실 랩장
+  education3: SDR 기반 RF해킹 보안
+  education4: 무인이동체 보안
+

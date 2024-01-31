@@ -23,8 +23,10 @@ permalink: /team/
   <i> <a href='/downloads/cv.pdf'>[Download CV]</a><br></i>
   <ul style="overflow: hidden">
   <li> 경희대 융합보안대학원 책임교수 </li>
+  <li> 한국우주안보학회 평생회원 </li>
+  <li> 한국드론보안협회 이사 </li>
+  <li> 한국정보처리학회 운영위원 </li>
   <li> 세종시핵테온 해킹대회 자문위원 </li>
-  <li> 국방부, KISTI, 방위사업청 정보보호분야 자문위원 </li>
   <li> 경희대 컴퓨터공학과 조교수 </li>
   <li> 한국디지털포렌식학회 이사 </li>
   <li> 한국정보보호학회 PC (종신회원) </li>
@@ -49,9 +51,73 @@ permalink: /team/
 {% endif %}
 
 
-## Researcher
-**Position open for M.S./Ph.D. Candidates.** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+## Team Leader
+{% assign number_printed = 0 %}
+{% for member in site.data.leaders %}
 
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <h4>{{ member.name }}</h4>
+  <i> {{ member.email }}<br></i>
+  <i>{{ member.info }}</i>
+  <ul style="overflow: hidden">
+
+  {% if member.number_educ == 1 %}
+  <li> {{ member.education1 }} </li>
+  {% endif %}
+
+  {% if member.number_educ == 2 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  {% endif %}
+
+  {% if member.number_educ == 3 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  {% endif %}
+
+  {% if member.number_educ == 4 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education4 }} </li>
+  {% endif %}
+
+  {% if member.number_educ == 5 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education4 }} </li>
+  <li> {{ member.education5 }} </li>
+  {% endif %}
+
+  </ul>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+
+<!-- **Position open for M.S./Ph.D. Candidates.** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
+
+## Researcher/Student
 {% assign number_printed = 0 %}
 {% for member in site.data.researchers %}
 
@@ -116,59 +182,6 @@ permalink: /team/
 
 
 
-## Student
-{% assign number_printed = 0 %}
-{% for member in site.data.students %}
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}</i>
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-
 
 
 
@@ -208,4 +221,16 @@ permalink: /team/
 </div>
 {% endif %}
 
+## Staff
+<div class="row">
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/joo.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>주수민 (산학협력단)</h4>
+  <i>email: jj00@khu.ac.kr</i><br>
+   역할: 행정지원 <br>
+   사무실 번호: 031-201-5345 
+  <ul style="overflow: hidden">
+  </ul>
+</div>
+</div>
 
