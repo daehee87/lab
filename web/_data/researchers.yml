@@ -28,16 +28,15 @@
   education3: 2023 코드게이트 CTF 본선 6th
   education4: 다수의 CVE 보유 (CVE-2023-48123 등)
 
-- name: Hyeonsu Cha (차현수)
+- name: Hyunsoo Cha (차현수)
   photo: chs.jpg
   info: M.S. Candidate (융합보안대학원)
   email: soosoo6558 at gmail.com
-  number_educ: 5
-  education1: 중고생 정보보호올림피아드 1위
-  education2: 국방부/행안부 등 장관상 다수 수상
-  education3: KISA 버그바운티 명예의전당 Top10
-  education4: DEFCON CTF 본선 5회 진출/입상
-  education5: 카카오톡 원격코드실행 PoC개발
+  number_educ: 4
+  education1: 국방부/행안부/과기부 등 장관상 다수 수상
+  education2: 2019/2020 KISA 버그바운티 명예의 전당 Top10
+  education3: DEFCON CTF 본선 5회 진출/입상
+  education4: (현) ENKI 연구원
 
 - name: Hyeonjin Choi (최현진)
   photo: chj.jpeg
