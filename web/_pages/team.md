@@ -25,7 +25,7 @@ permalink: /team/
   <li> 경희대 융합보안대학원 사업단장 (2023~) </li>
   <li> 한국우주안보학회 평생회원 </li>
   <li> 한국드론보안협회 이사 </li>
-  <li> 한국정보처리학회 운영위원 </li>
+  <li> 한국정보처리학회 이사 </li>
   <li> 세종시핵테온 해킹대회 자문위원 </li>
   <li> 국방부, 방위사업청, KISTI 자문위원 </li>
   <li> 한국디지털포렌식학회 이사 </li>
@@ -104,7 +104,7 @@ permalink: /team/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix" style="width: 50%;">
+<div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i> {{ member.email }}<br></i>
