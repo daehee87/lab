@@ -82,38 +82,80 @@ permalink: /
     </p>
 </div>
 
-**[PWNLAB과의 MOU 협약기업 및 연구지원기관]**
-- 방위사업청 보안사업 컨소시엄 협력기관
-- 국가보안기술연구소 위탁연구과제 수행기관
-- (주)테르텐 연구개발과제 수행기관
-- ETRI 정보보호연구본부 연구개발과제 수행기관
-- 과기정통부 융합보안대학원사업 수행기관
-- IT플랫폼안전성연구회 위탁연구 수행기관
+**[PWNLAB의 MOU 협약기업 및 연구지원기관]**
+- 방위사업청 보안사업 컨소시엄
+- 국가보안기술연구소
+- (주)테르텐 IITP 사업 컨소시엄
+- ETRI 차세대사이버보안연구본부 
+- 과기정통부 융합보안대학원사업 (IITP)
+- IT플랫폼안전성연구회
+- ETC.
 
 <figure class="fourth mou-logos">
-  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/etri.png" style="width:200px">
-  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsr.png" style="width:200px">
-  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/defense.png" style="width:140px">
-  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/krit.png" style="width:180px">
-  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/nrf.png" style="width:200px">
-  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/theori.png" style="width:150px">
-  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/teruten.png" style="width:200px">
-  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/78researchlab.jpg" style="width:200px">
-  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/lignex1.png" style="width:150px">
-  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/teeware.png" style="width:200px">
-  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/enki.png" style="width:150px">
-  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/s2w.png" style="width:150px">
-  <img class="mou-logo" src="{{ site.url }}{{ site.baseurl }}/images/logopic/cwresearch.png" style="width:300px">
 </figure>
 
-<!--
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/cw.png" style="width:200px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/enki.png" style="width:200px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/teruten.png" style="width:200px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/lig.png" style="width:200px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/s2w.png" style="width:200px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/theori.png" style="width:200px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/78research.png" style="width:200px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/teeware.png" style="width:200px">
--->
 
+<div class="logo-container">
+  <div class="logo-track">
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/etri.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsr.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/defense.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/krit.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/teruten.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/78researchlab.jpg" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/lignex1.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/enki.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/cwresearch.png" ></div>
+  
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/etri.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsr.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/defense.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/krit.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/teruten.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/78researchlab.jpg" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/lignex1.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/enki.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/cwresearch.png" ></div>
+  </div>
+</div>
+
+<style>
+  .logo-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background: #ffffff;
+    padding: 10px 0;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo-track {
+    display: flex;
+    width: calc(200% + 10px);
+    animation: scroll 10s linear infinite;
+  }
+
+  .logo-item {
+    flex: 0 0 100px; /* Adjust the width as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    height: 60px; /* Set a fixed height for logos */
+  }
+
+  .logo-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+</style>
