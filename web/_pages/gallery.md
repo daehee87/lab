@@ -4,8 +4,6 @@ title: Gallery
 permalink: /gallery/
 ---
 
-# Gallery
-
 <div class="row">
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">

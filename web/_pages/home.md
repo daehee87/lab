@@ -55,7 +55,7 @@ permalink: /
 
 
 **[연구실 최신 News]**
-- MDPI Applied Science SCI 저널 논문 게재 (On The Analysis of Coverage Feedback in Fuzzing)
+- SCI 저널 논문 게재 (On The Analysis of Coverage Feedback in Fuzzing)
 - 임우협 연구원 Theori 드림핵 CTF 본선진출
 - 정민우,오경제 연구원 세종시핵테온 CTF 국가보안기술연구소장상 입상
 - 차현수,정민우,오경제 연구원 DEFCON 2024 CTF 본선진출
