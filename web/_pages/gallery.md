@@ -62,6 +62,15 @@ permalink: /gallery/
     </div>
   </div>
 
+  <div class="col-sm-6 clearfix gallery-item">      
+    <div class="well">
+      <video controls class="img-responsive" width="100%">
+        <source src="{{ site.url }}{{ site.baseurl }}/images/gal/drone.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p>2024 드론 통신패킷수집 비행 테스팅 실험</p>
+    </div>
+  </div>
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a1.png" data-lightbox="gallery" class="gallery-link">
@@ -166,6 +175,7 @@ permalink: /gallery/
   <!-- Add more items as needed -->
 </div>
 
+
 <style>
   .gallery-item {
     margin-bottom: 16px;
@@ -187,3 +197,16 @@ permalink: /gallery/
   }
 </style>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var elem = document.querySelector('.gallery');
+    var msnry = new Masonry(elem, {
+      // options
+      itemSelector: '.gallery-item',
+      columnWidth: '.gallery-item',
+      percentPosition: true,
+      gutter: 10
+    });
+  });
+</script>
