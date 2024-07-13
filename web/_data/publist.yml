@@ -1,3 +1,12 @@
+- title: "On the Analysis of Coverage Feedback in Fuzzing Proprietary System"
+  image: none
+  description: none
+  authors: <strong>Daehee Jang</strong>, Jamin Kim, Jiho Kim, Woohyeop Im, Minwoo Jeong, Byeongcheol Choi, Chongkyung Kil
+  link:
+    url: ../downloads/cwfuzz.pdf
+    display: Applied Sciences (Special Issue for UAV System. Volume 14. 2024)
+  highlight: 0
+
 - title: "Fuzzability Testing Framework for Incomplete Firmware Binary"
   image: none
   description: none
