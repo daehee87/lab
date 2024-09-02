@@ -68,13 +68,32 @@
 
 - name: Minwoo Jeong (정민우)
   photo: jmw.jpg
-  info: M.S. Candidate (컴퓨터공학과)
+  info: M.S. Candidate (융합보안대학원)
   email: p1nkjelly at pinkjelly.cat
   number_educ: 4
   education1: BoB 10th 취약점트랙 Top10
   education2: 국제 CTF 본선전 다회 진출, 0-day보유
   education3: (전) 라온화이트햇 연구원
   education4: (현) ENKI 연구원
+
+- name: OO Moon (문OO)
+  photo: joo.jpg
+  info: M.S. Candidate (융합보안대학원)
+  email: Yun2020edu at gmail.com
+  number_educ: 3
+  education1: 경희대학교 컴퓨터공학과
+  education2: 시스템 보안
+  education3: 악성코드 분석
+
+- name: Donghyeon Yeon (연동현)
+  photo: ydh.jpg
+  info: M.S. Candidate (융합보안대학원)
+  email: dusehdgus12 at naver.com
+  number_educ: 4
+  education1: 경희대학교 컴퓨터공학과
+  education2: BoB 11th 취약점트랙 수료
+  education3: 다수의 KVE 보유 (KVE-2022-1957 등)
+  education4: 드론해킹대회 출제/운영
 
 - name: Seokchan Yoon (윤석찬)
   photo: ysc.jpg
@@ -96,16 +115,6 @@
   education3: 코드게이트 CTF 본선 2회진출 (대학부)
   education4: (전) 하임시큐리티 연구원
 
-- name: Donghyeon Yeon (연동현)
-  photo: ydh.jpg
-  info: B.S. Candidate (컴퓨터공학과)
-  email: dusehdgus12 at naver.com
-  number_educ: 4
-  education1: 경희대학교 컴퓨터공학과
-  education2: BoB 11th 취약점트랙 수료
-  education3: 다수의 KVE 보유 (KVE-2022-1957 등)
-  education4: 드론해킹대회 출제/운영
-
 - name: Sungbae Yoon (윤성배)
   photo: ysb.jpg
   info: B.S. Candidate (컴퓨터공학과)
@@ -115,11 +124,3 @@
   education2: 다수의 워게임풀이 경력
   education3: 임베디드 시스템 보안
 
-- name: OO Moon (문OO)
-  photo: joo.jpg
-  info: M.S. Candidate (컴퓨터공학과)
-  email: Yun2020edu at gmail.com
-  number_educ: 3
-  education1: 경희대학교 컴퓨터공학과
-  education2: 시스템 보안
-  education3: 악성코드 분석
