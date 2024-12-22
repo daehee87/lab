@@ -1,17 +1,35 @@
 - name: Eunyeong Ahn (안은영)
   photo: enong.png
   duration: 2021 Mar - 2023 Jan (성신여대 융합보안학과)
-  result: M.S. candidate at KAIST
-  info: Undergrad Research Intern
+  result: M.S. candidate at KAIST (Prof. Brent Kang)
+  info: Undergrad Research Intern (학부인턴)
   email: none
   number_educ: 1
-  education1: Sungshin W. University
+  education1: none
 
 - name: Hyeongseok Bai (배형석)
   photo: bhs.jpg
   duration: 2022 Mar - 2022 Nov (경희대학교 컴퓨터공학과)
   result: TBD
-  info: Undergrad Research Intern
-  email: bhs990310 at naver.com
+  info: Undergrad Research Intern (학부인턴)
+  email: none
   number_educ: 1
-  education1: 경희대학교 컴퓨터공학과
+  education1: none
+
+- name: Jiho Kim (김지호)
+  photo: jhk.jpg
+  duration: 2023 July - 2024 Sep (경희대학교 컴퓨터공학과)
+  result: Ph.D. candidate at Georgia Institute of Technology (Prof. Taesoo Kim)
+  info: 외부 연구원 (삼성전자)
+  email: none
+  number_educ: 1
+  education1: none
+
+- name: Minwoo Jeong (정민우)
+  photo: jmw.jpg
+  duration: 2023 Mar - 2024 Sep (경희대학교 컴퓨터공학과)
+  result: M.S. candidate at KAIST (Prof. Insu Yun)
+  info: Undergrad Research Intern (학부인턴)
+  email: none
+  number_educ: 1
+  education1: none

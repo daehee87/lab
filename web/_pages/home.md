@@ -59,11 +59,13 @@ permalink: /
 
 
 **[연구실 최신 News]**
-- SCI 저널 논문 게재 (On The Analysis of Coverage Feedback in Fuzzing)
-- 임우협 연구원 Theori 드림핵 CTF 본선진출
-- 정민우,오경제 연구원 세종시핵테온 CTF 국가보안기술연구소장상 입상
+- 임우협 연구원 2024 ISITDTU 국제 CTF 우승
+- 오경제 연구원 2024 LG U+ CTF 우수상 입상
+- 오경제,황선혁 연구원 2024 자동차해킹대회 아우토크립트 특별상 수상
+- 임우협 연구원 Theori 드림핵 2024 CTF 본선진출
+- 정민우,오경제 연구원 세종시핵테온 2024 CTF 국가보안기술연구소장상 입상
 - 차현수,정민우,오경제 연구원 DEFCON 2024 CTF 본선진출
-- 임우협 연구원, [CVE-2023-48123](https://nvd.nist.gov/vuln/detail/CVE-2023-48123) 보안취약점 제보
+- 임우협 연구원, [CVE-2023-48123](https://nvd.nist.gov/vuln/detail/CVE-2023-48123) 보안취약점 발견
 
 
 **[권장 CTF/워게임 리스트]**
@@ -87,17 +89,17 @@ permalink: /
 </div>
 
 **[PWNLAB의 MOU 협약기업 및 연구지원기관]**
-- 방위사업청 보안사업 컨소시엄
+- LIGNex1 사이버전자전개발단
+- 방위사업청 사이버무력화사업 컨소시엄
 - 국가보안기술연구소
 - (주)테르텐 IITP 사업 컨소시엄
 - ETRI 차세대사이버보안연구본부 
 - 과기정통부 융합보안대학원사업 (IITP)
 - IT플랫폼안전성연구회
-- ETC.
+- 기타 군 및 정보기관
 
 <figure class="fourth mou-logos">
 </figure>
-
 
 <div class="logo-container">
   <div class="logo-track">
@@ -109,7 +111,6 @@ permalink: /
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/78researchlab.jpg" ></div>
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/lignex1.png" ></div>
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/enki.png" ></div>
-  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/cwresearch.png" ></div>
   
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/etri.png" ></div>
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsr.png" ></div>
@@ -119,7 +120,6 @@ permalink: /
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/78researchlab.jpg" ></div>
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/lignex1.png" ></div>
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/enki.png" ></div>
-  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/cwresearch.png" ></div>
   </div>
 </div>
 

@@ -23,13 +23,12 @@ permalink: /team/
   <i> <a href='/downloads/cv.pdf'>[Download CV]</a><br></i>
   <ul style="overflow: hidden">
   <li> 경희대 융합보안대학원 사업단장 (2023~) </li>
-  <li> 한국우주안보학회 평생회원 </li>
+  <li> 한국우주안보학회 종신회원 </li>
   <li> 한국드론보안협회 이사 </li>
   <li> 한국정보처리학회 이사 </li>
   <li> 세종시핵테온 해킹대회 자문위원 </li>
-  <li> 국방부, 방위사업청, KISTI 자문위원 </li>
   <li> 한국디지털포렌식학회 이사 </li>
-  <li> 한국정보보호학회 PC (종신회원) </li>
+  <li> 한국정보보호학회 종신회원 </li>
   <li> 2023.3 ~ 현재 경희대 컴퓨터공학과 조교수 </li>
   <li> 2021.3 ~ 2023.2 성신여대 융합보안공학과 조교수 </li>
   <li> 2019.5 ~ 2020.12 <a href="https://gts3.org">Georgia Tech</a> 박사후연구원 (Advisor: Prof. Taesoo Kim) </li>
@@ -77,70 +76,6 @@ permalink: /team/
   <li> 2000.9~2008.2 경희대 컴퓨터공학과 박사(Advisor:Prof. Choonsun Hong) </li>
   <li> 1994.3~1996.3 KEIO University, JAPAN 석사(Advisor:Prof. Masao NAKAGAWA) </li>
   <li> 1984.3~1988.2 국립 금오공과대학교 학사 </li>
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-
-## Team Leader
-{% assign number_printed = 0 %}
-{% for member in site.data.leaders %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i> {{ member.email }}<br></i>
-  <i>{{ member.info }}</i>
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-
   </ul>
 </div>
 

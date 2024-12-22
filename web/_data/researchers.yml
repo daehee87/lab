@@ -8,24 +8,14 @@
 #  education3:
 #  education4:
 
-- name: Jiho Kim (김지호)
-  photo: jhk.jpg
-  info: 외부연구원 (GeorgiaTech)
-  email: jhkim19940830 at gmail.com
-  number_educ: 4
-  education1: 경희대학교 물리학과 졸업
-  education2: (전) 삼성전자 DS부문 연구원
-  education3: (전) 삼성전자 Expert Programmer
-  education4: (현) Georgia Tech M.S. Candidate
-
 - name: Woohyeop Lim (임우협)
   photo: whl.jpg
   info: M.S. Candidate (융합보안대학원)
   email: dnguq13 at sju.ac.kr
   number_educ: 4
-  education1: 세종대학교 정보보호학과 졸업
-  education2: BoB 10th 취약점트랙 수료
-  education3: 2023 코드게이트 CTF 본선 6th
+  education1: PwnLab 연구실 랩장
+  education2: ISITDTU CTF 우승
+  education3: BoB 10기. 2023 코드게이트 CTF 본선 6th
   education4: 다수의 CVE 보유 (CVE-2023-48123 등)
 
 - name: Hyunsoo Cha (차현수)
@@ -38,14 +28,55 @@
   education3: DEFCON CTF 본선 5회 진출/입상
   education4: (현) ENKI 연구원
 
+- name: Inkyu Tae (태인규)
+  photo: tik.jpg
+  info: M.S. Candidate (융합보안대학원)
+  email: graylynx at gmail.com
+  number_educ: 4
+  education1: (전) NHSC 책임연구원
+  education2: (전) 금융결제원 연구원
+  education3: (전) 금융보안원 연구원
+  education4: (현) 아웃오브바운즈 CEO
+
 - name: Hyeonjin Choi (최현진)
   photo: chj.jpeg
   info: M.S. Candidate (융합보안대학원)
   email: d4m0n.8 at gmail.com
-  number_educ: 3
+  number_educ: 4
   education1: 1-day CVE 분석 및 PoC개발
   education2: 상용시스템 0-day 취약점 다수 발굴
-  education3: (현) CW Research 연구원
+  education3: (전) CW Research 연구원
+  education4: (현) 아웃오브바운즈 연구원
+
+- name: Donghyeon Yeon (연동현)
+  photo: ydh.jpg
+  info: M.S. Candidate (융합보안대학원)
+  email: dusehdgus12 at naver.com
+  number_educ: 4
+  education1: 경희대 컴퓨터공학과 B.S
+  education2: BoB 11th 취약점트랙 수료
+  education3: 다수의 KVE 보유 (KVE-2022-1957 등)
+  education4: 드론해킹대회 출제/운영
+
+- name: Gyeongje Oh (오경제)
+  photo: okj.jpg
+  info: M.S. Candidate (융합보안대학원)
+  email: ogj0824 at gmail.com
+  number_educ: 4
+  education1: 드론해킹대회 출제/운영
+  education2: 경희대 소프트웨어융합학과 B.S
+  education3: 코드게이트 CTF 본선 2회진출 (대학부)
+  education4: BoB 7기, (전) 하임시큐리티 연구원
+
+- name: Sunhyuk Hwang (황선혁)
+  photo: hsh.jpg
+  info: M.S. Candidate (융합보안대학원)
+  email: buckelwal8979 at khu.ac.kr
+  number_educ: 4
+  education1: 드론해킹대회 출제/운영
+  education2: (전) PwnLab 연구실 랩장
+  education3: SDR, RF해킹, 인공위성보안
+  education4: 경희대 컴퓨터공학과 B.S
 
 - name: Minsu Kim (김민수)
   photo: kms.jpg
@@ -62,38 +93,27 @@
   info: M.S. Candidate (융합보안대학원)
   email: kimjiwan0619 at khu.ac.kr
   number_educ: 3
-  education1: 경희대학교 컴퓨터공학과 졸업
+  education1: 경희대 컴퓨터공학과 B.S
   education2: 웹해킹 프로젝트 수행
-  education3: 웹보안, 시스템보안
-
-- name: Minwoo Jeong (정민우)
-  photo: jmw.jpg
-  info: M.S. Candidate (융합보안대학원)
-  email: p1nkjelly at pinkjelly.cat
-  number_educ: 4
-  education1: BoB 10th 취약점트랙 Top10
-  education2: 국제 CTF 본선전 다회 진출, 0-day보유
-  education3: (전) 라온화이트햇 연구원
-  education4: (현) ENKI 연구원
+  education3: 웹보안, 웹3보안
 
 - name: OO Moon (문OO)
   photo: joo.jpg
   info: M.S. Candidate (융합보안대학원)
   email: Yun2020edu at gmail.com
   number_educ: 3
-  education1: 경희대학교 컴퓨터공학과
+  education1: 10년이상 산업체 경력
   education2: 시스템 보안
   education3: 악성코드 분석
 
-- name: Donghyeon Yeon (연동현)
-  photo: ydh.jpg
+- name: Sungbae Yoon (윤성배)
+  photo: ysb.jpg
   info: M.S. Candidate (융합보안대학원)
-  email: dusehdgus12 at naver.com
-  number_educ: 4
-  education1: 경희대학교 컴퓨터공학과
-  education2: BoB 11th 취약점트랙 수료
-  education3: 다수의 KVE 보유 (KVE-2022-1957 등)
-  education4: 드론해킹대회 출제/운영
+  email: 2019102203 at khu.ac.kr
+  number_educ: 3
+  education1: 경희대 컴퓨터공학과 B.S
+  education2: 다수의 워게임풀이 경력
+  education3: 임베디드 시스템 보안
 
 - name: Seokchan Yoon (윤석찬)
   photo: ysc.jpg
@@ -104,23 +124,3 @@
   education2: 코드게이트 CTF 본선 2회진출 (대학부)
   education3: CVE-2023-36053 보유
   education4: (현) 스틸리언 연구원
-
-- name: Gyeongje Oh (오경제)
-  photo: okj.jpg
-  info: B.S. Candidate (소프트웨어융합학과)
-  email: ogj0824 at gmail.com
-  number_educ: 4
-  education1: 드론해킹대회 출제/운영
-  education2: BoB 7th 취약점트랙 수료
-  education3: 코드게이트 CTF 본선 2회진출 (대학부)
-  education4: (전) 하임시큐리티 연구원
-
-- name: Sungbae Yoon (윤성배)
-  photo: ysb.jpg
-  info: B.S. Candidate (컴퓨터공학과)
-  email: 2019102203 at khu.ac.kr
-  number_educ: 3
-  education1: 경희대학교 컴퓨터공학과
-  education2: 다수의 워게임풀이 경력
-  education3: 임베디드 시스템 보안
-
