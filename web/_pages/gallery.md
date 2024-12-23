@@ -7,6 +7,54 @@ permalink: /gallery/
 <div class="row">
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a31.png" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a31.png" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>AutoHack 2024 입상 (오경제, 황선혁 연구원)</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a29.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a29.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>드론해킹대회 본선전</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a28.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a28.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>드론해킹대회 본선전</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a27.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a27.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>드론해킹대회 컨퍼런스</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a25.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a25.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>연구실 해커톤 - PCB 분해 및 RF모뎀분석</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a24.png" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a24.png" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>방위사업청 중간평가행사 - 드론 제어권탈취시연</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a23.png" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a23.png" class="img-responsive" width="100%" alt="Description 1">
       </a>

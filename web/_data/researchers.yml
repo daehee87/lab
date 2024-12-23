@@ -8,7 +8,7 @@
 #  education3:
 #  education4:
 
-- name: Woohyeop Lim (임우협)
+- name: Woohyeop Im (임우협)
   photo: whl.jpg
   info: M.S. Candidate (융합보안대학원)
   email: dnguq13 at sju.ac.kr
@@ -17,6 +17,7 @@
   education2: ISITDTU CTF 우승
   education3: BoB 10기. 2023 코드게이트 CTF 본선 6th
   education4: 다수의 CVE 보유 (CVE-2023-48123 등)
+  link: https://brwook.github.io/about/
 
 - name: Hyunsoo Cha (차현수)
   photo: chs.jpg
