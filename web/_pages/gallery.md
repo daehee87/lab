@@ -15,8 +15,8 @@ permalink: /gallery/
   </div>
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a29.jpg" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a29.jpg" class="img-responsive" width="100%" alt="Description 1">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a30.png" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a30.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
       <p>드론해킹대회 본선전</p>
     </div>
