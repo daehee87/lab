@@ -11,7 +11,7 @@
 - name: Woohyeop Im (임우협)
   photo: whl.jpg
   info: M.S. Candidate (융합보안대학원)
-  email: dnguq13 at sju.ac.kr
+  email: pwn at khu.ac.kr
   number_educ: 4
   education1: PwnLab 연구실 랩장
   education2: ISITDTU CTF 우승
@@ -116,6 +116,15 @@
   education2: 다수의 워게임풀이 경력
   education3: 임베디드 시스템 보안
 
+- name: HyeokJae Lee (이혁재)
+  photo: lhj.png
+  info: M.S. Candidate (융합보안대학원)
+  email: hjlee25 at khu.ac.kr
+  number_educ: 3
+  education1: K-Shield 주니어 수료 (4기)
+  education2: 다수의 강의 경험 (모의 침투, AI 악성코드 탐지 등)
+  education3: (전) 누리랩 연구원
+
 - name: Seokchan Yoon (윤석찬)
   photo: ysc.jpg
   info: B.S. Candidate (컴퓨터공학과 - 군휴학)
@@ -125,3 +134,12 @@
   education2: 코드게이트 CTF 본선 2회진출 (대학부)
   education3: CVE-2023-36053 보유
   education4: (현) 스틸리언 연구원
+
+- name: JunSeo Park (박준서)
+  photo: pjs.jpg
+  info: B.S. Candidate (컴퓨터공학과)
+  email: andrew2012 at khu.ac.kr
+  number_educ: 3
+  education1: 경희대 컴퓨터공학과 B.S
+  education2: 다수의 워게임풀이 경력
+  education3: 시스템 보안

@@ -209,7 +209,7 @@ permalink: /team/
 ## Staff
 <div class="row">
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/joo.jpg" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/joo.png" class="img-responsive" width="25%" style="float: left" />
   <h4>주수민 (산학협력단)</h4>
   <i>email: jj00@khu.ac.kr</i><br>
    역할: 행정지원 <br>
