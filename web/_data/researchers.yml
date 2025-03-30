@@ -66,7 +66,7 @@
   number_educ: 4
   education1: 드론해킹대회 출제/운영
   education2: 경희대 소프트웨어융합학과 B.S
-  education3: 코드게이트 CTF 본선 2회진출 (대학부)
+  education3: DEFCON/Codegate 등 다양한 CTF 수상
   education4: BoB 7기, (전) 하임시큐리티 연구원
 
 - name: Sunhyuk Hwang (황선혁)
@@ -107,6 +107,15 @@
   education2: 시스템 보안
   education3: 악성코드 분석
 
+- name: OO Kim (김OO)
+  photo: dummy.png
+  info: M.S. Candidate (융합보안대학원)
+  email: Yun2020edu at gmail.com
+  number_educ: 3
+  education1: 10년이상 산업체 경력
+  education2: 산업시설 보안
+  education3: 네트워크 보안 
+
 - name: Sungbae Yoon (윤성배)
   photo: ysb.jpg
   info: M.S. Candidate (융합보안대학원)
@@ -114,7 +123,7 @@
   number_educ: 3
   education1: 경희대 컴퓨터공학과 B.S
   education2: 다수의 워게임풀이 경력
-  education3: 임베디드 시스템 보안
+  education3: 박제만 교수님 공동지도
 
 - name: HyeokJae Lee (이혁재)
   photo: lhj.png
@@ -122,24 +131,24 @@
   email: hjlee25 at khu.ac.kr
   number_educ: 3
   education1: K-Shield 주니어 수료 (4기)
-  education2: 다수의 강의 경험 (모의 침투, AI 악성코드 탐지 등)
-  education3: (전) 누리랩 연구원
+  education2: (전) 누리랩 연구원
+  education3: 박제만 교수님 공동지도
 
 - name: Seokchan Yoon (윤석찬)
   photo: ysc.jpg
-  info: B.S. Candidate (컴퓨터공학과 - 군휴학)
+  info: 학부생 인턴 (컴퓨터공학과)
   email: ch4n3.yoon at gmail.com
   number_educ: 4
   education1: BoB 6th 취약점트랙 수료
-  education2: 코드게이트 CTF 본선 2회진출 (대학부)
-  education3: CVE-2023-36053 보유
-  education4: (현) 스틸리언 연구원
+  education2: 코드게이트 등 CTF 수상 10건이상
+  education3: Django/Ruby 등 CVE 14건이상 보유 
+  education4: (현) Zellic 보안 연구원
 
 - name: JunSeo Park (박준서)
   photo: pjs.jpg
-  info: B.S. Candidate (컴퓨터공학과)
+  info: 학부생 인턴 (컴퓨터공학과)
   email: andrew2012 at khu.ac.kr
   number_educ: 3
-  education1: 경희대 컴퓨터공학과 B.S
+  education1: 경희대 컴퓨터공학과 재학
   education2: 다수의 워게임풀이 경력
   education3: 시스템 보안

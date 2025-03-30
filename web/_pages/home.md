@@ -67,6 +67,9 @@ permalink: /
 
 
 **[연구실 최신 News]**
+
+- 일본 사이버보안회사 Ierae 와 MOU 및 용역계약 체결 [뉴스기사링크](https://www.chosun.com/special/special_section/2025/03/28/FHY2WIXR6NAIHBQMHA763OLR2I/)
+- 방첩사령부 "국방우주보안특화연구실" 5세부과제 수주 [뉴스기사링크](https://www.ccdailynews.com/news/articleView.html?idxno=2324868)
 - 임우협 연구원 2024 ISITDTU 국제 CTF 우승
 - 오경제 연구원 2024 LG U+ CTF 우수상 입상
 - 오경제,황선혁 연구원 2024 자동차해킹대회 아우토크립트 특별상 수상
@@ -87,7 +90,7 @@ permalink: /
         - <a href="https://linectf.me/">LINE CTF</a>
     </p>
     <p class="column">
-        - <a href="https://pwnable.kr">pwnable.kr</a><br>
+        - <a href="https://pwnable.kr">pwnable.kr</a> (공사중)<br>
         - <a href="https://pwnable.tw">pwnable.tw</a><br>
         - <a href="https://pwnable.xyz">pwnable.xyz</a><br>
         - <a href="https://webhacking.kr">webhacking.kr</a><br>
@@ -97,6 +100,8 @@ permalink: /
 </div>
 
 **[PWNLAB의 MOU 협약기업 및 연구지원기관]**
+- GMO Ierae 사이버보안회사(일본)
+- 방첩사령부 국방우주보안특화연구실
 - LIGNex1 사이버전자전개발단
 - 방위사업청 사이버무력화사업 컨소시엄
 - 국가보안기술연구소

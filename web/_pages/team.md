@@ -22,13 +22,13 @@ permalink: /team/
   <i> {{ member.email }}<br></i>
   <i> <a href='/downloads/cv.pdf'>[Download CV]</a><br></i>
   <ul style="overflow: hidden">
-  <li> 경희대 융합보안대학원 사업단장 (2023~) </li>
+  <li> IT플랫폼안전성연구회 부회장 </li>
+  <li> 경희대 융합보안대학원 사업단장 </li>
   <li> 한국우주안보학회 종신회원 </li>
   <li> 한국드론보안협회 이사 </li>
   <li> 한국정보처리학회 이사 </li>
   <li> 세종시핵테온 해킹대회 자문위원 </li>
   <li> 한국디지털포렌식학회 이사 </li>
-  <li> 한국정보보호학회 종신회원 </li>
   <li> 2023.3 ~ 현재 경희대 컴퓨터공학과 조교수 </li>
   <li> 2021.3 ~ 2023.2 성신여대 융합보안공학과 조교수 </li>
   <li> 2019.5 ~ 2020.12 <a href="https://gts3.org">Georgia Tech</a> 박사후연구원 (Advisor: Prof. Taesoo Kim) </li>
@@ -52,19 +52,12 @@ permalink: /team/
 
 
 ## Research Professor
-{% assign number_printed = 0 %}
-{% for member in site.data.researchprof %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
 <div class="row">
-{% endif %}
 
 <div class="col-sm-6 clearfix" style="width: 100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="17%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i> {{ member.email }}<br></i>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/kya.jpg" class="img-responsive" width="17%" style="float: left" />
+  <h4> Yeongan Kim (김영안) </h4>
+  <i> roundsun@khu.ac.kr <br></i>
   <ul style="overflow: hidden">
   <li> 국방전산정보원 과업심의위원 </li>
   <li> ADD, 방위사업청 C4I분야 자문위원 </li>
@@ -79,18 +72,15 @@ permalink: /team/
   </ul>
 </div>
 
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
+<div class="col-sm-6 clearfix" style="width: 100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/dummy.png" class="img-responsive" width="17%" style="float: left" />
+  <h4> Keungsik Choi (최경식) </h4>
+  <i> kschoi1103@khu.ac.kr <br></i>
+  <ul style="overflow: hidden">
+  <li> 연구교수님 프로필 준비중 </li>
+  </ul>
 </div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
 </div>
-{% endif %}
 
 
 <!-- **Position open for M.S./Ph.D. Candidates.** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
