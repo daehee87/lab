@@ -7,6 +7,14 @@ permalink: /gallery/
 <div class="row">
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a34.png" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a34.png" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>2025 봄맞이 벚꽃 나들이</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a31.png" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a31.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
@@ -18,7 +26,7 @@ permalink: /gallery/
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a30.png" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a30.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
-      <p>드론해킹대회 본선전</p>
+      <p>Hack the DRONE 2024 본선전</p>
     </div>
   </div>
   <div class="col-sm-6 clearfix gallery-item">
@@ -26,7 +34,7 @@ permalink: /gallery/
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a28.jpg" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a28.jpg" class="img-responsive" width="100%" alt="Description 1">
       </a>
-      <p>드론해킹대회 본선전</p>
+      <p>Hack the DRONE 2024 본선전</p>
     </div>
   </div>
   <div class="col-sm-6 clearfix gallery-item">
@@ -34,7 +42,7 @@ permalink: /gallery/
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a27.jpg" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a27.jpg" class="img-responsive" width="100%" alt="Description 1">
       </a>
-      <p>드론해킹대회 컨퍼런스</p>
+      <p>Hack the DRONE 2024 컨퍼런스</p>
     </div>
   </div>
   <div class="col-sm-6 clearfix gallery-item">
@@ -137,6 +145,30 @@ permalink: /gallery/
   </div>
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a14.png" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a14.png" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>2024 정보보호학회 학술대회 발표 (연동현 석사과정)</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a16.png" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a16.png" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>2024 싱가포르 여름방학 해외인턴십 프로그램 (연동현/김지완 석사과정)</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a32.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a32.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>2023 연구실 연말 회식</p>
+    </div>
+  </div>
+    <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a1.png" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a1.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
@@ -159,31 +191,12 @@ permalink: /gallery/
       <p>2023 국가보안기술연구소 김덕진 박사님 세미나</p>
     </div>
   </div>
-
-
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a12.png" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a12.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
       <p>2023 성신여대 김성민 교수님 세미나</p>
-    </div>
-  </div>
-
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a14.png" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a14.png" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>2024 정보보호학회 학술대회 발표 (연동현 석사과정)</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a16.png" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a16.png" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>2024 싱가포르 여름방학 해외인턴십 (SAFESQUARE 보안회사) 프로그램 (연동현/김지완 석사과정)</p>
     </div>
   </div>
   <div class="col-sm-6 clearfix gallery-item">
@@ -241,6 +254,16 @@ permalink: /gallery/
 
 
 <style>
+  .gallery-link img,
+  .gallery-item video {
+    aspect-ratio: 4 / 3;   /* 가로:세로 = 4:3 */
+    width: 100%;           /* 부모(.well) 가로폭 꽉 채우기 */
+    height: 100%;
+    object-fit: cover;     /* 넘치는 부분은 자동 크롭 */
+    display: block;
+    transition: transform 0.2s;
+  }
+
   .gallery-item {
     margin-bottom: 16px;
   }
@@ -250,10 +273,6 @@ permalink: /gallery/
     border: 1px solid #ddd;
     padding: 16px;
     text-align: center;
-  }
-
-  .gallery-link img {
-    transition: transform 0.2s;
   }
 
   .gallery-link img:hover {
