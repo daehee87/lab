@@ -68,6 +68,7 @@ permalink: /
 
 **[연구실 최신 News]**
 
+- 최현진 연구원 2025 Pwn2Own Berlin 수상 (Windows 11 LPE)
 - 일본 사이버보안회사 Ierae 와 MOU 및 용역계약 체결 [뉴스기사링크](https://www.chosun.com/special/special_section/2025/03/28/FHY2WIXR6NAIHBQMHA763OLR2I/)
 - 방첩사령부 "국방우주보안특화연구실" 5세부과제 수주 [뉴스기사링크](https://www.ccdailynews.com/news/articleView.html?idxno=2324868)
 - 임우협 연구원 2024 ISITDTU 국제 CTF 우승
@@ -100,6 +101,7 @@ permalink: /
 </div>
 
 **[PWNLAB의 MOU 협약기업 및 연구지원기관]**
+- 삼성전자 DPC Security 팀
 - GMO Ierae 사이버보안회사(일본)
 - 방첩사령부 국방우주보안특화연구실
 - LIGNex1 사이버전자전개발단

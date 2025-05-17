@@ -7,6 +7,14 @@ permalink: /gallery/
 <div class="row">
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a35.png" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a35.png" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>최현진 석사과정 2025 Pwn2Own 수상 (Windows 11 LPE 종목)</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a34.png" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a34.png" class="img-responsive" width="100%" alt="Description 1">
       </a>

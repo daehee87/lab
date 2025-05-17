@@ -46,8 +46,8 @@
   number_educ: 4
   education1: 1-day CVE 분석 및 PoC개발
   education2: 상용시스템 0-day 취약점 다수 발굴
-  education3: (전) CW Research 연구원
-  education4: (현) 아웃오브바운즈 연구원
+  education3: (현) 아웃오브바운즈 연구원 
+  education4: Pwn2Own 2025 Berlin 수상
 
 - name: Donghyeon Yeon (연동현)
   photo: ydh.jpg
