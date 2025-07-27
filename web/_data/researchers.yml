@@ -63,11 +63,11 @@
   photo: okj.jpg
   info: M.S. Candidate (융합보안대학원)
   email: ogj0824 at gmail.com
-  number_educ: 4
-  education1: 드론해킹대회 출제/운영
-  education2: 경희대 소프트웨어융합학과 B.S
-  education3: DEFCON/Codegate 등 다양한 CTF 수상
-  education4: BoB 7기, (전) 하임시큐리티 연구원
+  number_educ: 3
+  education1: 경희대 소프트웨어융합학과 B.S
+  education2: DEFCON/Codegate 등 다양한 CTF 수상
+  education3: BoB 7기, (전) 하임시큐리티 연구원
+  link: https://gye0ngje.com/
 
 - name: Sunhyuk Hwang (황선혁)
   photo: hsh.jpg
@@ -125,7 +125,7 @@
   education2: 다수의 워게임풀이 경력
   education3: 박제만 교수님 공동지도
 
-- name: HyeokJae Lee (이혁재)
+- name: Hyeokjae Lee (이혁재)
   photo: lhj.png
   info: M.S. Candidate (융합보안대학원)
   email: hjlee25 at khu.ac.kr
@@ -144,7 +144,7 @@
   education3: Django/Ruby 등 CVE 14건이상 보유 
   education4: (현) Zellic 보안 연구원
 
-- name: JunSeo Park (박준서)
+- name: Junseo Park (박준서)
   photo: pjs.jpg
   info: 학부생 인턴 (컴퓨터공학과)
   email: andrew2012 at khu.ac.kr
@@ -153,11 +153,20 @@
   education2: 다수의 워게임풀이 경력
   education3: 시스템 보안
 
-- name: Keum Sung (금 성)
+- name: Sung Keum (금 성)
   photo: ks.jpg
   info: 학부생 인턴 (컴퓨터공학과)
   email: kambodi127 at gmail.com
   number_educ: 3
   education1: 건양대 사이버보안공학과 재학
   education2: BOB 13th 취약점트랙 수료
+  education3: 시스템 보안
+
+- name: Namho Kim (김남호)
+  photo: knh.jpg
+  info: 학부생 인턴 (컴퓨터공학과) 
+  email: gaea123456 at khu.ac.kr
+  number_educ: 3
+  education1: 경희대 컴퓨터공학과 재학
+  education2: 다수의 워게임풀이 경력
   education3: 시스템 보안
