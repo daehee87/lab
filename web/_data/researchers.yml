@@ -134,6 +134,16 @@
   education2: (전) 누리랩 연구원
   education3: 박제만 교수님 공동지도
 
+- name: Minseo Kim (김민서)
+  photo: kme.png
+  info: M.S. Candidate (융합보안대학원)
+  email: mskim.link@gmail.com
+  number_educ: 4
+  education1: 과기부 SW마에스트로 14기 우수자 (장관 인증)
+  education2: IEEE Access 국제 저널 논문 게재
+  education3: 다수의 해커톤 수상 (대상/각종 시장상 등)
+  education4: (주)누리컴퍼니 CEO
+
 - name: Seokchan Yoon (윤석찬)
   photo: ysc.jpg
   info: 학부생 인턴 (컴퓨터공학과)
@@ -170,3 +180,22 @@
   education1: 경희대 컴퓨터공학과 재학
   education2: 다수의 워게임풀이 경력
   education3: 시스템 보안
+
+- name: Chanyeong Kim (김찬영)
+  photo: dummy.png
+  info: 방문 연구 인턴
+  email: 
+  number_educ: 3
+  education1: (현)고려대 정보보호대학원
+  education2: 빡공팟 시스템 해킹 서바이벌 최종 수료(11기)
+  education3: 공인 자격증 다수·보안 솔루션 운영경험
+  link: https://www.notion.so/3-400-ENTJ-7d309fcdcb77455ba0e23ae3929ad327
+
+- name: Minjun Kang (강민준)
+  photo: dummy.png
+  info: 학부생 인턴 (컴퓨터공학과) 
+  email: 
+  number_educ: 3
+  education1: 
+  education2: 
+  education3: 
