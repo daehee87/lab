@@ -20,9 +20,6 @@ permalink: /
         <li data-target="#carousel" data-slide-to="3"></li>
         <li data-target="#carousel" data-slide-to="4"></li>
         <li data-target="#carousel" data-slide-to="5"></li>
-        <li data-target="#carousel" data-slide-to="6"></li>
-        <li data-target="#carousel" data-slide-to="7"></li>
-        <li data-target="#carousel" data-slide-to="8"></li>
     </ol>
 
     <!-- Items -->
@@ -40,19 +37,10 @@ permalink: /
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/3.jpg" alt="Slide 4" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/4.jpg" alt="Slide 5" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/4.png" alt="Slide 5" />
         </div>       
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/5.jpg" alt="Slide 6" />
-        </div>       
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/6.jpg" alt="Slide 7" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/7.jpg" alt="Slide 8" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/8.jpg" alt="Slide 9" />
         </div>
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -68,16 +56,17 @@ permalink: /
 
 **[연구실 최신 News]**
 
-- 최현진 연구원 2025 Pwn2Own Berlin 수상 (Windows 11 LPE)
+- 오경제/임우협/윤석찬 2025 CCE CTF 본선진출 (경희대미남해커 팀)
+- 장대희교수 2025 육군본부 정보화분과 자문위원 위촉
+- 오경제/임우협 2025 CODEGATE CTF 본선진출 (경희대미남해커 팀)
+- 오경제/임우협/연동현 2025 DEFCON CTF 본선진출 (ColdFusion 팀)
+- PWNLAB - GMO Ierae. 2025 DEFCON Aerospace 부스 공동운영
+- 최현진 석사과정, 2025 Pwn2Own Berlin 수상 (Windows 11 LPE)
 - 일본 사이버보안회사 Ierae 와 MOU 및 용역계약 체결 [뉴스기사링크](https://www.chosun.com/special/special_section/2025/03/28/FHY2WIXR6NAIHBQMHA763OLR2I/)
 - 방첩사령부 "국방우주보안특화연구실" 5세부과제 수주 [뉴스기사링크](https://www.ccdailynews.com/news/articleView.html?idxno=2324868)
-- 임우협 연구원 2024 ISITDTU 국제 CTF 우승
-- 오경제 연구원 2024 LG U+ CTF 우수상 입상
-- 오경제,황선혁 연구원 2024 자동차해킹대회 아우토크립트 특별상 수상
-- 임우협 연구원 Theori 드림핵 2024 CTF 본선진출
-- 정민우,오경제 연구원 세종시핵테온 2024 CTF 국가보안기술연구소장상 입상
-- 차현수,정민우,오경제 연구원 DEFCON 2024 CTF 본선진출
-- 임우협 연구원, [CVE-2023-48123](https://nvd.nist.gov/vuln/detail/CVE-2023-48123) 보안취약점 발견
+- 오경제,황선혁 2024 자동차해킹대회 아우토크립트 특별상 수상
+- 차현수,정민우,오경제 DEFCON 2024 CTF 본선진출
+- [CVE-2023-48123](https://nvd.nist.gov/vuln/detail/CVE-2023-48123) 보안취약점 발견 (임우협)
 
 
 **[권장 CTF/워게임 리스트]**
@@ -101,6 +90,7 @@ permalink: /
 </div>
 
 **[PWNLAB의 MOU 협약기업 및 연구지원기관]**
+- 삼성전자 MX 사업부
 - 삼성전자 DPC Security 팀
 - GMO Ierae 사이버보안회사(일본)
 - 방첩사령부 국방우주보안특화연구실
