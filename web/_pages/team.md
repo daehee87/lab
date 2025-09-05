@@ -28,7 +28,7 @@ permalink: /team/
   <li> 한국정보처리학회 이사 </li>
   <li> 세종시핵테온 해킹대회 자문위원 </li>
   <li> 한국디지털포렌식학회 이사 </li>
-  <li> 육군본부 정보화분과 자문의원 <li>
+  <li> 육군본부 정보화분과 자문의원 </li>
   <li> 2023.3 ~ 현재 경희대 컴퓨터공학과 조교수 </li>
   <li> 2021.3 ~ 2023.2 성신여대 융합보안공학과 조교수 </li>
   <li> 2019.5 ~ 2020.12 <a href="https://gts3.org">Georgia Tech</a> 박사후연구원 (Advisor: Prof. Taesoo Kim) </li>
