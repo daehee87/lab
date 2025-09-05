@@ -7,6 +7,110 @@ permalink: /gallery/
 <div class="row">
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a49.png" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a49.png" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>국정원/국보연 주관 CCE 2025 해킹대회 본선진출 (경희대미남해커들 팀)</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a48.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a48.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>김민서 석사과정, AI보안논문 우수상 수상</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a47.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a47.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>PWNLAB 학생들의 연구실 활동 (IT플랫폼안전성연구회 운영, 드론해킹시연 등)</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a46.png" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a46.png" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>연구실 세미나 및 친목회식</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a45.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a45.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>미국 라스베가스 연구실 단체 관광</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a44.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a44.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>2025 DEFCON 연수 및 일본 보안기업과 AeroSpace 부스 공동운영</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a43.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a43.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>2025 상용 인공위성 지상국 견학</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a41.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a41.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>청와대 청년 화이트해커 행사 (임우협 박사과정)</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a40.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a40.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>제1회 드론해킹대회 우승 (차현수 석사과정)</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a39.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a39.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>드림핵 CTF 개인전 본선진출 (임우협 박사과정)</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a38.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a38.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>2024 미국 BlackHat 해외연수</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a37.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a37.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>LG U+ 해킹대회 우수상 (오경제 석사과정)</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a36.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a36.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>ISITSU CTF 국제 해킹대회 우승 (임우협 박사과정)</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a35.png" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a35.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
@@ -31,18 +135,10 @@ permalink: /gallery/
   </div>
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a30.png" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a30.png" class="img-responsive" width="100%" alt="Description 1">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a42.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a42.jpg" class="img-responsive" width="100%" alt="Description 1">
       </a>
-      <p>Hack the DRONE 2024 본선전</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a28.jpg" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a28.jpg" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>Hack the DRONE 2024 본선전</p>
+      <p>2024 국제드론해킹대회 (PWNLAB 문제개발 및 대회운영)</p>
     </div>
   </div>
   <div class="col-sm-6 clearfix gallery-item">
@@ -50,7 +146,7 @@ permalink: /gallery/
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a27.jpg" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a27.jpg" class="img-responsive" width="100%" alt="Description 1">
       </a>
-      <p>Hack the DRONE 2024 컨퍼런스</p>
+      <p>Hack the Drone 2024 컨퍼런스 (테르텐/경희대 공동운영)</p>
     </div>
   </div>
   <div class="col-sm-6 clearfix gallery-item">
@@ -111,14 +207,6 @@ permalink: /gallery/
   </div>
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a5.png" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a5.png" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>2024 Netsec-KR 인공위성보안 세미나 (장대희 교수)</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a9.png" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a9.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
@@ -142,15 +230,6 @@ permalink: /gallery/
     </div>
   </div>
 
-  <div class="col-sm-6 clearfix gallery-item">      
-    <div class="well">
-      <video controls class="img-responsive" width="100%">
-        <source src="{{ site.url }}{{ site.baseurl }}/images/gal/drone.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p>2024 드론 통신패킷수집 비행 테스팅 실험</p>
-    </div>
-  </div>
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a14.png" data-lightbox="gallery" class="gallery-link">
@@ -161,26 +240,10 @@ permalink: /gallery/
   </div>
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a16.png" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a16.png" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>2024 싱가포르 여름방학 해외인턴십 프로그램 (연동현/김지완 석사과정)</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a32.jpg" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a32.jpg" class="img-responsive" width="100%" alt="Description 1">
       </a>
       <p>2023 연구실 연말 회식</p>
-    </div>
-  </div>
-    <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a1.png" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a1.png" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>2023 국방무인이동체 기술교류 워크숍</p>
     </div>
   </div>
   <div class="col-sm-6 clearfix gallery-item">
@@ -197,30 +260,6 @@ permalink: /gallery/
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a8.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
       <p>2023 국가보안기술연구소 김덕진 박사님 세미나</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a12.png" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a12.png" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>2023 성신여대 김성민 교수님 세미나</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a13.png" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a13.png" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>연구실 친목회식</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a17.png" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a17.png" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>연구실 친목회식</p>
     </div>
   </div>
   <div class="col-sm-6 clearfix gallery-item">
