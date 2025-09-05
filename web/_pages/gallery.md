@@ -26,7 +26,7 @@ permalink: /gallery/
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a47.jpg" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a47.jpg" class="img-responsive" width="100%" alt="Description 1">
       </a>
-      <p>PWNLAB 학생들의 연구실 활동 (IT플랫폼안전성연구회 운영, 드론해킹시연 등)</p>
+      <p>PWNLAB 학생들의 연구실 활동 (IT플랫폼안전성연구회 운영, 드론해킹시연)</p>
     </div>
   </div>
   <div class="col-sm-6 clearfix gallery-item">
