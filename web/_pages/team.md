@@ -25,10 +25,10 @@ permalink: /team/
   <li> IT플랫폼안전성연구회 부회장 </li>
   <li> 경희대 융합보안대학원 사업단장 </li>
   <li> 한국우주안보학회 종신회원 </li>
-  <li> 한국드론보안협회 이사 </li>
   <li> 한국정보처리학회 이사 </li>
   <li> 세종시핵테온 해킹대회 자문위원 </li>
   <li> 한국디지털포렌식학회 이사 </li>
+  <li> 육군본부 정보화분과 자문의원 <li>
   <li> 2023.3 ~ 현재 경희대 컴퓨터공학과 조교수 </li>
   <li> 2021.3 ~ 2023.2 성신여대 융합보안공학과 조교수 </li>
   <li> 2019.5 ~ 2020.12 <a href="https://gts3.org">Georgia Tech</a> 박사후연구원 (Advisor: Prof. Taesoo Kim) </li>
@@ -70,16 +70,6 @@ permalink: /team/
   <li> 1994.3~1996.3 KEIO University, JAPAN 석사(Advisor:Prof. Masao NAKAGAWA) </li>
   <li> 1984.3~1988.2 국립 금오공과대학교 학사 </li>
   </ul>
-</div>
-
-<div class="col-sm-6 clearfix" style="width: 100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/dummy.png" class="img-responsive" width="17%" style="float: left" />
-  <h4> Keungsik Choi (최경식) </h4>
-  <i> kschoi1103@khu.ac.kr <br></i>
-  <ul style="overflow: hidden">
-  <li> 연구교수님 프로필 준비중 </li>
-  </ul>
-</div>
 </div>
 
 
