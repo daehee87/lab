@@ -71,6 +71,7 @@ permalink: /team/
   <li> 1984.3~1988.2 국립 금오공과대학교 학사 </li>
   </ul>
 </div>
+</div>
 
 
 <!-- **Position open for M.S./Ph.D. Candidates.** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
