@@ -60,6 +60,7 @@ permalink: /
 
 **[연구실 최신 News]**
 
+- 임우협/문지윤 석사과정, SCI 논문 게재 [(ELSEVIER JSA Journal. JCR 21% Q1)](https://www.sciencedirect.com/science/article/pii/S1383762125002188)
 - 오경제/임우협/윤석찬 2025 CCE CTF 본선진출 (경희대미남해커 팀)
 - 장대희교수 2025 육군본부 정보화분과 자문위원 위촉
 - 오경제/임우협 2025 CODEGATE CTF 본선진출 (경희대미남해커 팀)
