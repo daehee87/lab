@@ -1,3 +1,12 @@
+- title: "Bit-level compiler optimization for ultra low-power embedded systems"
+  image: compileropt.png
+  description: Ultra low-power embedded systems use narrow data paths for efficiency, but high-level programs often generate code with unnecessarily wide data types. This research presents a novel optimizing compiler that performs a static, bit-level analysis to determine the precise data width required by the program. By automatically transforming the code to use these optimal widths, our approach reduces wasteful data movements and computational overhead, enhancing energy efficiency on resource-constrained devices.
+  authors: Seonyeong Heo, Jiho Kin, Woohyeop Im, Jiyun Moon, <strong>Daehee Jang</strong>
+  link:
+    url: ../downloads/compileropt.pdf
+    display: Journal of System Architecture (Volume 168. 2025)
+  highlight: 1
+
 - title: "On the Analysis of Coverage Feedback in Fuzzing Proprietary System"
   image: none
   description: none
@@ -115,7 +124,7 @@
   link:
     url: ../downloads/qemu.pdf
     display: ELSEVIER Computers and Security Journal (Volume 83, June 2019, Pages 182-200)
-  highlight: 1
+  highlight: 0
 
 - title: "SGX-LEGO: Fine-grained SGX controlled-channel attack and its countermeasure"
   image: none
