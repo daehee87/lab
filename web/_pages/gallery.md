@@ -167,38 +167,6 @@ permalink: /gallery/
   </div>
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a25.jpg" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a25.jpg" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>연구실 해커톤 - PCB 분해 및 RF모뎀분석</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a24.png" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a24.png" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>방위사업청 중간평가행사 - 드론 제어권탈취시연</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a23.png" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a23.png" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>2024 부산 워크숍</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a22.png" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a22.png" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>2024 블랙햇 연수</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a11.png" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a11.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
@@ -223,14 +191,6 @@ permalink: /gallery/
   </div>
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a9.png" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a9.png" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>2024 세종핵테온 CTF 활동 (PWNLAB 연구원 5명 본선진출)</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a6.png" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a6.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
@@ -243,23 +203,6 @@ permalink: /gallery/
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a7.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
       <p>2024 DEFCON CTF 예선활동 (PWNLAB 연구원 3명 본선진출)</p>
-    </div>
-  </div>
-
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a14.png" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a14.png" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>2024 정보보호학회 학술대회 발표 (연동현 석사과정)</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a32.jpg" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a32.jpg" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>2023 연구실 연말 회식</p>
     </div>
   </div>
   <div class="col-sm-6 clearfix gallery-item">
@@ -280,14 +223,6 @@ permalink: /gallery/
   </div>
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a18.png" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a18.png" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>2023 삼성 CTF 대회 활동 (PWNLAB팀 + Naver팀)</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a19.png" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a19.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
@@ -300,14 +235,6 @@ permalink: /gallery/
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a20.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
       <p>2023 LG전자 세미나</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a21.png" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a21.png" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>2023 드론해킹대회 세미나 (황선혁 연구원)</p>
     </div>
   </div>
 
