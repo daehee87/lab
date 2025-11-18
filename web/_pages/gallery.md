@@ -5,7 +5,15 @@ permalink: /gallery/
 ---
 
 <div class="row">
-<div class="col-sm-6 clearfix gallery-item">
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a54.png" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a54.png" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>CODEBLUE 보안 컨퍼런스 참석 및 운영 (김민서 석사과정, 윤석찬 학부인턴)</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a53.png" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a53.png" class="img-responsive" width="100%" alt="Description 1">
