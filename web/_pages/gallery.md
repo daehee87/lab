@@ -7,6 +7,22 @@ permalink: /gallery/
 <div class="row">
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a58.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a58.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>IT플랫폼안전성연구회 참석 및 행사운영</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a57.png" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a57.png" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>정보보호학회 AI공모전 대상우수상 수상 (김민서, 김민수 석사과정)</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a55.png" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a55.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
@@ -35,6 +51,14 @@ permalink: /gallery/
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a52.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
       <p>2025 DEFCON Bahrain 컨퍼런스 (임우협 박사과정, 오경제 석사과정) </p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a56.png" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a56.png" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>(주)Contac 텍사스 저궤도 인공위성기지국 견학체험방문</p>
     </div>
   </div>
   <div class="col-sm-6 clearfix gallery-item">
