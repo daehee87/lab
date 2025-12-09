@@ -10,7 +10,7 @@ permalink: /gallery/
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a59.png" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a59.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
-      <p>CyKor CTF 2025 해킹대회 5위 (경희대미남해커들 팀)</p>
+      <p>CyKor CTF 2025 해킹대회 5위 기록 (경희대미남해커들 팀)</p>
     </div>
   </div>
   <div class="col-sm-6 clearfix gallery-item">
