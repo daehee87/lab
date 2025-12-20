@@ -1,35 +1,119 @@
-- name: Eunyeong Ahn (안은영)
+#- name:
+#  photo: rock.jpg
+#  info:
+#  duration:
+#  result:
+#  field:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+- name: 안은영
   photo: enong.png
   duration: 2021 Mar - 2023 Jan (성신여대 융합보안학과)
-  result: M.S. candidate at KAIST (Prof. Brent Kang)
-  info: Undergrad Research Intern (학부인턴)
+  result: 국가보안기술연구소. NSR
+  info: 학부인턴
+  field: 시스템보안
   email: none
   number_educ: 1
   education1: none
 
-- name: Hyeongseok Bai (배형석)
-  photo: bhs.jpg
-  duration: 2022 Mar - 2022 Nov (경희대학교 컴퓨터공학과)
-  result: TBD
-  info: Undergrad Research Intern (학부인턴)
-  email: none
-  number_educ: 1
-  education1: none
-
-- name: Jiho Kim (김지호)
+- name: 김지호
   photo: jhk.jpg
   duration: 2023 July - 2024 Sep (경희대학교 컴퓨터공학과)
   result: Ph.D. candidate at Georgia Institute of Technology (Prof. Taesoo Kim)
   info: 외부 연구원 (삼성전자)
+  field: 시스템보안
   email: none
   number_educ: 1
   education1: none
 
-- name: Minwoo Jeong (정민우)
+- name: 정민우
   photo: jmw.jpg
   duration: 2023 Mar - 2025 Jan (경희대학교 컴퓨터공학과)
   result: M.S. candidate at KAIST (Prof. Insu Yun)
-  info: Undergrad Research Intern (학부인턴)
+  info: 학부인턴
+  field: 시스템보안
   email: none
   number_educ: 1
   education1: none
+
+- name: 차현수
+  photo: chs.jpg
+  duration: 2024 Mar - 2026 Jan (경희대학교 융합보안대학원)
+  result: 엔키화이트햇 (보안회사)
+  info: 석사졸업
+  field: 시스템보안
+  email: soosoo6558 at gmail.com
+  number_educ: 4
+  education1: 국방부/행안부/과기부 다수 장관상 수상
+  education2: 19',20' KISA 버그바운티 명예의전당 Top10
+  education3: DEFCON CTF 본선 5회 진출/입상
+  education4: (현) ENKI 연구원
+
+- name: 태인규
+  photo: tik.jpg
+  duration: 2024 Mar - 2026 Jan (경희대학교 융합보안대학원)
+  result: 보안회사창업
+  info: 석사졸업
+  field: 시스템보안
+  email: graylynx at gmail.com
+  number_educ: 4
+  education1: (전) NHSC 책임연구원
+  education2: (전) 금융결제원 연구원
+  education3: (전) 금융보안원 연구원
+  education4: (현) 아웃오브바운즈 CEO
+
+- name: 최현진
+  photo: chj.jpeg
+  duration: 2024 Mar - 2026 Jan (경희대학교 융합보안대학원)
+  result: Binary Gecko (독일 보안회사)
+  info: 석사졸업
+  field: 시스템보안
+  email: d4m0n.8 at gmail.com
+  number_educ: 4
+  education1: 1-day CVE 분석 및 PoC개발
+  education2: 상용시스템 0-day 취약점 다수 발굴
+  education3: (현) 아웃오브바운즈 연구원 
+  education4: Pwn2Own 2025 Berlin 수상
+
+- name: 김민수
+  photo: kms.jpg
+  duration: 2024 Mar - 2026 Jan (경희대학교 융합보안대학원)
+  result: 파도 (보안회사)
+  info: 석사졸업
+  field: 시스템보안
+  email: 1029mins at gmail.com
+  number_educ: 4
+  education1: K-Shield 주니어 1위 수료 (4기)
+  education2: 다수의 모의해킹 및 강의경험 보유
+  education3: (전) SK Shieldus EQST Lab 연구원
+  education4: (현) All it One 연구원
+
+- name: 김지완
+  photo: kjw.jpg
+  duration: 2024 Mar - 2026 Jan (경희대학교 융합보안대학원)
+  result: TBD
+  info: 석사졸업
+  field: 웹보안
+  email: kimjiwan0619 at khu.ac.kr
+  number_educ: 3
+  education1: 경희대 컴퓨터공학과 B.S
+  education2: 웹해킹 프로젝트 수행
+  education3: 웹보안, 웹3보안
+
+- name: 윤석찬
+  photo: ysc.jpg
+  duration: 2024 Mar - 2026 Jan (경희대학교 컴퓨터공학과)
+  result: Zellic (미국 보안회사)
+  info: 학부인턴
+  field: 웹보안
+  email: ch4n3.yoon at gmail.com
+  number_educ: 4
+  education1: BoB 6th 취약점트랙 수료
+  education2: 코드게이트 등 CTF 수상 10건이상
+  education3: Django/Ruby 등 CVE 14건이상 보유 
+  education4: (현) Zellic 보안 연구원

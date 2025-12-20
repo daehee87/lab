@@ -1,6 +1,7 @@
 #- name:
 #  photo: rock.jpg
 #  info:
+#  duration:
 #  email:
 #  number_educ:
 #  education1:
@@ -10,7 +11,8 @@
 
 - name: Woohyeop Im (임우협)
   photo: whl.jpg
-  info: M.S. Candidate (융합보안대학원)
+  info: Ph.D. Candidate (융합보안대학원)
+  duration: 융합보안대학원 (2026.03~)
   email: pwn at khu.ac.kr
   number_educ: 4
   education1: PwnLab 연구실 랩장
@@ -19,39 +21,10 @@
   education4: 다수의 CVE 보유 (CVE-2023-48123 등)
   link: https://brwook.github.io/about/
 
-- name: Hyunsoo Cha (차현수)
-  photo: chs.jpg
-  info: M.S. Candidate (융합보안대학원)
-  email: soosoo6558 at gmail.com
-  number_educ: 4
-  education1: 국방부/행안부/과기부 다수 장관상 수상
-  education2: 19',20' KISA 버그바운티 명예의전당 Top10
-  education3: DEFCON CTF 본선 5회 진출/입상
-  education4: (현) ENKI 연구원
-
-- name: Inkyu Tae (태인규)
-  photo: tik.jpg
-  info: M.S. Candidate (융합보안대학원)
-  email: graylynx at gmail.com
-  number_educ: 4
-  education1: (전) NHSC 책임연구원
-  education2: (전) 금융결제원 연구원
-  education3: (전) 금융보안원 연구원
-  education4: (현) 아웃오브바운즈 CEO
-
-- name: Hyeonjin Choi (최현진)
-  photo: chj.jpeg
-  info: M.S. Candidate (융합보안대학원)
-  email: d4m0n.8 at gmail.com
-  number_educ: 4
-  education1: 1-day CVE 분석 및 PoC개발
-  education2: 상용시스템 0-day 취약점 다수 발굴
-  education3: (현) 아웃오브바운즈 연구원 
-  education4: Pwn2Own 2025 Berlin 수상
-
 - name: Donghyeon Yeon (연동현)
   photo: ydh.jpg
   info: M.S. Candidate (융합보안대학원)
+  duration: 융합보안대학원 (2024.09~)
   email: dusehdgus12 at naver.com
   number_educ: 4
   education1: 경희대 컴퓨터공학과 B.S
@@ -62,6 +35,7 @@
 - name: Gyeongje Oh (오경제)
   photo: okj.jpg
   info: M.S. Candidate (융합보안대학원)
+  duration: 융합보안대학원 (2025.03~)
   email: ogj0824 at gmail.com
   number_educ: 3
   education1: 경희대 소프트웨어융합학과 B.S
@@ -72,6 +46,7 @@
 - name: Sunhyuk Hwang (황선혁)
   photo: hsh.jpg
   info: M.S. Candidate (융합보안대학원)
+  duration: 융합보안대학원 (2025.03~)
   email: buckelwal8979 at khu.ac.kr
   number_educ: 4
   education1: 드론해킹대회 출제/운영
@@ -79,46 +54,52 @@
   education3: SDR, RF해킹, 인공위성보안
   education4: 경희대 컴퓨터공학과 B.S
 
-- name: Minsu Kim (김민수)
-  photo: kms.jpg
+- name: Minseo Kim (김민서)
+  photo: kms.png
   info: M.S. Candidate (융합보안대학원)
-  email: 1029mins at gmail.com
+  duration: 융합보안대학원 (2025.09~)
+  email: mskim.link@gmail.com
   number_educ: 4
-  education1: K-Shield 주니어 1위 수료 (4기)
-  education2: 다수의 모의해킹 및 강의경험 보유
-  education3: (전) SK Shieldus EQST Lab 연구원
-  education4: (현) All it One 연구원
+  education1: 과기부 SW마에스트로 14기 우수자 (장관 인증)
+  education2: IEEE Access 국제 저널 논문 게재
+  education3: 다수의 해커톤 수상 (대상/각종 시장상 등)
+  education4: (주)누리컴퍼니 CEO
 
-- name: Jiwan Kim (김지완)
-  photo: kjw.jpg
+- name: Junseo Park (박준서)
+  photo: pjs.jpg
   info: M.S. Candidate (융합보안대학원)
-  email: kimjiwan0619 at khu.ac.kr
+  duration: 융합보안대학원 (2026.03~)
+  email: andrew2012 at khu.ac.kr
   number_educ: 3
-  education1: 경희대 컴퓨터공학과 B.S
-  education2: 웹해킹 프로젝트 수행
-  education3: 웹보안, 웹3보안
+  education1: 경희대 컴퓨터공학과 졸업
+  education2: 다수의 워게임풀이 경력
+  education3: 시스템 보안
 
-- name: OO Moon (문OO)
-  photo: joo.jpg
+- name: Chanyeong Kim (김찬영)
+  photo: kcy.jpg
   info: M.S. Candidate (융합보안대학원)
-  email: Yun2020edu at gmail.com
+  duration: 융합보안대학원 (2026.03~)
+  email: cksdud1113@naver.com
   number_educ: 3
-  education1: 10년이상 산업체 경력
-  education2: 시스템 보안
-  education3: 악성코드 분석
+  education1: (전)고려대 정보보호대학원
+  education2: 빡공팟 시스템 해킹 서바이벌 최종 수료(11기)
+  education3: 공인 자격증 다수·보안 솔루션 운영경험
+  link: https://www.notion.so/3-400-ENTJ-7d309fcdcb77455ba0e23ae3929ad327
 
-- name: OO Kim (김OO)
-  photo: dummy.png
+- name: Namho Kim (김남호)
+  photo: knh.jpg
   info: M.S. Candidate (융합보안대학원)
-  email: Yun2020edu at gmail.com
+  duration: 융합보안대학원 (2026.03~)
+  email: gaea123456 at khu.ac.kr
   number_educ: 3
-  education1: 10년이상 산업체 경력
-  education2: 산업시설 보안
-  education3: 네트워크 보안 
+  education1: 경희대 컴퓨터공학과 졸업
+  education2: 다수의 워게임풀이 경력
+  education3: 시스템 보안
 
 - name: Sungbae Yoon (윤성배)
   photo: ysb.jpg
   info: M.S. Candidate (융합보안대학원)
+  duration: 융합보안대학원 (2025.03~)
   email: 2019102203 at khu.ac.kr
   number_educ: 3
   education1: 경희대 컴퓨터공학과 B.S
@@ -128,72 +109,37 @@
 - name: Hyeokjae Lee (이혁재)
   photo: lhj.png
   info: M.S. Candidate (융합보안대학원)
+  duration: 융합보안대학원 (2025.03~)
   email: hjlee25 at khu.ac.kr
   number_educ: 3
   education1: K-Shield 주니어 수료 (4기)
   education2: (전) 누리랩 연구원
   education3: 박제만 교수님 공동지도
 
-- name: Minseo Kim (김민서)
-  photo: kms.png
+- name: OO Moon (문OO)
+  photo: joo.jpg
   info: M.S. Candidate (융합보안대학원)
-  email: mskim.link@gmail.com
-  number_educ: 4
-  education1: 과기부 SW마에스트로 14기 우수자 (장관 인증)
-  education2: IEEE Access 국제 저널 논문 게재
-  education3: 다수의 해커톤 수상 (대상/각종 시장상 등)
-  education4: (주)누리컴퍼니 CEO
-
-- name: Seokchan Yoon (윤석찬)
-  photo: ysc.jpg
-  info: 학부생 인턴 (컴퓨터공학과)
-  email: ch4n3.yoon at gmail.com
-  number_educ: 4
-  education1: BoB 6th 취약점트랙 수료
-  education2: 코드게이트 등 CTF 수상 10건이상
-  education3: Django/Ruby 등 CVE 14건이상 보유 
-  education4: (현) Zellic 보안 연구원
-
-- name: Junseo Park (박준서)
-  photo: pjs.jpg
-  info: 학부생 인턴 (컴퓨터공학과)
-  email: andrew2012 at khu.ac.kr
+  duration: 융합보안대학원 (2024.09~)
+  email: Yun2020edu at gmail.com
   number_educ: 3
-  education1: 경희대 컴퓨터공학과 재학
-  education2: 다수의 워게임풀이 경력
-  education3: 시스템 보안
+  education1: 10년이상 산업체 경력
+  education2: 시스템 보안
+  education3: 악성코드 분석
 
-- name: Sung Keum (금 성)
-  photo: ks.jpg
-  info: 학부생 인턴 (컴퓨터공학과)
-  email: kambodi127 at gmail.com
+- name: OO Kim (김OO)
+  photo: dummy.png
+  info: M.S. Candidate (융합보안대학원)
+  duration: 융합보안대학원 (2025.03~)
+  email: Yun2020edu at gmail.com
   number_educ: 3
-  education1: 건양대 사이버보안공학과 재학
-  education2: BOB 13th 취약점트랙 수료
-  education3: 시스템 보안
-
-- name: Namho Kim (김남호)
-  photo: knh.jpg
-  info: 학부생 인턴 (컴퓨터공학과) 
-  email: gaea123456 at khu.ac.kr
-  number_educ: 3
-  education1: 경희대 컴퓨터공학과 재학
-  education2: 다수의 워게임풀이 경력
-  education3: 시스템 보안
-
-- name: Chanyeong Kim (김찬영)
-  photo: kcy.jpg
-  info: 방문 연구 인턴
-  email: cksdud1113@naver.com
-  number_educ: 3
-  education1: (현)고려대 정보보호대학원
-  education2: 빡공팟 시스템 해킹 서바이벌 최종 수료(11기)
-  education3: 공인 자격증 다수·보안 솔루션 운영경험
-  link: https://www.notion.so/3-400-ENTJ-7d309fcdcb77455ba0e23ae3929ad327
+  education1: 10년이상 산업체 경력
+  education2: 산업시설 보안
+  education3: 네트워크 보안 
 
 - name: Minjun Kang (강민준)
   photo: kmj.jpg
   info: 학부생 인턴 (컴퓨터공학과) 
+  duration: 컴퓨터공학과 (2025.07~)
   email: minjun@khu.ac.kr
   number_educ: 4
   education1: 경희대 컴퓨터공학과 재학

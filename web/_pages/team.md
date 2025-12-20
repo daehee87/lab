@@ -77,11 +77,34 @@ permalink: /team/
 <!-- **Position open for M.S./Ph.D. Candidates.** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
 
 ## Researcher/Student
+{% assign sections = "Ph.D.|M.S.|Intern" | split: "|" %}
+
+{% for section in sections %}
+
+{% if section == "Ph.D." %}
+### Ph.D. Candidate
+{% assign search_key = "Ph.D." %}
+{% elsif section == "M.S." %}
+### M.S. Candidate
+{% assign search_key = "M.S." %}
+{% else %}
+### Intern
+{% assign search_key = "인턴" %} 
+{% endif %}
+
 {% assign number_printed = 0 %}
+
 {% for member in site.data.researchers %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
+{% assign is_target = false %}
+{% if member.info contains search_key %}
+{% assign is_target = true %}
+{% endif %}
 
+
+{% if is_target == true %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 0 %}
 <div class="row">
 {% endif %}
@@ -96,39 +119,13 @@ permalink: /team/
     {% endif %}
   </h4>
   
-  <i>{{ member.info }}</i>
+  <i>{{ member.duration }}</i>
   <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-
+    {% if member.number_educ >= 1 %}<li> {{ member.education1 }} </li>{% endif %}
+    {% if member.number_educ >= 2 %}<li> {{ member.education2 }} </li>{% endif %}
+    {% if member.number_educ >= 3 %}<li> {{ member.education3 }} </li>{% endif %}
+    {% if member.number_educ >= 4 %}<li> {{ member.education4 }} </li>{% endif %}
+    {% if member.number_educ >= 5 %}<li> {{ member.education5 }} </li>{% endif %}
   </ul>
 </div>
 
@@ -138,6 +135,7 @@ permalink: /team/
 </div>
 {% endif %}
 
+{% endif %}
 {% endfor %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
@@ -145,9 +143,7 @@ permalink: /team/
 </div>
 {% endif %}
 
-
-
-
+{% endfor %}
 
 
 
@@ -164,9 +160,9 @@ permalink: /team/
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
+  <h4>{{ member.name }} ({{ member.info }})</h4>
   <i>{{ member.duration }} <br>
-   역할: {{ member.info }} <br>
+   분야: {{ member.field }} <br>
    진로: {{ member.result }}
    </i>
   <ul style="overflow: hidden">
@@ -191,9 +187,18 @@ permalink: /team/
 <div class="row">
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/joo.png" class="img-responsive" width="25%" style="float: left" />
-  <h4>주수민 (산학협력단)</h4>
+  <h4>주수민 (행정팀장)</h4>
   <i>email: jj00@khu.ac.kr</i><br>
-   역할: 행정지원 <br>
+   역할: 연구실 운영지원 <br>
+   사무실 번호: 031-201-5345 
+  <ul style="overflow: hidden">
+  </ul>
+</div>
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/cjs.png" class="img-responsive" width="25%" style="float: left" />
+  <h4>최지수 (행정원)</h4>
+  <i>email: chlwltn0720@naver.com</i><br>
+   역할: 행정보조 <br>
    사무실 번호: 031-201-5345 
   <ul style="overflow: hidden">
   </ul>
