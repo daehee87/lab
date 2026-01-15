@@ -7,6 +7,14 @@ permalink: /gallery/
 <div class="row">
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a60.png" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a60.png" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>싱가포르 DSTA 연구소 국제교류행사</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a59.png" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a59.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
