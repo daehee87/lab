@@ -7,6 +7,14 @@ permalink: /gallery/
 <div class="row">
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a61.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a61.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>현대자동차/삼성/네이버 기술교류회</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a60.png" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a60.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
