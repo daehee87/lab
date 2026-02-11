@@ -58,7 +58,7 @@
   photo: kms.png
   info: M.S. Candidate (융합보안대학원)
   duration: 융합보안대학원 (2025.09~)
-  email: mskim.link@gmail.com
+  email: mskim.link at gmail.com
   number_educ: 4
   education1: 과기부 SW마에스트로 14기 우수자 (장관 인증)
   education2: IEEE Access 국제 저널 논문 게재
@@ -79,7 +79,7 @@
   photo: kcy.jpg
   info: M.S. Candidate (융합보안대학원)
   duration: 융합보안대학원 (2026.03~)
-  email: cksdud1113@naver.com
+  email: cksdud1113 at naver.com
   number_educ: 3
   education1: (전)고려대 정보보호대학원
   education2: 빡공팟 시스템 해킹 서바이벌 최종 수료(11기)
@@ -140,9 +140,30 @@
   photo: kmj.jpg
   info: 학부생 인턴 (컴퓨터공학과) 
   duration: 컴퓨터공학과 (2025.07~)
-  email: minjun@khu.ac.kr
+  email: minjun at khu.ac.kr
   number_educ: 4
   education1: 경희대 컴퓨터공학과 재학
   education2: KVE-2019-1483 등 취약점 보유
   education3: 대국민 서비스 다수 개발
   education4: 웹해킹
+
+- name: Sunghui Han (한성희)
+  photo: sh.jpg
+  info: 학부생 인턴 (컴퓨터공학과) 
+  duration: 컴퓨터공학과 (2025.09~)
+  email: dangyee at khu.ac.kr
+  number_educ: 4
+  education1: 경희대 컴퓨터공학과 재학
+  education2: 소프트웨어 마에스트로 13기
+  education3: 다수의 워게임풀이 경력
+  education4: 웹해킹
+
+- name: Hyungyul Na (나형율)
+  photo: nhy.jpg
+  info: 학부생 인턴 (컴퓨터공학과) 
+  duration: 컴퓨터공학과 (2025.12~)
+  email: yurizoa at khu.ac.kr
+  number_educ: 3
+  education1: 경희대 컴퓨터공학과 재학
+  education2: 다수의 워게임풀이 경력
+  education3: 시스템 보안
