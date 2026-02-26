@@ -22,14 +22,11 @@ permalink: /team/
   <i> {{ member.email }}<br></i>
   <i> <a href='/downloads/cv.pdf'>[Download CV]</a><br></i>
   <ul style="overflow: hidden">
-  <li> IT플랫폼안전성연구회 부회장 </li>
-  <li> 경희대 융합보안대학원 사업단장 </li>
-  <li> 한국우주안보학회 종신회원 </li>
-  <li> 한국정보처리학회 이사 </li>
-  <li> 세종시핵테온 해킹대회 자문위원 </li>
-  <li> 한국디지털포렌식학회 이사 </li>
-  <li> 육군본부 정보화분과 자문의원 </li>
-  <li> 2023.3 ~ 현재 경희대 컴퓨터공학과 조교수 </li>
+  <li> 2026.1 ~ IT플랫폼안전성연구회장 </li>
+  <li> 2025.7 ~ 육군본부 정보화분과 자문위원 </li>
+  <li> 2024.1 ~ 세종시핵테온 해킹대회 자문위원 </li>
+  <li> 2023.7 ~ 경희대 융합보안대학원 사업단장 </li>
+  <li> 2023.3 ~ 경희대 컴퓨터공학과 조교수 </li>
   <li> 2021.3 ~ 2023.2 성신여대 융합보안공학과 조교수 </li>
   <li> 2019.5 ~ 2020.12 <a href="https://gts3.org">Georgia Tech</a> 박사후연구원 (Advisor: Prof. Taesoo Kim) </li>
   <li> 2014.3 ~ 2019.2 KAIST 정보보호대학원 석,박사 (Advisor: Prof. Byunghoon Kang) </li>
