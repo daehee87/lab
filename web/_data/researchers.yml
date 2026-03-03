@@ -96,6 +96,16 @@
   education1: 경희대 컴퓨터공학과 졸업
   education2: 소프트웨어 Fuzzing
   education3: 시스템 보안
+  
+- name: Haneul Chae (채하늘)
+  photo: chn.jpg
+  info: M.S. Candidate (융합보안대학원)
+  duration: 융합보안대학원 (2026.03~)
+  email: g0y4ng2 at kakao.com
+  number_educ: 3
+  education1: BoB 11기 취약점트랙 Best 10
+  education2: 엔키화이트햇 연구원
+  education3: 시스템 보안
 
 - name: Sungbae Yoon (윤성배)
   photo: ysb.jpg
