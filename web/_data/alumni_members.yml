@@ -13,7 +13,7 @@
 
 - name: 안은영
   photo: enong.png
-  duration: 2021 Mar - 2023 Jan (성신여대 융합보안학과)
+  duration: 2021 Mar - 2023 Jan
   result: 국가보안기술연구소. NSR
   info: 학부인턴
   field: 시스템보안
@@ -23,7 +23,7 @@
 
 - name: 김지호
   photo: jhk.jpg
-  duration: 2023 July - 2024 Sep (경희대학교 컴퓨터공학과)
+  duration: 2023 July - 2024 Sep
   result: Ph.D. candidate at Georgia Institute of Technology (Prof. Taesoo Kim)
   info: 외부 연구원 (삼성전자)
   field: 시스템보안
@@ -33,7 +33,7 @@
 
 - name: 정민우
   photo: jmw.jpg
-  duration: 2023 Mar - 2025 Jan (경희대학교 컴퓨터공학과)
+  duration: 2023 Mar - 2025 Jan
   result: M.S. candidate at KAIST (Prof. Insu Yun)
   info: 학부인턴
   field: 시스템보안
@@ -43,7 +43,7 @@
 
 - name: 차현수
   photo: chs.jpg
-  duration: 2024 Mar - 2026 Jan (경희대학교 융합보안대학원)
+  duration: 2024 Mar - 2026 Jan
   result: 엔키화이트햇 (보안회사)
   info: 석사졸업
   field: 시스템보안
@@ -56,7 +56,7 @@
 
 - name: 태인규
   photo: tik.jpg
-  duration: 2024 Mar - 2026 Jan (경희대학교 융합보안대학원)
+  duration: 2024 Mar - 2026 Jan
   result: 보안회사창업
   info: 석사졸업
   field: 시스템보안
@@ -69,7 +69,7 @@
 
 - name: 최현진
   photo: chj.jpeg
-  duration: 2024 Mar - 2026 Jan (경희대학교 융합보안대학원)
+  duration: 2024 Mar - 2026 Jan
   result: Binary Gecko (독일 보안회사)
   info: 석사졸업
   field: 시스템보안
@@ -82,7 +82,7 @@
 
 - name: 김민수
   photo: kms.jpg
-  duration: 2024 Mar - 2026 Jan (경희대학교 융합보안대학원)
+  duration: 2024 Mar - 2026 Jan
   result: 파도 (보안회사)
   info: 석사졸업
   field: 시스템보안
@@ -95,7 +95,7 @@
 
 - name: 김지완
   photo: kjw.jpg
-  duration: 2024 Mar - 2026 Jan (경희대학교 융합보안대학원)
+  duration: 2024 Mar - 2026 Jan
   result: TBD
   info: 석사졸업
   field: 웹보안
@@ -107,7 +107,7 @@
 
 - name: 윤석찬
   photo: ysc.jpg
-  duration: 2024 Mar - 2026 Jan (경희대학교 컴퓨터공학과)
+  duration: 2024 Mar - 2026 Jan
   result: Zellic (미국 보안회사)
   info: 학부인턴
   field: 웹보안

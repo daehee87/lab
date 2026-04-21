@@ -7,6 +7,38 @@ permalink: /gallery/
 <div class="row">
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a65.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a65.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>2026 봄맞이 벚꽃 나들이</p>
+    </div>
+  </div>
+    <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a66.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a66.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>.HACK CONFERENCE 2026</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a64.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a64.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>PWNLAB 졸업식 뒷풀이</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a63.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a63.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>PWNLAB 석사 1회 졸업식 행사</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a61.jpg" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a61.jpg" class="img-responsive" width="100%" alt="Description 1">
       </a>
@@ -103,10 +135,18 @@ permalink: /gallery/
   </div>
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a49.png" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a49.png" class="img-responsive" width="100%" alt="Description 1">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a49.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a49.jpg" class="img-responsive" width="100%" alt="Description 1">
       </a>
       <p>국정원/국보연 주관 CCE 2025 해킹대회 본선진출 (경희대미남해커들 팀)</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a68.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a68.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>2025 CODEGATE 본선 진출 (경희로운 세종대왕 팀)</p>
     </div>
   </div>
   <div class="col-sm-6 clearfix gallery-item">
@@ -151,6 +191,15 @@ permalink: /gallery/
   </div>
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a69.png" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a69.png" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>2025 DEFCON 33 본선 진출 (COLD FUSION 팀)</p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a43.jpg" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a43.jpg" class="img-responsive" width="100%" alt="Description 1">
       </a>
@@ -159,10 +208,10 @@ permalink: /gallery/
   </div>
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a41.jpg" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a41.jpg" class="img-responsive" width="100%" alt="Description 1">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a62.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a62.jpg" class="img-responsive" width="100%" alt="Description 1">
       </a>
-      <p>청와대 청년 화이트해커 행사 (임우협 박사과정)</p>
+      <p>국내외 각종 해킹대회 수상 (임우협/오경제)</p>
     </div>
   </div>
   <div class="col-sm-6 clearfix gallery-item">
@@ -175,34 +224,10 @@ permalink: /gallery/
   </div>
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a39.jpg" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a39.jpg" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>드림핵 CTF 개인전 본선진출 (임우협 박사과정)</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a38.jpg" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a38.jpg" class="img-responsive" width="100%" alt="Description 1">
       </a>
       <p>2024 미국 BlackHat 해외연수</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a37.jpg" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a37.jpg" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>LG U+ 해킹대회 우수상 (오경제 석사과정)</p>
-    </div>
-  </div>
-  <div class="col-sm-6 clearfix gallery-item">
-    <div class="well">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a36.jpg" data-lightbox="gallery" class="gallery-link">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a36.jpg" class="img-responsive" width="100%" alt="Description 1">
-      </a>
-      <p>ISITSU CTF 국제 해킹대회 우승 (임우협 박사과정)</p>
     </div>
   </div>
   <div class="col-sm-6 clearfix gallery-item">
@@ -299,6 +324,14 @@ permalink: /gallery/
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a8.png" class="img-responsive" width="100%" alt="Description 1">
       </a>
       <p>2023 국가보안기술연구소 김덕진 박사님 세미나</p>
+    </div>
+  </div>
+    <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a67.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a67.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>2023 CODEGATE 본선 진출 (경희대미남해커들 팀)</p>
     </div>
   </div>
   <div class="col-sm-6 clearfix gallery-item">

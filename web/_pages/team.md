@@ -156,10 +156,9 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="12%" style="float: left" />
   <h4>{{ member.name }} ({{ member.info }})</h4>
   <i>{{ member.duration }} <br>
-   분야: {{ member.field }} <br>
    진로: {{ member.result }}
    </i>
   <ul style="overflow: hidden">

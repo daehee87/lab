@@ -85,7 +85,7 @@
   education1: (전)고려대 정보보호대학원
   education2: 빡공팟 시스템 해킹 서바이벌 최종 수료(11기)
   education3: 드론, 임베디드 시스템보안
-  link: https://www.notion.so/3-400-ENTJ-7d309fcdcb77455ba0e23ae3929ad327
+  link: https://antique-cause-72a.notion.site/3-420-ENTJ-346b6814ab7680e7b93bd580cd0288c3
 
 - name: Namho Kim (김남호)
   photo: knh.jpg
@@ -107,15 +107,6 @@
   education2: 엔키화이트햇 연구원
   education3: 시스템 보안
 
-- name: Aymen Fatima
-  photo: fatima.jpg
-  info: M.S. Candidate (융합보안대학원)
-  duration: 융합보안대학원 (2025.03~)
-  email: fatima.aymenn@gmail.com
-  number_educ: 3
-  education1: National University of Sciences and Technology (NUST) B.S
-  education2: Lab Instructor, Sir Syed CASE University
-  education3: AI, 시스템 보안
 
 - name: Sungbae Yoon (윤성배)
   photo: ysb.jpg
@@ -187,3 +178,24 @@
   education1: 경희대 컴퓨터공학과 재학
   education2: AI/웹 개발
   education3: 시스템 보안
+
+- name: Dohyun Lee (이도현)
+  photo: dummy.png
+  info: 학부생 인턴 (AI 사이버보안학과) 
+  duration: AI 사이버보안학과 (2026.3~)
+  email: pwnable at korea.ac.kr
+  number_educ: 2
+  education1: BoB 9기 취약점트랙 수료
+  education2: 다수 CVE 보유 (Browser/Android/iOS)
+  link: https://github.com/l33d0hyun
+
+- name: Kyungtae Kim (김경태)
+  photo: kkt.jpg
+  info: 학부생 인턴 (컴퓨터공학과) 
+  duration: 우주과학과 (2026.4~)
+  email: kt010724 at khu.ac.kr
+  number_educ: 3
+  education1: 경희대 우주과학과 재학
+  education2: RF 해킹
+  education3: 인공위성 보안
+

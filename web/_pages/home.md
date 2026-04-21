@@ -116,20 +116,23 @@ permalink: /
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/etri.png" ></div>
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsr.png" ></div>
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/defense.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/samsung.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/DCC.png" ></div>
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/krit.png" ></div>
-  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/teruten.png" ></div>
-  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/78researchlab.jpg" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/IERAE.png" ></div>
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/lignex1.png" ></div>
-  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/enki.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/IITP.png" ></div>
   
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/etri.png" ></div>
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsr.png" ></div>
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/defense.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/samsung.png" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/DCC.png" ></div>
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/krit.png" ></div>
-  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/teruten.png" ></div>
-  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/78researchlab.jpg" ></div>
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/IERAE.png" ></div>
   <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/lignex1.png" ></div>
-  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/enki.png" ></div>
+  
+  <div class="logo-item"><img class="logo-image" src="{{ site.url }}{{ site.baseurl }}/images/logopic/IITP.png" ></div>
   </div>
 </div>
 
@@ -145,7 +148,7 @@ permalink: /
 
   .logo-track {
     display: flex;
-    width: calc(200% + 10px);
+    width: max-content;
     animation: scroll 10s linear infinite;
   }
 
