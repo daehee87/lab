@@ -21,17 +21,6 @@
   education4: 보안취약점 발굴 (CVE-2023-48123 등)
   link: https://brwook.github.io/about/
 
-- name: Donghyeon Yeon (연동현)
-  photo: ydh.jpg
-  info: M.S. Candidate (융합보안대학원)
-  duration: 융합보안대학원 (2024.09~)
-  email: dusehdgus12 at naver.com
-  number_educ: 4
-  education1: 경희대 컴퓨터공학과 B.S
-  education2: BoB 11th 취약점트랙 수료
-  education3: 보안취약점 발굴 (KVE-2022-1957 등)
-  education4: 드론해킹대회 출제/운영
-
 - name: Gyeongje Oh (오경제)
   photo: okj.jpg
   info: M.S. Candidate (융합보안대학원)
@@ -53,7 +42,8 @@
   education1: 드론해킹대회 출제/운영
   education2: 연구실 랩장 (2024)
   education3: SDR, RF해킹, 인공위성보안
-  education4: 경희대 컴퓨터공학과 B.S
+  education4: '<a href="https://mrradio.kr/" target="_blank" rel="noopener noreferrer">mr.Radio 워게임 사이트 운영</a>'
+  link: https://sunhyuk.dev/
 
 - name: Minseo Kim (김민서)
   photo: kms.png
@@ -107,6 +97,25 @@
   education2: 엔키화이트햇 연구원
   education3: 시스템 보안
 
+- name: Kyungtae Kim (김경태)
+  photo: kkt.jpg
+  info: M.S. Candidate (융합보안대학원)
+  duration: 우주과학과 (2026.09~)
+  email: kt010724 at khu.ac.kr
+  number_educ: 3
+  education1: 경희대 우주과학과 재학
+  education2: RF 해킹
+  education3: 인공위성 보안
+
+- name: Hyungyul Na (나형율)
+  photo: nhy.jpg
+  info: M.S. Candidate (융합보안대학원)
+  duration: 컴퓨터공학과 (2026.09~)
+  email: yurizoa at khu.ac.kr
+  number_educ: 3
+  education1: 경희대 컴퓨터공학과 재학
+  education2: AI/웹 개발
+  education3: 시스템 보안
 
 - name: Sungbae Yoon (윤성배)
   photo: ysb.jpg
@@ -128,16 +137,6 @@
   education2: (전) 누리랩 연구원
   education3: 박제만 교수님 공동지도
 
-- name: OO Moon (문OO)
-  photo: joo.jpg
-  info: M.S. Candidate (융합보안대학원)
-  duration: 융합보안대학원 (2024.09~)
-  email: Yun2020edu at gmail.com
-  number_educ: 2
-  education1: 10년이상 산업체 경력
-  education2: 시스템 보안
-  education3: 악성코드 분석
-
 - name: OO Kim (김OO)
   photo: dummy.png
   info: M.S. Candidate (융합보안대학원)
@@ -147,6 +146,17 @@
   education1: 10년이상 산업체 경력
   education2: 산업시설 보안
   education3: 네트워크 보안 
+
+- name: Aymen Fatima
+  photo: joo.jpg
+  info: M.S. Candidate (융합보안대학원)
+  duration: 융합보안대학원 (2026.03~)
+  email: fatima.aymenn@gmail.com
+  number_educ: 3
+  education1: National University of Sciences and Technology (NUST) B.S
+  education2: Lab Instructor, Sir Syed CASE University
+  education3: AI, 시스템 보안
+
 
 - name: Minjun Kang (강민준)
   photo: kmj.jpg
@@ -169,33 +179,34 @@
   education2: 소프트웨어 마에스트로 13기
   education3: 웹, 시스템 보안
 
-- name: Hyungyul Na (나형율)
-  photo: nhy.jpg
-  info: 학부생 인턴 (컴퓨터공학과) 
-  duration: 컴퓨터공학과 (2025.12~)
-  email: yurizoa at khu.ac.kr
-  number_educ: 3
-  education1: 경희대 컴퓨터공학과 재학
-  education2: AI/웹 개발
-  education3: 시스템 보안
-
 - name: Dohyun Lee (이도현)
-  photo: dummy.png
+  photo: ldh.png
   info: 학부생 인턴 (AI 사이버보안학과) 
-  duration: AI 사이버보안학과 (2026.3~)
+  duration: AI 사이버보안학과 (2026.03~)
   email: pwnable at korea.ac.kr
   number_educ: 2
   education1: BoB 9기 취약점트랙 수료
   education2: 다수 CVE 보유 (Browser/Android/iOS)
   link: https://github.com/l33d0hyun
 
-- name: Kyungtae Kim (김경태)
-  photo: kkt.jpg
-  info: 학부생 인턴 (컴퓨터공학과) 
-  duration: 우주과학과 (2026.4~)
-  email: kt010724 at khu.ac.kr
+- name: Hojin Seo (서호진)
+  photo: shj.jpg
+  info: 학부생 인턴 (-) 
+  duration: (2026.07~)
+  email: pwnable at korea.ac.kr
+  number_educ: 2
+  education1: BoB 9기 취약점트랙 수료
+  education2: 시스템 보안
+  link: 
+
+- name: Minkyu Cho (조민규)
+  photo: cmk.jpg
+  info: 학부생 인턴 (-) 
+  duration: (2026.08~)
+  email: pwnable at korea.ac.kr
   number_educ: 3
-  education1: 경희대 우주과학과 재학
-  education2: RF 해킹
-  education3: 인공위성 보안
+  education1: 경희대학교 컴퓨터공학과 재학
+  education2: 화이트햇스쿨 4기
+  education3: AI / 시스템 보안
+  link: https://github.com/danielcho02
 

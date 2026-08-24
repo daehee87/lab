@@ -16,12 +16,13 @@ permalink: /team/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix" style="width: 100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+<div class="col-sm-6 clearfix featured-profile" style="width: 100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive featured-profile-photo" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i> {{ member.email }}<br></i>
   <i> <a href='/downloads/cv.pdf'>[Download CV]</a><br></i>
   <ul style="overflow: hidden">
+  <li> 2026.8 ~ 티빙(Tving) 정보보호 자문위원 </li>
   <li> 2026.1 ~ IT플랫폼안전성연구회장 </li>
   <li> 2025.7 ~ 육군본부 정보화분과 자문위원 </li>
   <li> 2024.1 ~ 세종시핵테온 해킹대회 자문위원 </li>
@@ -51,8 +52,8 @@ permalink: /team/
 ## Research Professor
 <div class="row">
 
-<div class="col-sm-6 clearfix" style="width: 100%;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/kya.jpg" class="img-responsive" width="17%" style="float: left" />
+<div class="col-sm-6 clearfix featured-profile" style="width: 100%;">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/kya.jpg" class="img-responsive featured-profile-photo" width="17%" style="float: left" />
   <h4> Yeongan Kim (김영안) </h4>
   <i> roundsun@khu.ac.kr <br></i>
   <ul style="overflow: hidden">
@@ -106,7 +107,7 @@ permalink: /team/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
+<div class="col-sm-6 clearfix researcher-card">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>
     {% if member.link %}
@@ -117,7 +118,7 @@ permalink: /team/
   </h4>
   
   <i>{{ member.duration }}</i>
-  <ul style="overflow: hidden">
+  <ul class="researcher-bio" style="overflow: hidden">
     {% if member.number_educ >= 1 %}<li> {{ member.education1 }} </li>{% endif %}
     {% if member.number_educ >= 2 %}<li> {{ member.education2 }} </li>{% endif %}
     {% if member.number_educ >= 3 %}<li> {{ member.education3 }} </li>{% endif %}
@@ -155,15 +156,14 @@ permalink: /team/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="12%" style="float: left" />
-  <h4>{{ member.name }} ({{ member.info }})</h4>
-  <i>{{ member.duration }} <br>
-   진로: {{ member.result }}
-   </i>
-  <ul style="overflow: hidden">
-
-  </ul>
+<div class="col-sm-6 clearfix alumni-card">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive alumni-photo" width="12%" style="float: left" />
+  <div class="alumni-details">
+    <h4>{{ member.name }} ({{ member.info }})</h4>
+    <i>{{ member.duration }} <br>
+     진로: {{ member.result }}
+    </i>
+  </div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -190,14 +190,4 @@ permalink: /team/
   <ul style="overflow: hidden">
   </ul>
 </div>
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/cjs.png" class="img-responsive" width="25%" style="float: left" />
-  <h4>최지수 (행정원)</h4>
-  <i>email: chlwltn0720@naver.com</i><br>
-   역할: 행정보조 <br>
-   사무실 번호: 031-201-5345 
-  <ul style="overflow: hidden">
-  </ul>
 </div>
-</div>
-

@@ -7,13 +7,77 @@ permalink: /gallery/
 <div class="row">
   <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a77.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a77.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>티빙 해킹사고 재발방지 자문단</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a76.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a76.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>PWNLAB - KX넥스지 MOU</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a75.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a75.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>연구실 친목활동</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a74.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a74.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>미국 DEFCON 2026 해외연수 친목활동</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a73.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a73.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>2026 DEFCON Las Vegas AeroSpace 부스운영</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a72.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a72.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>2026 일본 GMO 해외인턴십 교류</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a71.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a71.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>DEFCON 2026 Singapore 부스운영</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a70.jpg" data-lightbox="gallery" class="gallery-link">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a70.jpg" class="img-responsive" width="100%" alt="Description 1">
+      </a>
+      <p>26-2 연구실 졸업 (연동현/문ㅇㅇ 석사과정)</p>
+    </div>
+  </div>
+  <div class="col-sm-6 clearfix gallery-item">
+    <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a65.jpg" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a65.jpg" class="img-responsive" width="100%" alt="Description 1">
       </a>
       <p>2026 봄맞이 벚꽃 나들이</p>
     </div>
   </div>
-    <div class="col-sm-6 clearfix gallery-item">
+  <div class="col-sm-6 clearfix gallery-item">
     <div class="well">
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a66.jpg" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a66.jpg" class="img-responsive" width="100%" alt="Description 1">
@@ -178,7 +242,7 @@ permalink: /gallery/
       <a href="{{ site.url }}{{ site.baseurl }}/images/gal/a45.jpg" data-lightbox="gallery" class="gallery-link">
         <img src="{{ site.url }}{{ site.baseurl }}/images/gal/a45.jpg" class="img-responsive" width="100%" alt="Description 1">
       </a>
-      <p>미국 라스베가스 연구실 단체 관광</p>
+      <p>2025 미국 라스베가스 연구실 단체 관광</p>
     </div>
   </div>
   <div class="col-sm-6 clearfix gallery-item">

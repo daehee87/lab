@@ -98,3 +98,149 @@ firstp {
     margin-right: 30px;
 }
 
+/* Keep the homepage hero compact on desktop without changing mobile layout. */
+@media screen and (min-width: 801px) {
+    #carousel {
+        width: calc(100% - 120px);
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #carousel .carousel-inner > .item > img {
+        height: auto;
+    }
+}
+
+/* Stack senior profiles vertically on phones so their portraits remain legible. */
+@media screen and (max-width: 767px) {
+    .featured-profile .featured-profile-photo {
+        float: none !important;
+        width: 55%;
+        max-width: 260px;
+        height: auto;
+        margin: 0 auto 18px;
+    }
+
+    .featured-profile h4,
+    .featured-profile > i {
+        display: block;
+        text-align: left;
+    }
+
+    .featured-profile ul {
+        clear: both;
+        margin-top: 14px;
+        text-align: left;
+    }
+
+    /* Keep researcher biography bullets close to the left edge on phones. */
+    .researcher-card .researcher-bio {
+        clear: both;
+        padding-left: 20px;
+        text-align: left;
+    }
+}
+
+/* Keep long alumni biographies inside the text column beside the portrait. */
+.alumni-card .alumni-photo {
+    margin-right: 12px;
+}
+
+.alumni-card .alumni-details {
+    min-width: 0;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+    word-break: keep-all;
+}
+
+/* Separate the pwn demo from its copy so text never wraps under the GIF. */
+.pwnable-layout {
+    display: grid;
+    grid-template-columns: minmax(240px, 400px) minmax(0, 1fr);
+    gap: 20px;
+    align-items: start;
+}
+
+.pwnable-demo {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.pwnable-description {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    word-break: keep-all;
+}
+
+.pwnable-description > :first-child {
+    margin-top: 0;
+}
+
+.site-logo-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    align-content: start;
+    margin-top: 8px;
+}
+
+.site-logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    padding: 6px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    background: #fff;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.site-logo-link:hover,
+.site-logo-link:focus {
+    border-color: #158cba;
+    box-shadow: 0 2px 8px rgba(21, 140, 186, 0.15);
+    color: #158cba;
+    text-decoration: none;
+}
+
+.site-logo-link img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.site-logo-link--dark {
+    background: #000;
+    border-color: #000;
+}
+
+.site-logo-link--large {
+    padding: 0;
+}
+
+.site-logo-link--large img {
+    max-width: 100%;
+    max-height: 60px;
+}
+
+@media screen and (max-width: 767px) {
+    .pwnable-layout {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .pwnable-demo {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}

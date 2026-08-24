@@ -8,7 +8,11 @@ permalink: /research/
 
 ## Pwnable and Exploitation
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/pwn.gif){: style="width: 400px; float: left; margin: 10px 10px 10px 0px"}  저희 연구실에서는 다양한 시스템에 대한 Offensive Security 연구를 수행하고 있습니다. 다음은 [CVE-2018-5200](https://www.boho.or.kr/krcert/secNoticeView.do?bulletin_writing_sequence=30113) RCE 취약점의 Exploitation (pwn) Proof-of-Concept 데모 영상입니다. 이러한 RCE 취약점을 공격하는 과정에서 여러가지 시스템 지식 및 익스플로잇 기술을 터득 할 수 있습니다. 예를들어 KMPlayer CVE-2018-5200 의 취약점을 통해 최종 RCE 까지의 Exploit 흐름을 이끌어내는 과정은 
+<div class="pwnable-layout">
+  <img class="pwnable-demo" src="{{ site.url }}{{ site.baseurl }}/images/respic/pwn.gif" alt="Pwnable exploitation demo">
+  <div class="pwnable-description" markdown="1">
+
+저희 연구실에서는 다양한 시스템에 대한 Offensive Security 연구를 수행하고 있습니다. 다음은 [CVE-2018-5200](https://www.boho.or.kr/krcert/secNoticeView.do?bulletin_writing_sequence=30113) RCE 취약점의 Exploitation (pwn) Proof-of-Concept 데모 영상입니다. 이러한 RCE 취약점을 공격하는 과정에서 여러가지 시스템 지식 및 익스플로잇 기술을 터득 할 수 있습니다. 예를들어 KMPlayer CVE-2018-5200 의 취약점을 통해 최종 RCE 까지의 Exploit 흐름을 이끌어내는 과정은
 메모리 취약점에 대한 이해 뿐만 아니라 파일 및 프로세스의 메모리 구조, 힙 레이아웃 제어방법 및 힙 스프레이 방법론, 운영체제/아키텍쳐별 쉘코드 작성방법 등에 관한 다양한 연구를 동반하게 됩니다.
 또한, Windows/Linux 커널 등 운영체제 의 코드에 취약점이 있는 경우 이를 악용하여 LPE (루팅 등) 를 하거나, Sandbox 와 같은 보안장치를 무력화 할 수 있습니다.
 이러한 버그들은 주로 힙 메모리에서의 Overflow, Use-After-Free 와 같은 메모리 취약점, Race Condition 취약점 등으로 인해 발생할 수 있는데, 
@@ -17,25 +21,34 @@ permalink: /research/
 기본적으로 저희 연구실에서 수행하는 모든 Offensive Security 연구는 <U>프로그래밍과 소프트웨어 개발능력을 기반으로 합니다.</U> 
 또한, 기존의 해킹/사이버보안 위협 등 대부분의 정보보안 이슈는 범용적인 PC 및 서버에서의
 메모리 취약점 및 악성코드 유포 등에 집중되었으나, 최근 ICT 산업이 다양한 분야로 확대되면서
-다양한 무인이동체 등 새로운 시스템에서도 해킹 문제들이 생겨나고 있습니다. 
+다양한 무인이동체 등 새로운 시스템에서도 해킹 문제들이 생겨나고 있습니다.
+
+  </div>
+</div>
 
 <br>
 <hr>
 <br>
 
 ## Satellite System Security
-
 스페이스X 의 등장이후의 인공위성 발사비용 절감, 국제적 우주 사이버보안 조약, 국내 우주항공청 설립 등
 최근 저궤도 (LEO) 인공위성 시스템의 사이버 보안에 대한 중요성이 높아지고 있습니다. 
 그러나 저전력, 방사선, 장거리통신, 빠른공전 등의 우주환경 특성상 강력한 암호화 및 시스템 보안기술의 
 적용이 일반적인 지상 컴퓨터 시스템보다 어렵기 때문에 다양한 연구가 필요합니다.
+인공위성 시스템은 그림과 같이 지상국과의 교신 및 장거리 RF 통신등의 특수한 요소들을 포함하고 있으며
+이러한 요소들에서 기존에 생각하기 어려웠던 사이버보안 및 해킹의 위협들이 등장하고 있습니다.
 
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/sat.png){: style="width: 90%; float: center; margin: 10px 0px 10px 10px"}
 
-인공위성 시스템은 그림과 같이 지상국과의 교신 및 장거리 RF 통신등의 특수한 요소들을 포함하고 있으며
-이러한 요소들에서 기존에 생각하기 어려웠던 사이버보안 및 해킹의 위협들이 등장하고 있습니다.
+
+<br>
 우리 연구실에서는 오픈소스 위성 지상국 구축부터 인공위성 탑제채 펌웨어의 역공학 및 위성 RF 통신 등
 다양한 저궤도위성 운용에 관한 기술들에 대해서 해커/공격자적 관점의 연구를 수행합니다.
+![]({{ site.url }}{{ site.baseurl }}/images/respic/sat2.gif){: style="width: 90%; float: center; margin: 10px 0px 10px 10px"}
+
+
+
+
 
 <br>
 <hr>
@@ -46,6 +59,7 @@ permalink: /research/
 저희 연구실에서는 인공위성 시스템과 더불어 UAV/UAM 등과 같은 드론 비행체 시스템에 대한 분석 및 취약성에 대한 연구를 수행합니다. 
 
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/drone.png){: style="width: 90%; float: center; margin: 10px 0px 10px 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/drone2.gif){: style="width: 90%; float: center; margin: 10px 0px 10px 10px"}
 
 드론시스템은 RC 조종기, 무선통신, 모바일시스템 등 다양한 요소들이 융합적으로 상호작용하게 되는 복잡한
 구조를 가집니다. 이러한 시스템을 대상으로 저희 연구실에서는 전통적 메모리 취약점 보다는 네트워크 프로토콜 상의 취약점
@@ -76,13 +90,7 @@ permalink: /research/
 <hr>
 <br>
 
-## AI/Fuzzing
+## AI for Security
 
-메모리 버그 기반의 보안 취약점들은 <i>Fuzzing</i> 이라는 방법으로 탐색을 자동화 할 수 있으며 이와 관련해서 다양한 
-연구들이 존재합니다. 
-다행히 (안타깝게도) 보안 기술의 발달로 인해 최신 소프트웨어에서는 단순 메모리 버그는 점점 사라지고 있습니다.
-그와 더불어, 컴파일러 보안 기술의 발달로 인해 이러한 메모리 버그들은 점점더 Unexploitable 해지고 있습니다. 
-저희 연구실에서는 브라우저/커널과 같이 코드베이스가 큰 시스템을 대상으로는 퍼징기반으로 메모리 취약점을 연구하되
-클라우드 인프라 등 인터페이스 및 구성이 복잡한 시스템을 대상으로는 AI 기술을 응용하여 
-종합적인 분석을 토대로 논리적 취약점을 자동적으로 발굴하고 대응하는 연구를 수행합니다.
-
+단순한 메모리 버그 기반의 보안 취약점들은 다행히 (안타깝게도?) 보안 기술의 발달로 인해 점점 효과적으로 방어 되고 있습니다, 그와 더불어, 컴파일러 보안 기술의 발달로 인해 이러한 메모리 버그들은 점점 줄어들고 있습니다. 저희 연구실에서는 브라우저/커널과 같이 코드베이스가 큰 시스템을 대상으로는 계속해서 메모리 취약점을 연구하되 AWS/Azure/GCP 등 클라우드 인프라와 인터페이스 및 구성이 복잡한 시스템을 대상으로는 AI 에이전트 기술을 응용하여 종합적인 분석을 토대로 논리적 취약점을 자동적으로 발굴하고 연구를 수행합니다. 특히 최근에는 삼성전자등의 대기업 규모의 클라우드 인프라를 대상으로 AI 기술을 응용하여 보안검수를 효과적으로 하는 연구를 수행중에 있습니다.
+![]({{ site.url }}{{ site.baseurl }}/images/respic/ai_sec.png){: style="width: 90%; float: center; margin: 10px 0px 10px 10px"}

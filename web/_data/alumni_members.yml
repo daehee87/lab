@@ -117,3 +117,28 @@
   education2: 코드게이트 등 CTF 수상 10건이상
   education3: Django/Ruby 등 CVE 14건이상 보유 
   education4: (현) Zellic 보안 연구원
+
+- name: 연동현
+  photo: ydh.jpg
+  duration: 2024 Sep - 2026 Jun
+  result: 티오리 (보안회사)
+  info: 석사졸업
+  field: 시스템보안
+  email: dusehdgus12 at naver.com
+  number_educ: 2
+  education1: 경희대 컴퓨터공학과 B.S
+  education2: BoB 11th 취약점트랙 수료
+  education3: 보안취약점 발굴 (KVE-2022-1957 등)
+  education4: 드론해킹대회 출제/운영
+
+- name: 문OO
+  photo: joo.jpg
+  duration: 2024 Sep - 2026 Jun
+  result: 정보기관 (비공개)
+  info: 석사졸업
+  field: 시스템보안
+  email: Yun2020edu at gmail.com
+  number_educ: 2
+  education1: 10년이상 산업체 경력
+  education2: 시스템 보안
+  education3: 악성코드 분석

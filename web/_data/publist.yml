@@ -1,7 +1,27 @@
+- title: "SQLSnoop: Secondary DBMS Attack by Expanding SQL Injection Techniques"
+  image: sql.png
+  description: >-
+    SQL Injection is a well-known vulnerability that has persisted in web applications for decades. A widely held assumption among developers is that even when SQL Injection is present, hashing or encrypting sensitive data using SQL-provided cryptographic functions, such as sha256() or md5(), renders stolen data unrecoverable. This paper challenges that assumption directly. We demonstrate that invoking cryptographic functions within SQL statements does not protect plaintext credentials against an attacker who already has SQL Injection access, not because the hash functions are weak but because their plaintext arguments are transiently exposed in DBMS in-memory monitoring views before the hash function executes.
+  authors: Down Jeong, Jiho Kim, Aymen Fatima, <strong>Daehee Jang</strong>
+  link:
+    url: ../downloads/SQLSnoop.pdf
+    display: Applied Sciences (Volume 16. 2026)
+  highlight: 0
+
+- title: "Tie-Calibrated COMETKiwi for Speech Translation Quality Estimation: IWSLT 2026 Metrics Track"
+  image: iwslt.png
+  description: >-
+    We present a reference-free quality estimation method for English-to-German and English-to-Chinese speech translation. The proposed approach combines COMETKiwi-22 with tie calibration, a lightweight score-bucketing method that reduces noisy pairwise ranking errors without requiring audio or model retraining.
+  authors: Mubashir Hussain Shah, Aymen Fatima, Kiho Choi, <strong>Daehee Jang</strong>
+  link:
+    url: ../downloads/2026.iwslt-1.36.pdf
+    display: IWSLT 2026
+  highlight: 0
+
 - title: "Bit-level compiler optimization for ultra low-power embedded systems"
   image: compileropt.png
   description: Ultra low-power embedded systems use narrow data paths for efficiency, but high-level programs often generate code with unnecessarily wide data types. This research presents a novel optimizing compiler that performs a static, bit-level analysis to determine the precise data width required by the program. By automatically transforming the code to use these optimal widths, our approach reduces wasteful data movements and computational overhead, enhancing energy efficiency on resource-constrained devices.
-  authors: Seonyeong Heo, Jiho Kin, Woohyeop Im, Jiyun Moon, <strong>Daehee Jang</strong>
+  authors: Seonyeong Heo, Jiho Kim, Woohyeop Im, Jiyun Moon, <strong>Daehee Jang</strong>
   link:
     url: ../downloads/compileropt.pdf
     display: Journal of System Architecture (Volume 168. 2025)
