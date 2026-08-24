@@ -195,15 +195,17 @@ permalink: /
   .logo-track {
     display: flex;
     width: max-content;
-    animation: scroll 10s linear infinite;
+    animation: scroll 6s linear infinite;
+    will-change: transform;
   }
 
   .logo-item {
-    flex: 0 0 auto;
+    flex: 0 0 136px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 8px;
+    width: 136px;
+    padding: 0 8px;
     height: 60px; /* Set a fixed height for logos */
   }
 
@@ -219,7 +221,7 @@ permalink: /
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-50%);
+      transform: translate3d(-50%, 0, 0);
     }
   }
 </style>
