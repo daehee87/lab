@@ -87,7 +87,7 @@ permalink: /team/
 {% assign search_key = "M.S." %}
 {% else %}
 ### Intern
-{% assign search_key = "인턴" %} 
+{% assign search_key = "인턴" %}
 {% endif %}
 
 {% assign number_printed = 0 %}
@@ -188,7 +188,7 @@ permalink: /team/
   <h4>주수민 (행정팀장)</h4>
   <i>email: jj00@khu.ac.kr</i><br>
    역할: 연구실 운영지원 <br>
-   사무실 번호: 031-201-5345 
+   사무실 번호: 031-201-5345
   <ul style="overflow: hidden">
   </ul>
 </div>
