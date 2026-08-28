@@ -134,9 +134,13 @@ firstp {
         text-align: left;
     }
 
-    /* Keep researcher biography bullets close to the left edge on phones. */
+    /* Keep researcher biographies directly below the name, beside the portrait. */
+    .researcher-card .researcher-details {
+        min-width: 0;
+        overflow: hidden;
+    }
+
     .researcher-card .researcher-bio {
-        clear: both;
         padding-left: 20px;
         text-align: left;
     }

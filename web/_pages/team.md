@@ -109,22 +109,24 @@ permalink: /team/
 
 <div class="col-sm-6 clearfix researcher-card">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>
-    {% if member.link %}
-      <a href="{{ member.link }}" target="_blank">{{ member.name }}</a>
-    {% else %}
-      {{ member.name }}
-    {% endif %}
-  </h4>
-  
-  <i>{{ member.duration }}</i>
-  <ul class="researcher-bio" style="overflow: hidden">
-    {% if member.number_educ >= 1 %}<li> {{ member.education1 }} </li>{% endif %}
-    {% if member.number_educ >= 2 %}<li> {{ member.education2 }} </li>{% endif %}
-    {% if member.number_educ >= 3 %}<li> {{ member.education3 }} </li>{% endif %}
-    {% if member.number_educ >= 4 %}<li> {{ member.education4 }} </li>{% endif %}
-    {% if member.number_educ >= 5 %}<li> {{ member.education5 }} </li>{% endif %}
-  </ul>
+  <div class="researcher-details">
+    <h4>
+      {% if member.link %}
+        <a href="{{ member.link }}" target="_blank">{{ member.name }}</a>
+      {% else %}
+        {{ member.name }}
+      {% endif %}
+    </h4>
+
+    <i>{{ member.duration }}</i>
+    <ul class="researcher-bio">
+      {% if member.number_educ >= 1 %}<li> {{ member.education1 }} </li>{% endif %}
+      {% if member.number_educ >= 2 %}<li> {{ member.education2 }} </li>{% endif %}
+      {% if member.number_educ >= 3 %}<li> {{ member.education3 }} </li>{% endif %}
+      {% if member.number_educ >= 4 %}<li> {{ member.education4 }} </li>{% endif %}
+      {% if member.number_educ >= 5 %}<li> {{ member.education5 }} </li>{% endif %}
+    </ul>
+  </div>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
