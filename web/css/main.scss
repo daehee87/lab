@@ -113,6 +113,18 @@ firstp {
 }
 
 /* Stack senior profiles vertically on phones so their portraits remain legible. */
+@media screen and (min-width: 768px) {
+    /* Give profile bullets more breathing room from the portrait on desktop. */
+    .researcher-card .researcher-details {
+        min-width: 0;
+        overflow: hidden;
+    }
+
+    .researcher-card .researcher-bio {
+        padding-left: 40px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .featured-profile .featured-profile-photo {
         float: none !important;
