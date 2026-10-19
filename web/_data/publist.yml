@@ -1,11 +1,11 @@
 - title: "CCSDS-based firewall for modern satellite system"
   image: ccsds.jpg
   description: >-
-    As satellite missions increasingly adopt standardized protocols and software-defined infrastructure, protocol compliance alone cannot fully prevent operational misconfigurations and security flaws, motivating additional mechanisms to monitor and validate Consultative Committee for Space Data Systems (CCSDS) traffic at the onboard ingress boundary.
+    Modern space systems increasingly rely on software-defined ground infrastructure, network-connected mission operations, and growing onboard autonomy. These trends can expand the cyberattack surface of telemetry, tracking, and command (TT&C) pathways and increase the likelihood that unexpected inputs reach spacecraft flight software.
   authors: Woohyeop Im, Gyeongje Oh, Shinichi Kan, Kosuke Ito, Hikohiro Lin, Sayeon Kim, Jinwoo Jeong, Sangbom Yun, <strong>Daehee Jang</strong>
   link:
     url: ../downloads/ccsds.pdf
-    display: Computers & Security (Volume 171, December 2026, Article 105128)
+    display: Computers & Security (Volume 171, 2026)
   highlight: 1
 
 - title: "SQLSnoop: Secondary DBMS Attack by Expanding SQL Injection Techniques"
