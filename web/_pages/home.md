@@ -54,6 +54,7 @@ permalink: /
 
 **[연구실 News]**
 
+- 일본기업과의 공동연구실적 SCI Q1 논문 게재 (Computers & Security)
 - 장대희교수, 티빙(Tving) 정보보호혁신 자문위원 위촉 (2026.8월)
 - PWNLAB, KX그룹 (주)넥스지 와 MOU 체결 [뉴스기사링크](https://www.epnc.co.kr/news/articleView.html?idxno=404936)
 - PWNLAB 연구실과 GMO Ierae, 2026 DEFCON USA Aerospace 부스 공동운영
